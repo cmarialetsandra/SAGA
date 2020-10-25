@@ -1,0 +1,14 @@
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.deps.json
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Aplicacion\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Aplicacion\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Aplicacion\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Aplicacion\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csprojAssemblyReference.cache
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.AssemblyInfoInputs.cache
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.AssemblyInfo.cs
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CopyComplete
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CoreCompileInputs.cache
