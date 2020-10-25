@@ -10,5 +10,6 @@ namespace Dominio
         [Key]
         public int IdEditorial { get; set; }
         public string Nombre { get; set; }
+        public ICollection<Libro> listaLibros { get; set; } = new HashSet<Libro>();
     }
 }

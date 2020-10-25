@@ -14,5 +14,6 @@ namespace Dominio
         public string Nombres { get; set; }
         public string Apellidos { get; set; }
         public int Rol { get; set; }
+        public ICollection<Prestamo> listaPrestamos { get; set; } = new HashSet<Prestamo>();
     }
 }

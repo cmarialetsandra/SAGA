@@ -7,10 +7,6 @@ namespace Dominio
 {
     public class Libro
     {
-        public Libro()
-        {
-            listaPrestamos = new HashSet<DetallePrestamo>();
-        }
         [Key]
         public int IdLibro { get; set; }
         public string Titulo { get; set; }
@@ -24,7 +20,7 @@ namespace Dominio
         public Editorial tblEditorial { get; set; }
         public int IdCategoria { get; set; }
         public Categoria tblCategoria { get; set; }
-        public ICollection<DetallePrestamo> listaPrestamos { get; set; }
-        public ICollection<Ejemplar> listaEjemplares { get; set; }
+        public ICollection<DetallePrestamo> listaPrestamos { get; set; } = new HashSet<DetallePrestamo>();
+        public ICollection<Ejemplar> listaEjemplares { get; set; } = new HashSet<Ejemplar>();
     }
 }

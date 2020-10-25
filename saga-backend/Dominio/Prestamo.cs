@@ -7,10 +7,6 @@ namespace Dominio
 {
     public class Prestamo
     {
-        public Prestamo()
-        {
-            listaPrestamos = new HashSet<DetallePrestamo>();
-        }
         [Key]
         public int IdPrestamo { get; set; }
         public int IdUsuario { get; set; }
@@ -19,6 +15,6 @@ namespace Dominio
         public DateTime FechaVencimiento { get; set; }
         public DateTime FechaDevolucion { get; set; }
         public bool Estado { get; set; }
-        public ICollection<DetallePrestamo> listaPrestamos { get; set; }        
+        public ICollection<DetallePrestamo> listaPrestamos { get; set; } = new HashSet<DetallePrestamo>();
     }
 }

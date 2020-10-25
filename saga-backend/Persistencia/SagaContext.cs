@@ -19,22 +19,36 @@ namespace Persistencia
             modelBuilder.Entity<Autor>().HasKey(ci => ci.IdAutor);
             modelBuilder.Entity<Categoria>().HasKey(ci => ci.IdCategoria);
             modelBuilder.Entity<Editorial>().HasKey(ci => ci.IdEditorial);
-            modelBuilder.Entity<Libro>().HasKey(ci => new { ci.IdLibro, ci.IdAutor, ci.IdCategoria, ci.IdEditorial });
-            modelBuilder.Entity<Ejemplar>().HasKey(ci => new { ci.IdEjemplar, ci.IdLibro });
+            modelBuilder.Entity<Libro>(ci => { ci.HasOne(d => d.tblAutor)
+                     .WithMany(d => d.listaLibros)
+                     .HasForeignKey(d => d.IdAutor);
+                ci.HasOne(d => d.tblCategoria)
+                .WithMany(d => d.listaLibros)
+                .HasForeignKey(d => d.IdCategoria);
+                ci.HasOne(d => d.tblEditorial)
+                 .WithMany(d => d.listaLibros)
+                 .HasForeignKey(d => d.IdEditorial);
+                ci.HasKey(ci => ci.IdLibro);
+            });
+            modelBuilder.Entity<Ejemplar>(ci => { ci.HasOne(d => d.tblLibro)
+                     .WithMany(d => d.listaEjemplares)
+                     .HasForeignKey(d => d.IdLibro);
+                    ci.HasKey(ci => ci.IdEjemplar);
+            });
             modelBuilder.Entity<Usuario>().HasKey(ci => ci.IdUsuario);
-            modelBuilder.Entity<Prestamo>().HasKey(ci => new { ci.IdPrestamo, ci.IdUsuario });
-            modelBuilder.Entity<DetallePrestamo>().HasKey(ci => new {ci.IdDetallePrestamo, ci.IdPrestamo, ci.IdLibro});
-
-            /*modelBuilder.Entity<DetallePrestamo>(ci => { ci.HasOne(d => d.tblPrestamo)
-                     .WithMany(p => p.listaPrestamos)
-                     .HasForeignKey(d => d.IdPrestamo)
-                     .HasConstraintName("FK_tblDetallePrestamo_tblPrestamo");
+            modelBuilder.Entity<Prestamo>(ci => { ci.HasOne(d => d.tblUsuario)
+                     .WithMany(d => d.listaPrestamos)
+                     .HasForeignKey(d => d.IdUsuario);
+                ci.HasKey(ci => ci.IdPrestamo);
+            });
+            modelBuilder.Entity<DetallePrestamo>(ci => { ci.HasOne(d => d.tblPrestamo)
+                     .WithMany(d => d.listaPrestamos)
+                     .HasForeignKey(d => d.IdPrestamo);
                      ci.HasOne(d => d.tblLibro)
-                     .WithMany(p => p.listaPrestamos)
-                     .HasForeignKey(d => d.IdLibro)
-                     .HasConstraintName("FK_tblDetallePrestamo_tblLibro");
+                     .WithMany(d => d.listaPrestamos)
+                     .HasForeignKey(d => d.IdLibro);
                     ci.HasKey(ci => ci.IdDetallePrestamo);
-            });*/
+            });
         }
 
         public DbSet<Autor> tblAutor { get; set; }

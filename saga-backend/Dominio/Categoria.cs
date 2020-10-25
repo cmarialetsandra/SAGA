@@ -10,5 +10,6 @@ namespace Dominio
         [Key]
         public int IdCategoria { get; set; }
         public string NombreCategoria { get; set; }
+        public ICollection<Libro> listaLibros { get; set; } = new HashSet<Libro>();
     }
 }
