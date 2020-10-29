@@ -2,6 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Aplicacion.Autores;
+using Aplicacion.Categorias;
+using Aplicacion.DetallesPrestamos;
+using Aplicacion.Editoriales;
+using Aplicacion.Ejemplares;
+using Aplicacion.Libros;
+using Aplicacion.Prestamos;
+using Aplicacion.Usuarios;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,6 +39,14 @@ namespace saga_backend
             services.AddDbContext<SagaContext>(opt => {
                 opt.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
+            services.AddMediatR(typeof(ConsultaAutor.Manejador).Assembly);
+            services.AddMediatR(typeof(ConsultaCategoria.Manejador).Assembly);
+            services.AddMediatR(typeof(ConsultaDetallePrestamo.Manejador).Assembly);
+            services.AddMediatR(typeof(ConsultaEditorial.Manejador).Assembly);
+            services.AddMediatR(typeof(ConsultaEjemplar.Manejador).Assembly);
+            services.AddMediatR(typeof(ConsultaLibro.Manejador).Assembly);
+            services.AddMediatR(typeof(ConsultaPrestamo.Manejador).Assembly);
+            services.AddMediatR(typeof(ConsultaUsuario.Manejador).Assembly);
             services.AddControllers();
         }
 
