@@ -16,3 +16,12 @@ C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-ba
 C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
 C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\SAGA\SAGA\saga-backend\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\SAGA\SAGA\saga-backend\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\SAGA\SAGA\saga-backend\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\SAGA\SAGA\saga-backend\Dominio\obj\Debug\netcoreapp3.1\Dominio.csprojAssemblyReference.cache
+C:\SAGA\SAGA\saga-backend\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\SAGA\SAGA\saga-backend\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\SAGA\SAGA\saga-backend\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\SAGA\SAGA\saga-backend\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\SAGA\SAGA\saga-backend\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb

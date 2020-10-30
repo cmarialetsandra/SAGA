@@ -1,4 +1,6 @@
-﻿using Dominio;
+﻿using Aplicacion.Libros;
+using Dominio;
+using MediatR;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using Persistencia;
@@ -14,17 +16,17 @@ namespace saga_backend.Controllers
 
     public class LibrosController:ControllerBase
     {
-        private readonly SagaContext context;
+        private readonly IMediator _mediator;
 
-        public LibrosController(SagaContext _context)
+        public LibrosController(IMediator mediator)
         {
-            this.context = _context;
+            this._mediator = mediator;
         }
 
         [HttpGet]
-        public IEnumerable<Libro> Get()
+        public async Task<ActionResult<List<Libro>>> Get()
         {
-            return context.tblLibro.ToList();
+            return await _mediator.Send(new ConsultaLibro.ListaLibros());
         }
     }
 }

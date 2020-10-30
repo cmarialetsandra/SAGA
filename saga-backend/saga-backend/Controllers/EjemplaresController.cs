@@ -1,4 +1,6 @@
-﻿using Dominio;
+﻿using Aplicacion.Ejemplares;
+using Dominio;
+using MediatR;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using Persistencia;
@@ -14,17 +16,17 @@ namespace saga_backend.Controllers
 
     public class EjemplaresController:ControllerBase
     {
-        private readonly SagaContext context;
+        private readonly IMediator _mediator;
 
-        public EjemplaresController(SagaContext _context)
+        public EjemplaresController(IMediator mediator)
         {
-            this.context = _context;
+            this._mediator = mediator;
         }
 
         [HttpGet]
-        public IEnumerable<Ejemplar> Get()
+        public async Task<ActionResult<List<Ejemplar>>> Get()
         {
-            return context.tblEjemplar.ToList();
+            return await _mediator.Send(new ConsultaEjemplar.ListaEjemplares());
         }
     }
 }

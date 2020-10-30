@@ -1,4 +1,6 @@
-﻿using Dominio;
+﻿using Aplicacion.Usuarios;
+using Dominio;
+using MediatR;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using Persistencia;
@@ -14,17 +16,17 @@ namespace saga_backend.Controllers
 
     public class UsuariosController:ControllerBase
     {
-        private readonly SagaContext context;
+        private readonly IMediator _mediator;
 
-        public UsuariosController(SagaContext _context)
+        public UsuariosController(IMediator mediator)
         {
-            this.context = _context;
+            this._mediator = mediator;
         }
 
         [HttpGet]
-        public IEnumerable<Usuario> Get()
+        public async Task<ActionResult<List<Usuario>>> Get()
         {
-            return context.tblUsuario.ToList();
+            return await _mediator.Send(new ConsultaUsuario.ListaUsuarios());
         }
     }
 }

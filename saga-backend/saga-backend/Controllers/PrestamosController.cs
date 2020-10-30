@@ -1,4 +1,6 @@
-﻿using Dominio;
+﻿using Aplicacion.Prestamos;
+using Dominio;
+using MediatR;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using Persistencia;
@@ -14,17 +16,17 @@ namespace saga_backend.Controllers
 
     public class PrestamosController:ControllerBase
     {
-        private readonly SagaContext context;
+        private readonly IMediator _mediator;
 
-        public PrestamosController(SagaContext _context)
+        public PrestamosController(IMediator mediator)
         {
-            this.context = _context;
+            this._mediator = mediator;
         }
 
         [HttpGet]
-        public IEnumerable<Prestamo> Get()
+        public async Task<ActionResult<List<Prestamo>>> Get()
         {
-            return context.tblPrestamo.ToList();
+            return await _mediator.Send(new ConsultaPrestamo.ListaPrestamos());
         }
     }
 }

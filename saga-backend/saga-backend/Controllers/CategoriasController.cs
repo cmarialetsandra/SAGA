@@ -1,4 +1,6 @@
-﻿using Dominio;
+﻿using Aplicacion.Categorias;
+using Dominio;
+using MediatR;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using Persistencia;
@@ -14,17 +16,17 @@ namespace saga_backend.Controllers
 
     public class CategoriasController:ControllerBase
     {
-        private readonly SagaContext context;
+        private readonly IMediator _mediator;
 
-        public CategoriasController(SagaContext _context)
+        public CategoriasController(IMediator mediator)
         {
-            this.context = _context;
+            this._mediator = mediator;
         }
 
         [HttpGet]
-        public IEnumerable<Categoria> Get()
+        public async Task<ActionResult<List<Categoria>>> Get()
         {
-            return context.tblCategoria.ToList();
+            return await _mediator.Send(new ConsultaCategoria.ListaCategorias());
         }
     }
 }

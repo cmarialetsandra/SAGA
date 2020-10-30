@@ -26,3 +26,17 @@ C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-ba
 C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CopyComplete
 C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.dll
 C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\SAGA\SAGA\saga-backend\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.deps.json
+C:\SAGA\SAGA\saga-backend\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.dll
+C:\SAGA\SAGA\saga-backend\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\SAGA\SAGA\saga-backend\Aplicacion\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\SAGA\SAGA\saga-backend\Aplicacion\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\SAGA\SAGA\saga-backend\Aplicacion\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\SAGA\SAGA\saga-backend\Aplicacion\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\SAGA\SAGA\saga-backend\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csprojAssemblyReference.cache
+C:\SAGA\SAGA\saga-backend\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.AssemblyInfoInputs.cache
+C:\SAGA\SAGA\saga-backend\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.AssemblyInfo.cs
+C:\SAGA\SAGA\saga-backend\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CoreCompileInputs.cache
+C:\SAGA\SAGA\saga-backend\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CopyComplete
+C:\SAGA\SAGA\saga-backend\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.dll
+C:\SAGA\SAGA\saga-backend\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.pdb
