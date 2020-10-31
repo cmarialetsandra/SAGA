@@ -28,5 +28,17 @@ namespace saga_backend.Controllers
         {
             return await _mediator.Send(new ConsultaDetallePrestamo.ListaDetallePrestamo());
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<DetallePrestamo>> FiltradoId(int id)
+        {
+            return await _mediator.Send(new ConsultaIdDetallePrestamo.DetallePrestamoUnico { IdDetallePrestamo = id });
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<Unit>> CrearDetallePrestamo(NuevoDetallePrestamo.InsertarDetallePrestamo data)
+        {
+            return await _mediator.Send(data);
+        }
     }
 }
