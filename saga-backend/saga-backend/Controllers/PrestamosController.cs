@@ -13,7 +13,7 @@ using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 namespace saga_backend.Controllers
 {
     [Route("api/[controller]")]
-
+    [ApiController]
     public class PrestamosController:ControllerBase
     {
         private readonly IMediator _mediator;

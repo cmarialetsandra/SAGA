@@ -24,14 +24,12 @@ namespace saga_backend.Controllers
         }
 
         [HttpGet]
-
         public async Task<ActionResult<List<Autor>>> Get()
         {
             return await _mediator.Send(new ConsultaAutor.ListaAutores());
         }
 
         [HttpGet ("{id}")]
-
         public async Task<ActionResult<Autor>> FiltradoId(int id)
         {
             return await _mediator.Send(new ConsultaIdAutor.AutorUnico { IdAutor = id });

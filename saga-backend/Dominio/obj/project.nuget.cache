@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pah4BsVxgIY+WWsmYKdbsZpuetibMsA+56VbH+0nJ4itg8t2oCh0pj2REGHYLG6J45JTkoANZqz5yZ/+Pzb/fA==",
+  "dgSpecHash": "uAij/YqEF6ZPZIv7cvtJa6iqJhFqUywgX9ZPo5NqQy6KYNzpt5zG4ZLD92H5NnecoEBaX8OxwltWAuhFRT+oJQ==",
   "success": true,
-  "projectFilePath": "C:\\SAGA\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\Users\\cmari\\Documents\\UCA\\2020\\II Semestre\\Sistemas Distribuidos\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

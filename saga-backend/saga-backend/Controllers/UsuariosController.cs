@@ -13,7 +13,7 @@ using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 namespace saga_backend.Controllers
 {
     [Route("api/[controller]")]
-
+    [ApiController]
     public class UsuariosController:ControllerBase
     {
         private readonly IMediator _mediator;
@@ -27,6 +27,18 @@ namespace saga_backend.Controllers
         public async Task<ActionResult<List<Usuario>>> Get()
         {
             return await _mediator.Send(new ConsultaUsuario.ListaUsuarios());
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Usuario>> FiltradoId(int id)
+        {
+            return await _mediator.Send(new ConsultaIdUsuario.UsuarioUnico { IdUsuario = id });
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<Unit>> CrearUsuario(NuevoUsuario.InsertarUsuario data)
+        {
+            return await _mediator.Send(data);
         }
     }
 }
