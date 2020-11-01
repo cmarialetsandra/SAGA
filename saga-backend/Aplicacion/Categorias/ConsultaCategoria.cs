@@ -23,8 +23,8 @@ namespace Aplicacion.Categorias
             }
             public async Task<List<Categoria>> Handle(ListaCategorias request, CancellationToken cancellationToken)
             {
-                var categoria = await _context.tblCategoria.ToListAsync();
-                return categoria;
+                var categorias = await _context.tblCategoria.ToListAsync();
+                return categorias;
             }
         }
     }

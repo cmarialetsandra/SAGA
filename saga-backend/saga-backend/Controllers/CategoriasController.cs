@@ -14,7 +14,7 @@ namespace saga_backend.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CategoriasController:ControllerBase
+    public class CategoriasController : ControllerBase
     {
         private readonly IMediator _mediator;
 
@@ -27,6 +27,18 @@ namespace saga_backend.Controllers
         public async Task<ActionResult<List<Categoria>>> Get()
         {
             return await _mediator.Send(new ConsultaCategoria.ListaCategorias());
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Categoria>> FiltradoId(int id)
+        {
+            return await _mediator.Send(new ConsultaIdCategoria.CategoriaUnica { IdCategoria = id });
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<Unit>> CrearAutor(NuevaCategoria.InsertarCategoria data)
+        {
+            return await _mediator.Send(data);
         }
     }
 }
