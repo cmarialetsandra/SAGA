@@ -28,5 +28,17 @@ namespace saga_backend.Controllers
         {
             return await _mediator.Send(new ConsultaEditorial.ListaEditoriales());
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Editorial>> FiltradoId(int id)
+        {
+            return await _mediator.Send(new ConsultaIdEditorial.EditorialUnico { IdEditorial = id });
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<Unit>> CrearEditorial(NuevoEditorial.InsertarEditorial data)
+        {
+            return await _mediator.Send(data);
+        }
     }
 }
