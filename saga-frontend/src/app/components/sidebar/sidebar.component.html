@@ -178,10 +178,29 @@
             "
           >
             <i
-              class="fas fa-map-marked mr-2 text-sm"
+              class="fas fa-dolly-flatbed mr-2 text-sm"
               [ngClass]="adminInventario.isActive ? 'opacity-75' : 'text-gray-400'"
             ></i>
             Inventario
+          </a>
+        </li>
+        <li class="items-center">
+          <a
+            [routerLink]="['/admin/admin-prestamo']"
+            class="text-xs uppercase py-3 font-bold block"
+            routerLinkActive
+            #adminAdminPrestamo="routerLinkActive"
+            [ngClass]="
+              adminAdminPrestamo.isActive
+                ? 'text-red-600 hover:text-red-700'
+                : 'text-gray-800 hover:text-gray-600'
+            "
+          >
+            <i
+              class="fas fa-bookmark mr-2 text-sm"
+              [ngClass]="adminAdminPrestamo.isActive ? 'opacity-75' : 'text-gray-400'"
+            ></i>
+            Préstamos
           </a>
         </li>
       </ul>

@@ -6,11 +6,13 @@ import { AdminComponent } from "./layouts/admin/admin.component";
 import { AuthComponent } from "./layouts/auth/auth.component";
 
 // admin views
+import { AdminPrestamoComponent } from "./views/admin/admin-prestamo/admin-prestamo.component";
 import { AgregarEntradaLibroComponent } from "./views/admin/agregar-entradalibro/agregar-entradalibro.component";
 import { DashboardComponent } from "./views/admin/dashboard/dashboard.component";
 import { MapsComponent } from "./views/admin/maps/maps.component";
 import { SettingsComponent } from "./views/admin/settings/settings.component";
 import { TablesComponent } from "./views/admin/tables/tables.component";
+import { EstadoEntregadoComponent } from "./views/admin/estado-entregado/estado-entregado.component";
 import { InventarioComponent } from "./views/admin/inventario/inventario.component";
 import { InventarioDetalleComponent } from "./views/admin/inventario-detalle/inventario-detalle.component";
 
@@ -29,11 +31,13 @@ const routes: Routes = [
     path: "admin",
     component: AdminComponent,
     children: [
+      { path: "admin-prestamo", component: AdminPrestamoComponent },
       { path: "agregar-entradalibro", component: AgregarEntradaLibroComponent },
       { path: "dashboard", component: DashboardComponent },
       { path: "settings", component: SettingsComponent },
       { path: "tables", component: TablesComponent },
       { path: "maps", component: MapsComponent },
+      { path: "estado-entregado", component: EstadoEntregadoComponent },
       { path: "inventario", component: InventarioComponent },
       { path: "inventario-detalle", component: InventarioDetalleComponent },
       { path: "", redirectTo: "dashboard", pathMatch: "full" },

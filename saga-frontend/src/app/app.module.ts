@@ -9,11 +9,13 @@ import { AdminComponent } from "./layouts/admin/admin.component";
 import { AuthComponent } from "./layouts/auth/auth.component";
 
 // admin views
+import { AdminPrestamoComponent } from "./views/admin/admin-prestamo/admin-prestamo.component";
 import { AgregarEntradaLibroComponent } from "./views/admin/agregar-entradalibro/agregar-entradalibro.component";
 import { DashboardComponent } from "./views/admin/dashboard/dashboard.component";
 import { MapsComponent } from "./views/admin/maps/maps.component";
 import { SettingsComponent } from "./views/admin/settings/settings.component";
 import { TablesComponent } from "./views/admin/tables/tables.component";
+import { EstadoEntregadoComponent } from "./views/admin/estado-entregado/estado-entregado.component";
 import { InventarioComponent } from "./views/admin/inventario/inventario.component";
 import { InventarioDetalleComponent } from "./views/admin/inventario-detalle/inventario-detalle.component";
 
@@ -33,12 +35,14 @@ import { AuthNavbarComponent } from "./components/navbars/auth-navbar/auth-navba
 import { LogoNavbarComponent } from "./components/navbars/logo-navbar/logo-navbar.component";
 import { CardAgregarEntradaLibroComponent } from "./components/cards/card-agregar-entradalibro/card-agregar-entradalibro.component";
 import { CardBarChartComponent } from "./components/cards/card-bar-chart/card-bar-chart.component";
+import { CardEstadoEntregadoComponent } from "./components/cards/card-estado-entregado/card-estado-entregado.component";
 import { CardLineChartComponent } from "./components/cards/card-line-chart/card-line-chart.component";
 import { CardPageVisitsComponent } from "./components/cards/card-page-visits/card-page-visits.component";
 import { CardProfileComponent } from "./components/cards/card-profile/card-profile.component";
 import { CardSettingsComponent } from "./components/cards/card-settings/card-settings.component";
 import { CardSocialTrafficComponent } from "./components/cards/card-social-traffic/card-social-traffic.component";
 import { CardStatsComponent } from "./components/cards/card-stats/card-stats.component";
+import { CardTablaAdminPrestamoComponent } from "./components/cards/card-tabla-admin-prestamo/card-tabla-admin-prestamo.component";
 import { CardTablaInventarioComponent } from "./components/cards/card-tabla-inventario/card-tabla-inventario.component";
 import { CardTablaInventarioDetalleComponent } from "./components/cards/card-tabla-inventario-detalle/card-tabla-inventario-detalle.component";
 import { CardTableComponent } from "./components/cards/card-table/card-table.component";
@@ -60,6 +64,7 @@ import { UserDropdownComponent } from "./components/dropdowns/user-dropdown/user
     AppComponent,
     DashboardComponent,
     CardBarChartComponent,
+    CardEstadoEntregadoComponent,
     CardLineChartComponent,
     IndexDropdownComponent,
     PagesDropdownComponent,
@@ -76,6 +81,7 @@ import { UserDropdownComponent } from "./components/dropdowns/user-dropdown/user
     CardSettingsComponent,
     CardSocialTrafficComponent,
     CardStatsComponent,
+    CardTablaAdminPrestamoComponent,
     CardTablaInventarioComponent,
     CardTablaInventarioDetalleComponent,
     CardTableComponent,
@@ -87,10 +93,12 @@ import { UserDropdownComponent } from "./components/dropdowns/user-dropdown/user
     IndexNavbarComponent,
     AdminComponent,
     AuthComponent,
+    AdminPrestamoComponent,
     AgregarEntradaLibroComponent,
     MapsComponent,
     SettingsComponent,
     TablesComponent,
+    EstadoEntregadoComponent,
     InventarioComponent,
     InventarioDetalleComponent,
     LoginComponent,
