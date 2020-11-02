@@ -77,7 +77,7 @@
       <h6
         class="md:min-w-full text-gray-600 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
       >
-        Admin Layout Pages
+        Navegación
       </h6>
       <!-- Navigation -->
 
@@ -163,6 +163,63 @@
               [ngClass]="adminMaps.isActive ? 'opacity-75' : 'text-gray-400'"
             ></i>
             Maps
+          </a>
+        </li>
+        <li class="items-center">
+          <a
+            [routerLink]="['/admin/categoria']"
+            class="text-xs uppercase py-3 font-bold block"
+            routerLinkActive
+            #admincategoria="routerLinkActive"
+            [ngClass]="
+              admincategoria.isActive
+                ? 'text-red-600 hover:text-red-700'
+                : 'text-gray-800 hover:text-gray-600'
+            "
+          >
+            <i
+              class="fas fa-boxes mr-2 text-sm"
+              [ngClass]="admincategoria.isActive ? 'opacity-75' : 'text-gray-400'"
+            ></i>
+            Categoría
+          </a>
+        </li>
+        <li class="items-center">
+          <a
+            [routerLink]="['/admin/inventario']"
+            class="text-xs uppercase py-3 font-bold block"
+            routerLinkActive
+            #adminInventario="routerLinkActive"
+            [ngClass]="
+              adminInventario.isActive
+                ? 'text-red-600 hover:text-red-700'
+                : 'text-gray-800 hover:text-gray-600'
+            "
+          >
+            <i
+              class="fas fa-dolly-flatbed mr-2 text-sm"
+              [ngClass]="adminInventario.isActive ? 'opacity-75' : 'text-gray-400'"
+            ></i>
+            Inventario
+          </a>
+        </li>        
+        <li class="items-center">
+          <a
+            [routerLink]="['/admin/admin-prestamo']"
+            class="text-xs uppercase py-3 font-bold block"
+            routerLinkActive
+            #adminAdminPrestamo="routerLinkActive"
+            [ngClass]="
+              adminAdminPrestamo.isActive
+                ? 'text-red-600 hover:text-red-700'
+                : 'text-gray-800 hover:text-gray-600'
+            "
+          >
+            <i
+              class="fas fa-bookmark mr-2 text-sm"
+              [ngClass]="adminAdminPrestamo.isActive ? 'opacity-75' : 'text-gray-400'"
+            ></i>
+            Préstamos
           </a>
         </li>
       </ul>

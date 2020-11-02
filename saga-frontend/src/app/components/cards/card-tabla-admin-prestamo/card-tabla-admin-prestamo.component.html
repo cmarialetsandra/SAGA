@@ -1,0 +1,104 @@
+<div
+  class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
+  [ngClass]="color === 'light' ? 'bg-white' : 'bg-red-900 text-white'"
+>
+  <div class="rounded-t bg-white mb-0 px-6 py-6">
+    <div class="text-center flex justify-between">
+      <h6 class="text-gray-800 text-xl font-bold">Gestionar Préstamos</h6>
+    </div>
+  </div>
+  <div class="block w-full overflow-x-auto">
+    <!-- Projects table -->
+    <table class="items-center w-full bg-transparent border-collapse">
+      <thead>
+        <tr>
+          <th
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
+            [ngClass]="
+              color === 'light'
+                ? 'bg-gray-100 text-gray-600 border-gray-200'
+                : 'bg-red-800 text-red-300 border-red-700'">
+            ID Préstamo
+          </th>
+          <th
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
+            [ngClass]="
+              color === 'light'
+                ? 'bg-gray-100 text-gray-600 border-gray-200'
+                : 'bg-red-800 text-red-300 border-red-700'">
+            Usuario
+          </th>
+          <th
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
+            [ngClass]="
+              color === 'light'
+                ? 'bg-gray-100 text-gray-600 border-gray-200'
+                : 'bg-red-800 text-red-300 border-red-700'">
+            Fecha de emisión
+          </th>
+          <th
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
+            [ngClass]="
+              color === 'light'
+                ? 'bg-gray-100 text-gray-600 border-gray-200'
+                : 'bg-red-800 text-red-300 border-red-700'">
+            Fecha de vencimiento
+          </th>
+          <th
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
+            [ngClass]="
+              color === 'light'
+                ? 'bg-gray-100 text-gray-600 border-gray-200'
+                : 'bg-red-800 text-red-300 border-red-700'">
+            Fecha de devolución
+          </th>
+          <th
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
+            [ngClass]="
+              color === 'light'
+                ? 'bg-gray-100 text-gray-600 border-gray-200'
+                : 'bg-red-800 text-red-300 border-red-700'">
+            Estado
+          </th>
+          <th
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
+            [ngClass]="
+              color === 'light'
+                ? 'bg-gray-100 text-gray-600 border-gray-200'
+                : 'bg-red-800 text-red-300 border-red-700'">
+            Opciones
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
+            1
+          </td>
+          <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left flex items-center">
+            <span
+              class="ml-3 font-bold"
+              [ngClass]="color === 'light' ? 'text-gray-700' : 'text-white'">
+              Marialetsandra
+            </span>
+          </th>
+          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
+            1/11/2020
+          </td>
+          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
+            7/11/2020
+          </td>
+          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
+            7/11/2020
+          </td>
+          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
+            No entregado
+          </td>
+          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
+            <i class="fas fa-edit text-red-500 mr-4" [routerLink]="['/admin/estado-entregado']"></i>
+          </td>          
+        </tr>      
+      </tbody>
+    </table>
+  </div>
+</div>
