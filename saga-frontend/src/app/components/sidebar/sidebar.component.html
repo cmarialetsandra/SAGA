@@ -167,6 +167,25 @@
         </li>
         <li class="items-center">
           <a
+            [routerLink]="['/admin/categoria']"
+            class="text-xs uppercase py-3 font-bold block"
+            routerLinkActive
+            #admincategoria="routerLinkActive"
+            [ngClass]="
+              admincategoria.isActive
+                ? 'text-red-600 hover:text-red-700'
+                : 'text-gray-800 hover:text-gray-600'
+            "
+          >
+            <i
+              class="fas fa-boxes mr-2 text-sm"
+              [ngClass]="admincategoria.isActive ? 'opacity-75' : 'text-gray-400'"
+            ></i>
+            Categoría
+          </a>
+        </li>
+        <li class="items-center">
+          <a
             [routerLink]="['/admin/inventario']"
             class="text-xs uppercase py-3 font-bold block"
             routerLinkActive
@@ -183,7 +202,7 @@
             ></i>
             Inventario
           </a>
-        </li>
+        </li>        
         <li class="items-center">
           <a
             [routerLink]="['/admin/admin-prestamo']"

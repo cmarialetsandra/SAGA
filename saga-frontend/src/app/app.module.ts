@@ -18,6 +18,7 @@ import { SettingsComponent } from "./views/admin/settings/settings.component";
 import { TablesComponent } from "./views/admin/tables/tables.component";
 import { EstadoEntregadoComponent } from "./views/admin/estado-entregado/estado-entregado.component";
 import { InventarioComponent } from "./views/admin/inventario/inventario.component";
+import { CategoriaComponent } from "./views/admin/categoria/categoria.component";
 import { InventarioDetalleComponent } from "./views/admin/inventario-detalle/inventario-detalle.component";
 
 // auth views
@@ -50,6 +51,7 @@ import { CardSettingsComponent } from "./components/cards/card-settings/card-set
 import { CardSocialTrafficComponent } from "./components/cards/card-social-traffic/card-social-traffic.component";
 import { CardStatsComponent } from "./components/cards/card-stats/card-stats.component";
 import { CardTablaAdminPrestamoComponent } from "./components/cards/card-tabla-admin-prestamo/card-tabla-admin-prestamo.component";
+import { CardTablaAdminCategoriaComponent } from "./components/cards/card-tabla-admin-categoria/card-tabla-admin-categoria.component";
 import { CardTablaInventarioComponent } from "./components/cards/card-tabla-inventario/card-tabla-inventario.component";
 import { CardTablaInventarioDetalleComponent } from "./components/cards/card-tabla-inventario-detalle/card-tabla-inventario-detalle.component";
 import { CardTableComponent } from "./components/cards/card-table/card-table.component";
@@ -91,6 +93,7 @@ import { UserDropdownComponent } from "./components/dropdowns/user-dropdown/user
     CardSocialTrafficComponent,
     CardStatsComponent,
     CardTablaAdminPrestamoComponent,
+    CardTablaAdminCategoriaComponent,
     CardTablaInventarioComponent,
     CardTablaInventarioDetalleComponent,
     CardTableComponent,
@@ -112,6 +115,7 @@ import { UserDropdownComponent } from "./components/dropdowns/user-dropdown/user
     EstadoEntregadoComponent,
     InventarioComponent,
     InventarioDetalleComponent,
+    CategoriaComponent,
     LoginComponent,
     RegisterComponent,
     CarritoComponent,
