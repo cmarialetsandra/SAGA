@@ -28,5 +28,17 @@ namespace saga_backend.Controllers
         {
             return await _mediator.Send(new ConsultaEjemplar.ListaEjemplares());
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Ejemplar>> FiltradoId(int id)
+        {
+            return await _mediator.Send(new ConsultaIdEjemplar.EjemplarUnico { IdEjemplar = id });
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<Unit>> CrearEjemplar(NuevoEjemplar.InsertarEjemplar data)
+        {
+            return await _mediator.Send(data);
+        }
     }
 }

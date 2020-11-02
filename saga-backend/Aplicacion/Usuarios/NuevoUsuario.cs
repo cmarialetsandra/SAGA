@@ -49,7 +49,7 @@ namespace Aplicacion.Usuarios
                     return Unit.Value;
                 }
 
-                throw new Exception("No se pudo apregar el usuario");
+                throw new Exception("No se pudo agregar el usuario");
             }
         }
     }

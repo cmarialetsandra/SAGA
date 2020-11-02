@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pah4BsVxgIY+WWsmYKdbsZpuetibMsA+56VbH+0nJ4itg8t2oCh0pj2REGHYLG6J45JTkoANZqz5yZ/+Pzb/fA==",
+  "dgSpecHash": "wQrvctmXF/ORaNR+KkfES1i94MkMAVKlHRZZGNL7oXLyK7SFoaBz6MwHS30tp2ETgUR5J8qAkDS4dkxo/JhYYg==",
   "success": true,
-  "projectFilePath": "C:\\SAGA\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
