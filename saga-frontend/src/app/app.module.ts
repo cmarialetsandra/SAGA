@@ -7,6 +7,7 @@ import { AppComponent } from "./app.component";
 // layouts
 import { AdminComponent } from "./layouts/admin/admin.component";
 import { AuthComponent } from "./layouts/auth/auth.component";
+import { ClienteComponent } from "./layouts/cliente/cliente.component";
 
 // admin views
 import { AdminPrestamoComponent } from "./views/admin/admin-prestamo/admin-prestamo.component";
@@ -23,6 +24,11 @@ import { InventarioDetalleComponent } from "./views/admin/inventario-detalle/inv
 import { LoginComponent } from "./views/auth/login/login.component";
 import { RegisterComponent } from "./views/auth/register/register.component";
 
+// cliente views
+import { CarritoComponent } from "./views/cliente/carrito/carrito.component";
+import { LibrosComponent } from "./views/cliente/libros/libros.component";
+import { PrestamosComponent } from "./views/cliente/prestamos/prestamos.component";
+
 // no layouts views
 import { IndexComponent } from "./views/index/index.component";
 import { LandingComponent } from "./views/landing/landing.component";
@@ -32,6 +38,7 @@ import { ProfileComponent } from "./views/profile/profile.component";
 
 import { AdminNavbarComponent } from "./components/navbars/admin-navbar/admin-navbar.component";
 import { AuthNavbarComponent } from "./components/navbars/auth-navbar/auth-navbar.component";
+import { ClienteNavbarComponent } from "./components/navbars/cliente-navbar/cliente-navbar.component";
 import { LogoNavbarComponent } from "./components/navbars/logo-navbar/logo-navbar.component";
 import { CardAgregarEntradaLibroComponent } from "./components/cards/card-agregar-entradalibro/card-agregar-entradalibro.component";
 import { CardBarChartComponent } from "./components/cards/card-bar-chart/card-bar-chart.component";
@@ -47,6 +54,7 @@ import { CardTablaInventarioComponent } from "./components/cards/card-tabla-inve
 import { CardTablaInventarioDetalleComponent } from "./components/cards/card-tabla-inventario-detalle/card-tabla-inventario-detalle.component";
 import { CardTableComponent } from "./components/cards/card-table/card-table.component";
 import { FooterAdminComponent } from "./components/footers/footer-admin/footer-admin.component";
+import { FooterClienteComponent } from "./components/footers/footer-cliente/footer-cliente.component";
 import { FooterComponent } from "./components/footers/footer/footer.component";
 import { FooterSmallComponent } from "./components/footers/footer-small/footer-small.component";
 import { HeaderStatsComponent } from "./components/headers/header-stats/header-stats.component";
@@ -75,6 +83,7 @@ import { UserDropdownComponent } from "./components/dropdowns/user-dropdown/user
     FooterComponent,
     FooterSmallComponent,
     FooterAdminComponent,
+    FooterClienteComponent,
     CardAgregarEntradaLibroComponent,
     CardPageVisitsComponent,
     CardProfileComponent,
@@ -88,11 +97,13 @@ import { UserDropdownComponent } from "./components/dropdowns/user-dropdown/user
     HeaderStatsComponent,
     MapExampleComponent,
     AuthNavbarComponent,
+    ClienteNavbarComponent,
     LogoNavbarComponent,
     AdminNavbarComponent,
     IndexNavbarComponent,
     AdminComponent,
     AuthComponent,
+    ClienteComponent,
     AdminPrestamoComponent,
     AgregarEntradaLibroComponent,
     MapsComponent,
@@ -103,6 +114,9 @@ import { UserDropdownComponent } from "./components/dropdowns/user-dropdown/user
     InventarioDetalleComponent,
     LoginComponent,
     RegisterComponent,
+    CarritoComponent,
+    LibrosComponent,
+    PrestamosComponent,
     IndexComponent,
     LandingComponent,
     ProfileComponent,
