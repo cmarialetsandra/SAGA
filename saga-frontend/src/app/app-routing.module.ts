@@ -17,6 +17,7 @@ import { EstadoEntregadoComponent } from "./views/admin/estado-entregado/estado-
 import { InventarioComponent } from "./views/admin/inventario/inventario.component";
 import { InventarioDetalleComponent } from "./views/admin/inventario-detalle/inventario-detalle.component";
 import { CategoriaComponent } from "./views/admin/categoria/categoria.component";
+import { AgregarEntradaCategoriaComponent } from "./views/admin/agregar-entradacategoria/agregar-entradacategoria.component";
 
 // auth views
 import { LoginComponent } from "./views/auth/login/login.component";
@@ -48,6 +49,7 @@ const routes: Routes = [
       { path: "inventario", component: InventarioComponent },
       { path: "inventario-detalle", component: InventarioDetalleComponent },
       { path: "categoria", component: CategoriaComponent },
+      { path: "entrada-categoria", component: AgregarEntradaCategoriaComponent },
       { path: "", redirectTo: "dashboard", pathMatch: "full" },
     ],
   },

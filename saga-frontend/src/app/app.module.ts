@@ -11,6 +11,7 @@ import { ClienteComponent } from "./layouts/cliente/cliente.component";
 
 // admin views
 import { AdminPrestamoComponent } from "./views/admin/admin-prestamo/admin-prestamo.component";
+import { AgregarEntradaCategoriaComponent } from "./views/admin/agregar-entradacategoria/agregar-entradacategoria.component";
 import { AgregarEntradaLibroComponent } from "./views/admin/agregar-entradalibro/agregar-entradalibro.component";
 import { DashboardComponent } from "./views/admin/dashboard/dashboard.component";
 import { MapsComponent } from "./views/admin/maps/maps.component";
@@ -41,6 +42,7 @@ import { AdminNavbarComponent } from "./components/navbars/admin-navbar/admin-na
 import { AuthNavbarComponent } from "./components/navbars/auth-navbar/auth-navbar.component";
 import { ClienteNavbarComponent } from "./components/navbars/cliente-navbar/cliente-navbar.component";
 import { LogoNavbarComponent } from "./components/navbars/logo-navbar/logo-navbar.component";
+import { CardAgregarEntradaCategoriaComponent } from "./components/cards/card-agregar-entradacategoria/card-agregar-entradacategoria.component";
 import { CardAgregarEntradaLibroComponent } from "./components/cards/card-agregar-entradalibro/card-agregar-entradalibro.component";
 import { CardBarChartComponent } from "./components/cards/card-bar-chart/card-bar-chart.component";
 import { CardEstadoEntregadoComponent } from "./components/cards/card-estado-entregado/card-estado-entregado.component";
@@ -69,6 +71,14 @@ import { NotificationDropdownComponent } from "./components/dropdowns/notificati
 import { SidebarComponent } from "./components/sidebar/sidebar.component";
 import { UserDropdownComponent } from "./components/dropdowns/user-dropdown/user-dropdown.component";
 
+//Alertas
+import { AlertaExitoComponent } from "./components/alertas/alerta-exito/alerta-exito.component"
+
+//Otras importaciones
+import { SharedService } from "./shared.service";
+import { HttpClientModule } from "@angular/common/http";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -86,6 +96,7 @@ import { UserDropdownComponent } from "./components/dropdowns/user-dropdown/user
     FooterSmallComponent,
     FooterAdminComponent,
     FooterClienteComponent,
+    CardAgregarEntradaCategoriaComponent,
     CardAgregarEntradaLibroComponent,
     CardPageVisitsComponent,
     CardProfileComponent,
@@ -108,6 +119,7 @@ import { UserDropdownComponent } from "./components/dropdowns/user-dropdown/user
     AuthComponent,
     ClienteComponent,
     AdminPrestamoComponent,
+    AgregarEntradaCategoriaComponent,
     AgregarEntradaLibroComponent,
     MapsComponent,
     SettingsComponent,
@@ -124,9 +136,15 @@ import { UserDropdownComponent } from "./components/dropdowns/user-dropdown/user
     IndexComponent,
     LandingComponent,
     ProfileComponent,
+    AlertaExitoComponent
   ],
-  imports: [BrowserModule, AppRoutingModule],
-  providers: [],
+  imports: [
+    BrowserModule, 
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule],
+  providers: [SharedService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
