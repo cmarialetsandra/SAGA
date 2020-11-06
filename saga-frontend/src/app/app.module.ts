@@ -46,6 +46,7 @@ import { CardBarChartComponent } from "./components/cards/card-bar-chart/card-ba
 import { CardEstadoEntregadoComponent } from "./components/cards/card-estado-entregado/card-estado-entregado.component";
 import { CardLineChartComponent } from "./components/cards/card-line-chart/card-line-chart.component";
 import { CardPageVisitsComponent } from "./components/cards/card-page-visits/card-page-visits.component";
+import { CardPrestamosClienteComponent } from "./components/cards/card-prestamos-cliente/card-prestamos-cliente.component";
 import { CardProfileComponent } from "./components/cards/card-profile/card-profile.component";
 import { CardSettingsComponent } from "./components/cards/card-settings/card-settings.component";
 import { CardSocialTrafficComponent } from "./components/cards/card-social-traffic/card-social-traffic.component";
@@ -88,6 +89,7 @@ import { UserDropdownComponent } from "./components/dropdowns/user-dropdown/user
     FooterClienteComponent,
     CardAgregarEntradaLibroComponent,
     CardPageVisitsComponent,
+    CardPrestamosClienteComponent,
     CardProfileComponent,
     CardSettingsComponent,
     CardSocialTrafficComponent,
