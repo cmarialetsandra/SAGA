@@ -28,7 +28,6 @@ export class SharedService {
   addEditorial(val: any){
     return this.http.post(this.APIUrl+"/Editoriales",val)
   }
-
   //Fin métodos EDITORIAL
 
 }

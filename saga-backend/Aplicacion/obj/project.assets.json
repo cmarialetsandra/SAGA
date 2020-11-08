@@ -5740,41 +5740,20 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\Ulises\\.nuget\\packages\\": {},
-=======
-    "C:\\Users\\JORDY\\.nuget\\packages\\": {},
->>>>>>> 8f9c5eb20e082b25dafad1699c1fe0778051f226
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\cmari\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\Ulises\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj",
+      "projectUniqueName": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj",
       "projectName": "Aplicacion",
-      "projectPath": "C:\\Users\\Ulises\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj",
-      "packagesPath": "C:\\Users\\Ulises\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ulises\\Downloads\\SAGA\\saga-backend\\Aplicacion\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj",
-      "projectName": "Aplicacion",
-      "projectPath": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj",
-      "packagesPath": "C:\\Users\\JORDY\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Aplicacion\\obj\\",
->>>>>>> 8f9c5eb20e082b25dafad1699c1fe0778051f226
+      "projectPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj",
+      "packagesPath": "C:\\Users\\cmari\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Aplicacion\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\Ulises\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-        "C:\\Users\\JORDY\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 8f9c5eb20e082b25dafad1699c1fe0778051f226
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\cmari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5786,19 +5765,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-<<<<<<< HEAD
-            "C:\\Users\\Ulises\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\Ulises\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj"
+            "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj"
             },
-            "C:\\Users\\Ulises\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "C:\\Users\\Ulises\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj"
-=======
-            "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj"
-            },
-            "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj"
->>>>>>> 8f9c5eb20e082b25dafad1699c1fe0778051f226
+            "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj"
             }
           }
         }
@@ -5835,5 +5806,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Aplicacion\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

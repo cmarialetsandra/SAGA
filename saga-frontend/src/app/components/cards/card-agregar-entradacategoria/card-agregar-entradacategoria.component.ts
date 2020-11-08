@@ -19,6 +19,7 @@ export class CardAgregarEntradaCategoriaComponent implements OnInit {
     var val = {
       NombreCategoria:this.NombreCategoria
     };
+    
     this.service.addCategoria(val).subscribe(res=>{
       this.router.navigate(['/admin/categoria']);
     });

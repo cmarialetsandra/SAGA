@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "YtoUEW1PXR+qiDXsRdRyaSJNDsrqSuMUWCztQEFU5uQ24lqzow52znaKstUDOb3HN9n3LGo/ZZTZQpDyigkwgg==",
+  "dgSpecHash": "wQrvctmXF/ORaNR+KkfES1i94MkMAVKlHRZZGNL7oXLyK7SFoaBz6MwHS30tp2ETgUR5J8qAkDS4dkxo/JhYYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ulises\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
-=======
-  "dgSpecHash": "wfYp6a40bjmp0Jx3yKG7xni58HGwvYRlXuFn1aJ/tEHAVXR5GZZFv2N9lLGmJoVQDfnvn3HLgFqVdybbvxsGNA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
->>>>>>> 8f9c5eb20e082b25dafad1699c1fe0778051f226
+  "projectFilePath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Dominio\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

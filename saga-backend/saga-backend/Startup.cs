@@ -58,10 +58,11 @@ namespace saga_backend
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseCors(x => x
-            .AllowAnyOrigin()
-            .AllowAnyMethod()
-            .AllowAnyHeader());
+            app.UseCors(x => {
+                x.WithOrigins("http://localhost:4200");
+                x.AllowAnyMethod();
+                x.AllowAnyHeader();
+            });
 
             app.UseHttpsRedirection();
 

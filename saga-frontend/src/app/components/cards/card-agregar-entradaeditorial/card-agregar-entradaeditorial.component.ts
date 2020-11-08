@@ -17,8 +17,9 @@ export class CardAgregarEntradaEditorialComponent implements OnInit {
 
   addEditorial(){
     var val = {
-      Editorial:this.Nombre
+      Nombre:this.Nombre
     };
+
     this.service.addEditorial(val).subscribe(res=>{
       this.router.navigate(['/admin/editorial']);
     });
