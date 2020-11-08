@@ -15,9 +15,12 @@ import { SettingsComponent } from "./views/admin/settings/settings.component";
 import { TablesComponent } from "./views/admin/tables/tables.component";
 import { EstadoEntregadoComponent } from "./views/admin/estado-entregado/estado-entregado.component";
 import { InventarioComponent } from "./views/admin/inventario/inventario.component";
+import { LibroComponent } from "./views/admin/libro/libro.component";
 import { InventarioDetalleComponent } from "./views/admin/inventario-detalle/inventario-detalle.component";
 import { CategoriaComponent } from "./views/admin/categoria/categoria.component";
 import { AgregarEntradaCategoriaComponent } from "./views/admin/agregar-entradacategoria/agregar-entradacategoria.component";
+import { AgregarEntradaEditorialComponent } from "./views/admin/agregar-entradaeditorial/agregar-entradaeditorial.component";
+import {EditarLibroComponent} from "./views/admin/editar-libro/editar-libro.component";
 
 // auth views
 import { LoginComponent } from "./views/auth/login/login.component";
@@ -32,6 +35,7 @@ import { PrestamosComponent } from "./views/cliente/prestamos/prestamos.componen
 import { IndexComponent } from "./views/index/index.component";
 import { LandingComponent } from "./views/landing/landing.component";
 import { ProfileComponent } from "./views/profile/profile.component";
+import { EditorialComponent } from './views/admin/editorial/editorial.component';
 
 const routes: Routes = [
   // admin views
@@ -49,8 +53,14 @@ const routes: Routes = [
       { path: "inventario", component: InventarioComponent },
       { path: "inventario-detalle", component: InventarioDetalleComponent },
       { path: "categoria", component: CategoriaComponent },
+      { path: "libro", component: LibroComponent },
+      {path:"editorial",component:EditorialComponent},
+      {path: "entrada-libro", component: AgregarEntradaLibroComponent},
+      {path: "editar-libro", component: EditarLibroComponent},
       { path: "entrada-categoria", component: AgregarEntradaCategoriaComponent },
+      { path: "entrada-editorial", component: AgregarEntradaEditorialComponent },
       { path: "", redirectTo: "dashboard", pathMatch: "full" },
+
     ],
   },
   // auth views

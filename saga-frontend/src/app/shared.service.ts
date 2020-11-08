@@ -20,5 +20,16 @@ export class SharedService {
   }
   //Fin métodos CATEGORIA
 
+  //Métodos de EDITORIAL
+  getEditorialList():Observable<any[]>{
+    return this.http.get<any>(this.APIUrl + "/Editoriales");
+  }
+
+  addEditorial(val: any){
+    return this.http.post(this.APIUrl+"/Editoriales",val)
+  }
+
+  //Fin métodos EDITORIAL
+
 }
 

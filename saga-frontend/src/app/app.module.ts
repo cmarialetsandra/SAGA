@@ -12,7 +12,9 @@ import { ClienteComponent } from "./layouts/cliente/cliente.component";
 // admin views
 import { AdminPrestamoComponent } from "./views/admin/admin-prestamo/admin-prestamo.component";
 import { AgregarEntradaCategoriaComponent } from "./views/admin/agregar-entradacategoria/agregar-entradacategoria.component";
+import { AgregarEntradaEditorialComponent } from "./views/admin/agregar-entradaeditorial/agregar-entradaeditorial.component";
 import { AgregarEntradaLibroComponent } from "./views/admin/agregar-entradalibro/agregar-entradalibro.component";
+import {EditarLibroComponent} from "./views/admin/editar-libro/editar-libro.component";
 import { DashboardComponent } from "./views/admin/dashboard/dashboard.component";
 import { MapsComponent } from "./views/admin/maps/maps.component";
 import { SettingsComponent } from "./views/admin/settings/settings.component";
@@ -20,6 +22,8 @@ import { TablesComponent } from "./views/admin/tables/tables.component";
 import { EstadoEntregadoComponent } from "./views/admin/estado-entregado/estado-entregado.component";
 import { InventarioComponent } from "./views/admin/inventario/inventario.component";
 import { CategoriaComponent } from "./views/admin/categoria/categoria.component";
+import { EditorialComponent } from "./views/admin/editorial/editorial.component";
+import { LibroComponent } from "./views/admin/libro/libro.component";
 import { InventarioDetalleComponent } from "./views/admin/inventario-detalle/inventario-detalle.component";
 
 // auth views
@@ -43,6 +47,8 @@ import { AuthNavbarComponent } from "./components/navbars/auth-navbar/auth-navba
 import { ClienteNavbarComponent } from "./components/navbars/cliente-navbar/cliente-navbar.component";
 import { LogoNavbarComponent } from "./components/navbars/logo-navbar/logo-navbar.component";
 import { CardAgregarEntradaCategoriaComponent } from "./components/cards/card-agregar-entradacategoria/card-agregar-entradacategoria.component";
+import { CardAgregarEntradaEditorialComponent } from "./components/cards/card-agregar-entradaeditorial/card-agregar-entradaeditorial.component";
+import {CardEditarLibroComponent} from "./components/cards/card-editar-libro/card-editar-libro.component";
 import { CardAgregarEntradaLibroComponent } from "./components/cards/card-agregar-entradalibro/card-agregar-entradalibro.component";
 import { CardBarChartComponent } from "./components/cards/card-bar-chart/card-bar-chart.component";
 import { CardEstadoEntregadoComponent } from "./components/cards/card-estado-entregado/card-estado-entregado.component";
@@ -54,6 +60,8 @@ import { CardSocialTrafficComponent } from "./components/cards/card-social-traff
 import { CardStatsComponent } from "./components/cards/card-stats/card-stats.component";
 import { CardTablaAdminPrestamoComponent } from "./components/cards/card-tabla-admin-prestamo/card-tabla-admin-prestamo.component";
 import { CardTablaAdminCategoriaComponent } from "./components/cards/card-tabla-admin-categoria/card-tabla-admin-categoria.component";
+import { CardTablaAdminEditorialComponent } from "./components/cards/card-tabla-admin-editorial/card-tabla-admin-editorial.component";
+import { CardTablaLibroComponent } from "./components/cards/card-tabla-admin-libro/card-tabla-admin-libro.component";
 import { CardTablaInventarioComponent } from "./components/cards/card-tabla-inventario/card-tabla-inventario.component";
 import { CardTablaInventarioDetalleComponent } from "./components/cards/card-tabla-inventario-detalle/card-tabla-inventario-detalle.component";
 import { CardTableComponent } from "./components/cards/card-table/card-table.component";
@@ -78,6 +86,7 @@ import { AlertaExitoComponent } from "./components/alertas/alerta-exito/alerta-e
 import { SharedService } from "./shared.service";
 import { HttpClientModule } from "@angular/common/http";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -97,7 +106,9 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
     FooterAdminComponent,
     FooterClienteComponent,
     CardAgregarEntradaCategoriaComponent,
+    CardAgregarEntradaEditorialComponent,
     CardAgregarEntradaLibroComponent,
+    CardEditarLibroComponent,
     CardPageVisitsComponent,
     CardProfileComponent,
     CardSettingsComponent,
@@ -105,6 +116,8 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
     CardStatsComponent,
     CardTablaAdminPrestamoComponent,
     CardTablaAdminCategoriaComponent,
+    CardTablaAdminEditorialComponent,
+    CardTablaLibroComponent,
     CardTablaInventarioComponent,
     CardTablaInventarioDetalleComponent,
     CardTableComponent,
@@ -120,7 +133,9 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
     ClienteComponent,
     AdminPrestamoComponent,
     AgregarEntradaCategoriaComponent,
+    AgregarEntradaEditorialComponent,
     AgregarEntradaLibroComponent,
+    EditarLibroComponent,
     MapsComponent,
     SettingsComponent,
     TablesComponent,
@@ -128,6 +143,8 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
     InventarioComponent,
     InventarioDetalleComponent,
     CategoriaComponent,
+    EditorialComponent,
+    LibroComponent,
     LoginComponent,
     RegisterComponent,
     CarritoComponent,

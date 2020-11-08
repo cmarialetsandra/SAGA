@@ -167,6 +167,25 @@
         </li>
         <li class="items-center">
           <a
+            [routerLink]="['/admin/editorial']"
+            class="text-xs uppercase py-3 font-bold block"
+            routerLinkActive
+            #admineditorial="routerLinkActive"
+            [ngClass]="
+              admineditorial.isActive
+                ? 'text-red-600 hover:text-red-700'
+                : 'text-gray-800 hover:text-gray-600'
+            "
+          >
+            <i
+              class="fas fa-newspaper mr-2 text-sm"
+              [ngClass]="admineditorial.isActive ? 'opacity-75' : 'text-gray-400'"
+            ></i>
+            Editoriales
+          </a>
+        </li>
+        <li class="items-center">
+          <a
             [routerLink]="['/admin/categoria']"
             class="text-xs uppercase py-3 font-bold block"
             routerLinkActive
@@ -182,6 +201,25 @@
               [ngClass]="admincategoria.isActive ? 'opacity-75' : 'text-gray-400'"
             ></i>
             Categoría
+          </a>
+        </li>
+        <li class="items-center">
+          <a
+            [routerLink]="['/admin/libro']"
+            class="text-xs uppercase py-3 font-bold block"
+            routerLinkActive
+            #adminlibro="routerLinkActive"
+            [ngClass]="
+              adminlibro.isActive
+                ? 'text-red-600 hover:text-red-700'
+                : 'text-gray-800 hover:text-gray-600'
+            "
+          >
+            <i
+              class="fas fa-book mr-2 text-sm"
+              [ngClass]="adminlibro.isActive ? 'opacity-75' : 'text-gray-400'"
+            ></i>
+            Libros
           </a>
         </li>
         <li class="items-center">
