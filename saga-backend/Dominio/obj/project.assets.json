@@ -8,23 +8,39 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Ulises\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\JORDY\\.nuget\\packages\\": {},
+>>>>>>> 8f9c5eb20e082b25dafad1699c1fe0778051f226
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Ulises\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
       "projectPath": "C:\\Users\\Ulises\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
       "packagesPath": "C:\\Users\\Ulises\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ulises\\Downloads\\SAGA\\saga-backend\\Dominio\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
+      "projectName": "Dominio",
+      "projectPath": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\JORDY\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Dominio\\obj\\",
+>>>>>>> 8f9c5eb20e082b25dafad1699c1fe0778051f226
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\Ulises\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\JORDY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 8f9c5eb20e082b25dafad1699c1fe0778051f226
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
