@@ -15,11 +15,17 @@ export class CardAgregarEntradaUsuarioComponent implements OnInit {
   Nombres:string;
   Apellidos:string;
   Rol:number;
+  rolSeleccionado:string;
 
   ngOnInit(): void {
   }
 
-  addAutor(){
+  //Método para capturar el valor del combobox
+  capturar() {
+    this.Rol = parseInt(this.rolSeleccionado, 10);
+  }
+
+  addUsuario(){
     var val = {
       User:this.User,
       Contrasenia:this.Contrasenia,

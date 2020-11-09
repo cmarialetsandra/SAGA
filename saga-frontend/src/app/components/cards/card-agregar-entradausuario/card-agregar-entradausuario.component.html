@@ -22,7 +22,7 @@
               name="Nombres"
               type="text"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-              placeholder="Ingrese los nombres del usuario"/>
+              placeholder="Ingrese los nombres del usuario" required/>
           </div>
         </div>
         <div class="w-full lg:w-6/12 px-4">
@@ -37,7 +37,7 @@
               name="Apellidos"
               type="text"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-              placeholder="Ingrese los apellidos del usuario"/>
+              placeholder="Ingrese los apellidos del usuario" required/>
           </div>
         </div>
         <div class="w-full lg:w-6/12 px-4">
@@ -52,7 +52,7 @@
               name="User"
               type="text"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-              placeholder="Ingrese el nombre de usuario"/>
+              placeholder="Ingrese el nombre de usuario" required/>
           </div>
         </div>
         <div class="w-full lg:w-6/12 px-4">
@@ -62,12 +62,13 @@
               htmlFor="grid-password">
               Rol
             </label>                    
-            <input
-              [(ngModel)]="Rol"
-              name="Rol"
-              type="number"
-              class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-              placeholder="Ingrese el número de rol"/>
+            <select name="Rol" id="Rol"
+            [(ngModel)]="rolSeleccionado" (change)="capturar()"
+            class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150">
+              <option disabled selected>Selecciona una opción</option>
+              <option value="1">Administrador</option>
+              <option value="2">Cliente</option>
+            </select>
           </div>
         </div>
         <div class="w-full lg:w-6/12 px-4">
@@ -82,7 +83,7 @@
               name="Contrasenia"
               type="password"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-              placeholder="Ingrese la contraseña"/>
+              placeholder="Ingrese la contraseña" required/>
           </div>
         </div>
         <div class="w-full lg:w-6/12 px-4">
@@ -95,19 +96,19 @@
             <input
               type="password"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-              placeholder="Confirme la contraseña"/>
+              placeholder="Confirme la contraseña" required/>
           </div>
         </div>
       </div>      
       <div class="flex flex-wrap">
         <div class="w-full lg:w-12/12 px-4">
           <button
-            (click)="addAutor()"
+            (click)="addUsuario()"
             class="bg-red-600 text-white active:bg-red-700 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
             type="button">Guardar</button>
           <button
               class="bg-white text-gray-800 active:bg-gray-100 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-              type="button" [routerLink]="['/admin/Autor']">Cancelar</button>
+              type="button" [routerLink]="['/admin/usuario']">Cancelar</button>
         </div>
       </div>
     </form>

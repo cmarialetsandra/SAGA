@@ -15,7 +15,7 @@ import { AgregarEntradaCategoriaComponent } from "./views/admin/agregar-entradac
 import { AgregarEntradaAutorComponent } from "./views/admin/agregar-entradaautor/agregar-entradaautor.component";
 import { AgregarEntradaEditorialComponent } from "./views/admin/agregar-entradaeditorial/agregar-entradaeditorial.component";
 import { AgregarEntradaLibroComponent } from "./views/admin/agregar-entradalibro/agregar-entradalibro.component";
-import {EditarLibroComponent} from "./views/admin/editar-libro/editar-libro.component";
+import { EditarLibroComponent } from "./views/admin/editar-libro/editar-libro.component";
 import { DashboardComponent } from "./views/admin/dashboard/dashboard.component";
 import { MapsComponent } from "./views/admin/maps/maps.component";
 import { SettingsComponent } from "./views/admin/settings/settings.component";
@@ -93,7 +93,6 @@ import { AlertaExitoComponent } from "./components/alertas/alerta-exito/alerta-e
 import { SharedService } from "./shared.service";
 import { HttpClientModule } from "@angular/common/http";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
-import { from } from 'rxjs';
 import { UsuarioComponent } from './views/admin/usuario/usuario.component';
 import { AgregarEntradaUsuarioComponent } from './views/admin/agregar-entradausuario/agregar-entradausuario.component';
 
