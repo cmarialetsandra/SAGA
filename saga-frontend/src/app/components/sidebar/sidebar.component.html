@@ -181,7 +181,26 @@
               class="fas fa-newspaper mr-2 text-sm"
               [ngClass]="admineditorial.isActive ? 'opacity-75' : 'text-gray-400'"
             ></i>
-            Editoriales
+            Editorial
+          </a>
+        </li>
+        <li class="items-center">
+          <a
+            [routerLink]="['/admin/autor']"
+            class="text-xs uppercase py-3 font-bold block"
+            routerLinkActive
+            #adminautor="routerLinkActive"
+            [ngClass]="
+              adminautor.isActive
+                ? 'text-red-600 hover:text-red-700'
+                : 'text-gray-800 hover:text-gray-600'
+            "
+          >
+            <i
+              class="fas fa-feather-alt mr-2 text-sm"
+              [ngClass]="adminautor.isActive ? 'opacity-75' : 'text-gray-400'"
+            ></i>
+            Autor
           </a>
         </li>
         <li class="items-center">
@@ -219,7 +238,7 @@
               class="fas fa-book mr-2 text-sm"
               [ngClass]="adminlibro.isActive ? 'opacity-75' : 'text-gray-400'"
             ></i>
-            Libros
+            Libro
           </a>
         </li>
         <li class="items-center">
@@ -257,7 +276,7 @@
               class="fas fa-bookmark mr-2 text-sm"
               [ngClass]="adminAdminPrestamo.isActive ? 'opacity-75' : 'text-gray-400'"
             ></i>
-            Préstamos
+            Préstamo
           </a>
         </li>
       </ul>

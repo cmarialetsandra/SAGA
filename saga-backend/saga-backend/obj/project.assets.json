@@ -5758,19 +5758,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cmari\\.nuget\\packages\\": {}
+    "C:\\Users\\PERSONAL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\saga-backend\\saga-backend.csproj",
+      "projectUniqueName": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\saga-backend\\saga-backend.csproj",
       "projectName": "saga-backend",
-      "projectPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\saga-backend\\saga-backend.csproj",
-      "packagesPath": "C:\\Users\\cmari\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\saga-backend\\obj\\",
+      "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\saga-backend\\saga-backend.csproj",
+      "packagesPath": "C:\\Users\\PERSONAL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\saga-backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cmari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PERSONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5783,8 +5783,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj"
+            "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj"
             }
           }
         }
@@ -5818,13 +5818,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\saga-backend\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

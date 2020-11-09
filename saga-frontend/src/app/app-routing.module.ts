@@ -18,6 +18,7 @@ import { InventarioComponent } from "./views/admin/inventario/inventario.compone
 import { LibroComponent } from "./views/admin/libro/libro.component";
 import { InventarioDetalleComponent } from "./views/admin/inventario-detalle/inventario-detalle.component";
 import { CategoriaComponent } from "./views/admin/categoria/categoria.component";
+import { AutorComponent } from "./views/admin/autor/autor.component";
 import { AgregarEntradaCategoriaComponent } from "./views/admin/agregar-entradacategoria/agregar-entradacategoria.component";
 import { AgregarEntradaEditorialComponent } from "./views/admin/agregar-entradaeditorial/agregar-entradaeditorial.component";
 import {EditarLibroComponent} from "./views/admin/editar-libro/editar-libro.component";
@@ -36,6 +37,7 @@ import { IndexComponent } from "./views/index/index.component";
 import { LandingComponent } from "./views/landing/landing.component";
 import { ProfileComponent } from "./views/profile/profile.component";
 import { EditorialComponent } from './views/admin/editorial/editorial.component';
+import { AgregarEntradaAutorComponent } from './views/admin/agregar-entradaautor/agregar-entradaautor.component';
 
 const routes: Routes = [
   // admin views
@@ -55,9 +57,11 @@ const routes: Routes = [
       { path: "categoria", component: CategoriaComponent },
       { path: "libro", component: LibroComponent },
       {path:"editorial",component:EditorialComponent},
+      {path:"autor",component:AutorComponent},
       {path: "entrada-libro", component: AgregarEntradaLibroComponent},
       {path: "editar-libro", component: EditarLibroComponent},
       { path: "entrada-categoria", component: AgregarEntradaCategoriaComponent },
+      { path: "entrada-autor", component: AgregarEntradaAutorComponent },
       { path: "entrada-editorial", component: AgregarEntradaEditorialComponent },
       { path: "", redirectTo: "dashboard", pathMatch: "full" },
 

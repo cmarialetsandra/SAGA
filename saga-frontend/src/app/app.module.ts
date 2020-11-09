@@ -12,6 +12,7 @@ import { ClienteComponent } from "./layouts/cliente/cliente.component";
 // admin views
 import { AdminPrestamoComponent } from "./views/admin/admin-prestamo/admin-prestamo.component";
 import { AgregarEntradaCategoriaComponent } from "./views/admin/agregar-entradacategoria/agregar-entradacategoria.component";
+import { AgregarEntradaAutorComponent } from "./views/admin/agregar-entradaautor/agregar-entradaautor.component";
 import { AgregarEntradaEditorialComponent } from "./views/admin/agregar-entradaeditorial/agregar-entradaeditorial.component";
 import { AgregarEntradaLibroComponent } from "./views/admin/agregar-entradalibro/agregar-entradalibro.component";
 import {EditarLibroComponent} from "./views/admin/editar-libro/editar-libro.component";
@@ -22,6 +23,7 @@ import { TablesComponent } from "./views/admin/tables/tables.component";
 import { EstadoEntregadoComponent } from "./views/admin/estado-entregado/estado-entregado.component";
 import { InventarioComponent } from "./views/admin/inventario/inventario.component";
 import { CategoriaComponent } from "./views/admin/categoria/categoria.component";
+import { AutorComponent } from "./views/admin/autor/autor.component";
 import { EditorialComponent } from "./views/admin/editorial/editorial.component";
 import { LibroComponent } from "./views/admin/libro/libro.component";
 import { InventarioDetalleComponent } from "./views/admin/inventario-detalle/inventario-detalle.component";
@@ -47,6 +49,7 @@ import { AuthNavbarComponent } from "./components/navbars/auth-navbar/auth-navba
 import { ClienteNavbarComponent } from "./components/navbars/cliente-navbar/cliente-navbar.component";
 import { LogoNavbarComponent } from "./components/navbars/logo-navbar/logo-navbar.component";
 import { CardAgregarEntradaCategoriaComponent } from "./components/cards/card-agregar-entradacategoria/card-agregar-entradacategoria.component";
+import { CardAgregarEntradaAutorComponent } from "./components/cards/card-agregar-entradaautor/card-agregar-entradaautor.component";
 import { CardAgregarEntradaEditorialComponent } from "./components/cards/card-agregar-entradaeditorial/card-agregar-entradaeditorial.component";
 import {CardEditarLibroComponent} from "./components/cards/card-editar-libro/card-editar-libro.component";
 import { CardAgregarEntradaLibroComponent } from "./components/cards/card-agregar-entradalibro/card-agregar-entradalibro.component";
@@ -61,6 +64,7 @@ import { CardSocialTrafficComponent } from "./components/cards/card-social-traff
 import { CardStatsComponent } from "./components/cards/card-stats/card-stats.component";
 import { CardTablaAdminPrestamoComponent } from "./components/cards/card-tabla-admin-prestamo/card-tabla-admin-prestamo.component";
 import { CardTablaAdminCategoriaComponent } from "./components/cards/card-tabla-admin-categoria/card-tabla-admin-categoria.component";
+import { CardTablaAdminAutorComponent } from "./components/cards/card-tabla-admin-autor/card-tabla-admin-autor.component";
 import { CardTablaAdminEditorialComponent } from "./components/cards/card-tabla-admin-editorial/card-tabla-admin-editorial.component";
 import { CardTablaLibroComponent } from "./components/cards/card-tabla-admin-libro/card-tabla-admin-libro.component";
 import { CardTablaInventarioComponent } from "./components/cards/card-tabla-inventario/card-tabla-inventario.component";
@@ -106,6 +110,7 @@ import { from } from 'rxjs';
     FooterSmallComponent,
     FooterAdminComponent,
     FooterClienteComponent,
+    CardAgregarEntradaAutorComponent,
     CardAgregarEntradaCategoriaComponent,
     CardAgregarEntradaEditorialComponent,
     CardAgregarEntradaLibroComponent,
@@ -118,6 +123,7 @@ import { from } from 'rxjs';
     CardStatsComponent,
     CardTablaAdminPrestamoComponent,
     CardTablaAdminCategoriaComponent,
+    CardTablaAdminAutorComponent,
     CardTablaAdminEditorialComponent,
     CardTablaLibroComponent,
     CardTablaInventarioComponent,
@@ -134,6 +140,7 @@ import { from } from 'rxjs';
     AuthComponent,
     ClienteComponent,
     AdminPrestamoComponent,
+    AgregarEntradaAutorComponent,
     AgregarEntradaCategoriaComponent,
     AgregarEntradaEditorialComponent,
     AgregarEntradaLibroComponent,
@@ -145,6 +152,7 @@ import { from } from 'rxjs';
     InventarioComponent,
     InventarioDetalleComponent,
     CategoriaComponent,
+    AutorComponent,
     EditorialComponent,
     LibroComponent,
     LoginComponent,

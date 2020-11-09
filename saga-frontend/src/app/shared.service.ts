@@ -30,5 +30,14 @@ export class SharedService {
   }
   //Fin métodos EDITORIAL
 
+  //Métodos de AUTOR
+  getAutorList():Observable<any[]>{
+    return this.http.get<any>(this.APIUrl + "/Autores");
+  }
+
+  addAutor(val: any){
+    return this.http.post(this.APIUrl+"/Autores",val)
+  }
+  //Fin métodos AUTOR
 }
 
