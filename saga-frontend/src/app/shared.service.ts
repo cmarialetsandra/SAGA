@@ -39,5 +39,15 @@ export class SharedService {
     return this.http.post(this.APIUrl+"/Autores",val)
   }
   //Fin métodos AUTOR
+
+  //Métodos de USUARIO
+  getUsuarioList():Observable<any[]>{
+    return this.http.get<any>(this.APIUrl + "/Usuarios");
+  }
+
+  addUsuario(val: any){
+    return this.http.post(this.APIUrl+"/Usuarios",val)
+  }
+  //Fin métodos USUARIO
 }
 

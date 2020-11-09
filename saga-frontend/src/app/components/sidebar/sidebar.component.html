@@ -167,21 +167,21 @@
         </li>
         <li class="items-center">
           <a
-            [routerLink]="['/admin/editorial']"
+            [routerLink]="['/admin/usuario']"
             class="text-xs uppercase py-3 font-bold block"
             routerLinkActive
-            #admineditorial="routerLinkActive"
+            #adminusuario="routerLinkActive"
             [ngClass]="
-              admineditorial.isActive
+              adminusuario.isActive
                 ? 'text-red-600 hover:text-red-700'
                 : 'text-gray-800 hover:text-gray-600'
             "
           >
             <i
-              class="fas fa-newspaper mr-2 text-sm"
-              [ngClass]="admineditorial.isActive ? 'opacity-75' : 'text-gray-400'"
+              class="fas fa-user mr-2 text-sm"
+              [ngClass]="adminusuario.isActive ? 'opacity-75' : 'text-gray-400'"
             ></i>
-            Editorial
+            Usuario
           </a>
         </li>
         <li class="items-center">
@@ -201,6 +201,25 @@
               [ngClass]="adminautor.isActive ? 'opacity-75' : 'text-gray-400'"
             ></i>
             Autor
+          </a>
+        </li>
+        <li class="items-center">
+          <a
+            [routerLink]="['/admin/editorial']"
+            class="text-xs uppercase py-3 font-bold block"
+            routerLinkActive
+            #admineditorial="routerLinkActive"
+            [ngClass]="
+              admineditorial.isActive
+                ? 'text-red-600 hover:text-red-700'
+                : 'text-gray-800 hover:text-gray-600'
+            "
+          >
+            <i
+              class="fas fa-newspaper mr-2 text-sm"
+              [ngClass]="admineditorial.isActive ? 'opacity-75' : 'text-gray-400'"
+            ></i>
+            Editorial
           </a>
         </li>
         <li class="items-center">

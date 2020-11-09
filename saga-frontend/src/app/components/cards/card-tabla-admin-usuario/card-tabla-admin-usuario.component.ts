@@ -3,11 +3,11 @@ import { Component, OnInit, Input } from "@angular/core";
 import { SharedService } from "src/app/shared.service";
 
 @Component({
-    selector: "app-card-tabla-admin-categoria",
-    templateUrl: "./card-tabla-admin-categoria.component.html",
+    selector: "app-card-tabla-admin-usuario",
+    templateUrl: "./card-tabla-admin-usuario.component.html",
   })
   
-export class CardTablaAdminCategoriaComponent implements OnInit {
+export class CardTablaAdminUsuarioComponent implements OnInit {
     @Input()
     get color(): string {
       return this._color;
@@ -19,15 +19,15 @@ export class CardTablaAdminCategoriaComponent implements OnInit {
   
     constructor(private service: SharedService) {}
 
-    CategoriaList:any=[];
+    UsuarioList:any=[];
   
     ngOnInit(): void {
-      this.refreshCategoriaList();
+      this.refreshUsuarioList();
     }
 
-    refreshCategoriaList(){
-      this.service.getCategoriaList().subscribe(data=>{
-        this.CategoriaList=data;
+    refreshUsuarioList(){
+      this.service.getUsuarioList().subscribe(data=>{
+        this.UsuarioList=data;
       });
     }
   }
