@@ -9,6 +9,8 @@ import { AdminComponent } from "./layouts/admin/admin.component";
 import { AuthComponent } from "./layouts/auth/auth.component";
 import { ClienteComponent } from "./layouts/cliente/cliente.component";
 
+
+
 // admin views
 import { AdminPrestamoComponent } from "./views/admin/admin-prestamo/admin-prestamo.component";
 import { AgregarEntradaCategoriaComponent } from "./views/admin/agregar-entradacategoria/agregar-entradacategoria.component";
@@ -88,6 +90,8 @@ import { UserDropdownComponent } from "./components/dropdowns/user-dropdown/user
 
 //Alertas
 import { AlertaExitoComponent } from "./components/alertas/alerta-exito/alerta-exito.component"
+import swal from 'sweetalert2';
+
 
 //Otras importaciones
 import { SharedService } from "./shared.service";
@@ -95,6 +99,7 @@ import { HttpClientModule } from "@angular/common/http";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { UsuarioComponent } from './views/admin/usuario/usuario.component';
 import { AgregarEntradaUsuarioComponent } from './views/admin/agregar-entradausuario/agregar-entradausuario.component';
+
 
 @NgModule({
   declarations: [
