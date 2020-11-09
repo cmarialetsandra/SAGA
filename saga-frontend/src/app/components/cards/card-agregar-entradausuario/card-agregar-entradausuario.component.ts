@@ -1,6 +1,8 @@
 import { Component, OnInit, Input } from "@angular/core";
 import { SharedService } from "src/app/shared.service";
 import { Router } from '@angular/router';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { ValidarQueSeanIguales } from './card-agregar-entradausuario.validator';
 import swal from'sweetalert2';
 
 @Component({
@@ -8,7 +10,9 @@ import swal from'sweetalert2';
   templateUrl: "./card-agregar-entradausuario.component.html",
 })
 export class CardAgregarEntradaUsuarioComponent implements OnInit {
-  constructor(private service:SharedService, private router:Router) {}
+  form: FormGroup;
+
+  constructor(private service:SharedService, private router:Router, private fb: FormBuilder) {}
 
   @Input() cat: any;
   User:string;
@@ -19,6 +23,23 @@ export class CardAgregarEntradaUsuarioComponent implements OnInit {
   rolSeleccionado:string;
 
   ngOnInit(): void {
+    this.initForm();
+  }
+
+  //Validación de campos iguales
+  initForm() {
+    this.form = this.fb.group({
+      'Contrasenia':  ['', Validators.required],
+      'ConfirmarContrasenia': ['', Validators.required]
+    }, {
+      validators: ValidarQueSeanIguales
+    });
+  }
+
+  checarSiSonIguales(): boolean {
+    return this.form.hasError('noSonIguales') &&
+      this.form.get('Contrasenia').dirty &&
+      this.form.get('ConfirmarContrasenia').dirty;
   }
 
   //Método para capturar el valor del combobox
