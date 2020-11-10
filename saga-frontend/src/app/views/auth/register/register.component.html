@@ -10,7 +10,7 @@
           <hr class="mt-6 border-b-1 border-gray-400" />
         </div>
         <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
-          <form>
+          <form  [formGroup]="loginForm">
             <div class="relative w-full mb-3">
               <label
                 class="block uppercase text-gray-700 text-xs font-bold mb-2"
@@ -19,21 +19,26 @@
                 Nombres
               </label>
               <input
-                type="email"
+              [(ngModel)]="Nombres"
+              [ngModelOptions]="{standalone: true}"
+              name="Nombres"
                 class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                 placeholder="Ingrese sus nombres"
               />
             </div>
+            
 
             <div class="relative w-full mb-3">
-              <label
+              <label formControlName="lname" 
                 class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                htmlFor="grid-password"
               >
                 Apellidos
               </label>
               <input
-                type="email"
+                [(ngModel)]="Apellidos"
+                [ngModelOptions]="{standalone: true}"
+                name="Apellidos"
+                type="text"
                 class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                 placeholder="Ingrese sus apellidos"
               />
@@ -47,7 +52,10 @@
                 Nombre de Usuario
               </label>
               <input
-                type="email"
+              [(ngModel)]="User"
+              [ngModelOptions]="{standalone: true}"
+              name="User"
+              type="text"
                 class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                 placeholder="Ingrese su nombre de usuario"
               />
@@ -56,37 +64,42 @@
             <div class="relative w-full mb-3">
               <label
                 class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                htmlFor="grid-password" for="password"
+                htmlFor="grid-password" 
               >
                 Contraseña
               </label>
               <input
-                type="password" id="password" name="password"
-                class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-                placeholder="Ingrese su contraseña" required onkeyup="check_pass()"
+              [(ngModel)]="Contrasenia"
+              [ngModelOptions]="{standalone: true}"
+              name="Contrasenia"
+              type="password"
+              formControlName="Contrasenia"
+              class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
+              placeholder="Ingrese la contraseña" required
               />
             </div>
             
             <div class="relative w-full mb-3">
               <label
                 class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                htmlFor="grid-password" for="password2"
+                htmlFor="grid-password" 
               >
                 Confirme su Contraseña
               </label>
               <input
-                type="password" id="password2" name="password2" 
+                type="password" formControlName="ConfirmarContrasenia" id="ConfirmarContrasenia" name="ConfirmarContrasenia"
                 class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-                placeholder="Confirme su contraseña" required onkeyup="check_pass()"
+                placeholder="Confirme su contraseña" 
+                
               />
-              <span id='message'></span>
+              <span *ngIf="checarSiSonIguales()" class = "text-center" >Las contraseñas no coinciden</span>
             </div>
 
             <div class="text-center mt-6" >
-              <app-alerta-exito [hidden] = "!showAlert"></app-alerta-exito>
               <button
+              (click)="addUsuario()"
                 class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
-                type="submit" id="submit" (click)="create()"
+                [disabled]="!loginForm.valid" 
               >
                Crear cuenta
               </button>
@@ -105,18 +118,3 @@
     </div>
   </div>
 </div>
-
-<script>
-  function check_pass() {
-      if (document.getElementById('password').value ==
-          document.getElementById('password2').value) {
-          document.getElementById('submit').disabled = false;
-          document.getElementById('message').style.color = 'green';
-          document.getElementById('message').innerHTML = 'Correcto';
-      } else {
-          document.getElementById('submit').disabled = true;
-          document.getElementById('message').style.color = 'red';
-          document.getElementById('message').innerHTML = 'Deben ser iguales';
-      }
-  }
-</script>
