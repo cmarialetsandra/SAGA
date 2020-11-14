@@ -1,4 +1,6 @@
+import { listLazyRoutes } from '@angular/compiler/src/aot/lazy_routes';
 import { Component, OnInit, Input } from "@angular/core";
+import { SharedService } from "src/app/shared.service";
 
 @Component({
   selector: "app-card-tabla-admin-libro",
@@ -14,7 +16,17 @@ export class CardTablaLibroComponent implements OnInit {
   }
   private _color = "light";
 
-  constructor() {}
+  constructor(private service: SharedService) {}
 
-  ngOnInit(): void {}
+  LibroList:any=[];
+  
+    ngOnInit(): void {
+      this.refreshLibroList();
+    }
+
+    refreshLibroList(){
+      this.service.getLibroList().subscribe(data=>{
+        this.LibroList=data;
+      });
+    }
 }

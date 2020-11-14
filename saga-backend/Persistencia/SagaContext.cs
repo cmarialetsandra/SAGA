@@ -49,6 +49,7 @@ namespace Persistencia
                      .HasForeignKey(d => d.IdLibro);
                     ci.HasKey(ci => ci.IdDetallePrestamo);
             });
+            modelBuilder.Entity<VwLibro>().HasKey(ci => ci.IdLibro);
         }
 
         public DbSet<Autor> tblAutor { get; set; }
@@ -59,6 +60,6 @@ namespace Persistencia
         public DbSet<Usuario> tblUsuario { get; set; }
         public DbSet<Prestamo> tblPrestamo { get; set; }
         public DbSet<DetallePrestamo> tblDetallePrestamo { get; set; }
-
+        public DbSet<VwLibro> VwLibro { get; set; }
     }
 }
