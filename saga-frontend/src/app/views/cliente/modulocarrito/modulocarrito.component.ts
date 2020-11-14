@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SharedService } from "src/app/shared.service";
 
 @Component({
   selector: 'app-modulocarrito',
@@ -6,31 +7,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./modulocarrito.component.css']
 })
 export class CarritoComponent implements OnInit {
-  modulonumero: number;
-  constructor() { }
+  constructor(private service: SharedService) { }
   mensaje: string;
-  color: string
+
+  LibroList:any=[];
 
   ngOnInit() {
-
-    if (sessionStorage.getItem('mimodulo')) {
-      this.modulonumero = + sessionStorage.getItem('mimodulo');
-      this.modulonumero ++;
-      sessionStorage.setItem('mimodulo', this.modulonumero.toString());
-    } else {
-      this.modulonumero = 1;
-      sessionStorage.setItem('mimodulo', this.modulonumero.toString());
-    }
-    /*if (sessionStorage.getItem('mensaje') === '') {
-      this.mensaje = 'Hola soy el modulo numero: ' + this.modulonumero.toString();
-    } else {
-    }*/
     this.mensaje = sessionStorage.getItem('mensaje');
+    this.refreshLibroList();
+  }
 
-    if (sessionStorage.getItem('azar') === '1') {
-      this.color = '#' + Math.floor(Math.random() * 16777215).toString(16);
-    } else {
-      this.color = sessionStorage.getItem('color');
-    }
+  refreshLibroList(){
+    this.service.getLibroList().subscribe(data=>{
+      this.LibroList=data;
+    });
   }
 }
