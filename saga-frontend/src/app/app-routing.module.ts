@@ -23,6 +23,7 @@ import { UsuarioComponent } from "./views/admin/usuario/usuario.component";
 import { AgregarEntradaCategoriaComponent } from "./views/admin/agregar-entradacategoria/agregar-entradacategoria.component";
 import { AgregarEntradaEditorialComponent } from "./views/admin/agregar-entradaeditorial/agregar-entradaeditorial.component";
 import {EditarLibroComponent} from "./views/admin/editar-libro/editar-libro.component";
+import {AgregarLibroComponent} from "./views/admin/agregar-libro/agregar-libro.component";
 import { AgregarEntradaAutorComponent } from './views/admin/agregar-entradaautor/agregar-entradaautor.component';
 import { AgregarEntradaUsuarioComponent } from './views/admin/agregar-entradausuario/agregar-entradausuario.component';
 
@@ -62,7 +63,7 @@ const routes: Routes = [
       { path:"editorial",component:EditorialComponent},
       { path:"autor",component:AutorComponent},
       { path:"usuario",component:UsuarioComponent},
-      { path: "entrada-libro", component: AgregarEntradaLibroComponent},
+      { path: "entrada-libro", component: AgregarLibroComponent},
       { path: "editar-libro", component: EditarLibroComponent},
       { path: "entrada-categoria", component: AgregarEntradaCategoriaComponent },
       { path: "entrada-autor", component: AgregarEntradaAutorComponent },

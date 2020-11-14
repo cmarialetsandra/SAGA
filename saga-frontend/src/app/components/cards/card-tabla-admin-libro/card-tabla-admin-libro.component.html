@@ -100,37 +100,37 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr *ngFor="let dataItem of LibroList">
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            1
+            {{dataItem.idLibro}}
           </td>
-          <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left flex items-center">
+          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left flex items-center">
             <span
               class="ml-3 font-bold"
               [ngClass]="color === 'light' ? 'text-gray-700' : 'text-white'">
-              El retrato de Dorian Gray
+              {{dataItem.titulo}}
             </span>
-          </th>
-          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            Un hombre obsesionado con su juventud y belleza
           </td>
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            500
+            {{dataItem.descripcion}}
           </td>
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            10
+            {{dataItem.cantidadPaginas}}
           </td>
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            2010
+            {{dataItem.isbn}}
           </td>
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            Oscar Wilde
+            {{dataItem.anioPublicacion}}
           </td>
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            Rubén Darío
+            {{dataItem.nombres}} {{dataItem.apellidos}}
           </td>
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            Novela
+            {{dataItem.nombre}}
+          </td>
+          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
+            {{dataItem.nombreCategoria}}
           </td>
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
             <i class="fas fa-edit text-red-500 mr-4" [routerLink]="['/admin/editar-libro']"></i>

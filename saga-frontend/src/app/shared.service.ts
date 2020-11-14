@@ -49,5 +49,15 @@ export class SharedService {
     return this.http.post(this.APIUrl+"/Usuarios",val)
   }
   //Fin métodos USUARIO
+
+  //Métodos de LIBRO
+  getLibroList():Observable<any[]>{
+    return this.http.get<any>(this.APIUrl + "/VistaLibros");
+  }
+
+  addLibro(val: any){
+    return this.http.post(this.APIUrl+"/Libros",val)
+  }
+  //Fin métodos LIBRO
 }
 

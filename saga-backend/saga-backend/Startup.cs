@@ -10,6 +10,7 @@ using Aplicacion.Ejemplares;
 using Aplicacion.Libros;
 using Aplicacion.Prestamos;
 using Aplicacion.Usuarios;
+using Aplicacion.VistaLibros;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -47,6 +48,7 @@ namespace saga_backend
             services.AddMediatR(typeof(ConsultaLibro.Manejador).Assembly);
             services.AddMediatR(typeof(ConsultaPrestamo.Manejador).Assembly);
             services.AddMediatR(typeof(ConsultaUsuario.Manejador).Assembly);
+            services.AddMediatR(typeof(ConsultaVistaLibros.Manejador).Assembly);
             services.AddControllers();
         }
 

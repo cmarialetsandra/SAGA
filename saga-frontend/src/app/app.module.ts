@@ -22,6 +22,7 @@ import { AgregarEntradaAutorComponent } from "./views/admin/agregar-entradaautor
 import { AgregarEntradaEditorialComponent } from "./views/admin/agregar-entradaeditorial/agregar-entradaeditorial.component";
 import { AgregarEntradaLibroComponent } from "./views/admin/agregar-entradalibro/agregar-entradalibro.component";
 import { EditarLibroComponent } from "./views/admin/editar-libro/editar-libro.component";
+import { AgregarLibroComponent } from "./views/admin/agregar-libro/agregar-libro.component";
 import { DashboardComponent } from "./views/admin/dashboard/dashboard.component";
 import { MapsComponent } from "./views/admin/maps/maps.component";
 import { SettingsComponent } from "./views/admin/settings/settings.component";
@@ -59,6 +60,7 @@ import { CardAgregarEntradaAutorComponent } from "./components/cards/card-agrega
 import { CardAgregarEntradaUsuarioComponent } from "./components/cards/card-agregar-entradausuario/card-agregar-entradausuario.component";
 import { CardAgregarEntradaEditorialComponent } from "./components/cards/card-agregar-entradaeditorial/card-agregar-entradaeditorial.component";
 import {CardEditarLibroComponent} from "./components/cards/card-editar-libro/card-editar-libro.component";
+import {CardAgregarLibroComponent} from "./components/cards/card-agregar-libro/card-agregar-libro.component";
 import { CardAgregarEntradaLibroComponent } from "./components/cards/card-agregar-entradalibro/card-agregar-entradalibro.component";
 import { CardBarChartComponent } from "./components/cards/card-bar-chart/card-bar-chart.component";
 import { CardEstadoEntregadoComponent } from "./components/cards/card-estado-entregado/card-estado-entregado.component";
@@ -129,6 +131,7 @@ import { AgregarEntradaUsuarioComponent } from './views/admin/agregar-entradausu
     CardAgregarEntradaEditorialComponent,
     CardAgregarEntradaLibroComponent,
     CardEditarLibroComponent,
+    CardAgregarLibroComponent,
     CardPageVisitsComponent,
     CardPrestamosClienteComponent,
     CardProfileComponent,
@@ -161,6 +164,7 @@ import { AgregarEntradaUsuarioComponent } from './views/admin/agregar-entradausu
     AgregarEntradaLibroComponent,
     AgregarEntradaUsuarioComponent,
     EditarLibroComponent,
+    AgregarLibroComponent,
     MapsComponent,
     SettingsComponent,
     TablesComponent,
