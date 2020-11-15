@@ -10,12 +10,6 @@ export class SharedService {
 
   constructor(private http:HttpClient) {}
 
-  //Métodos de LIBRO
-  getLibroList():Observable<any[]>{
-    return this.http.get<any>(this.APIUrl + "/Libros");
-  }
-  //Fin métodos LIBRO
-
   //Métodos de CATEGORIA
   getCategoriaList():Observable<any[]>{
     return this.http.get<any>(this.APIUrl + "/Categorias");

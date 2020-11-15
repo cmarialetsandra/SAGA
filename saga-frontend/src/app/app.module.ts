@@ -13,8 +13,6 @@ import { AdminComponent } from "./layouts/admin/admin.component";
 import { AuthComponent } from "./layouts/auth/auth.component";
 import { ClienteComponent } from "./layouts/cliente/cliente.component";
 
-
-
 // admin views
 import { AdminPrestamoComponent } from "./views/admin/admin-prestamo/admin-prestamo.component";
 import { AgregarEntradaCategoriaComponent } from "./views/admin/agregar-entradacategoria/agregar-entradacategoria.component";
@@ -77,6 +75,7 @@ import { CardTablaAdminCategoriaComponent } from "./components/cards/card-tabla-
 import { CardTablaAdminAutorComponent } from "./components/cards/card-tabla-admin-autor/card-tabla-admin-autor.component";
 import { CardTablaAdminEditorialComponent } from "./components/cards/card-tabla-admin-editorial/card-tabla-admin-editorial.component";
 import { CardTablaLibroComponent } from "./components/cards/card-tabla-admin-libro/card-tabla-admin-libro.component";
+import { CardTablaLibroClienteComponent } from "./components/cards/card-tabla-cliente-libro/card-tabla-cliente-libro.component";
 import { CardTablaInventarioComponent } from "./components/cards/card-tabla-inventario/card-tabla-inventario.component";
 import { CardTablaInventarioDetalleComponent } from "./components/cards/card-tabla-inventario-detalle/card-tabla-inventario-detalle.component";
 import { CardTableComponent } from "./components/cards/card-table/card-table.component";
@@ -144,6 +143,7 @@ import { AgregarEntradaUsuarioComponent } from './views/admin/agregar-entradausu
     CardTablaAdminUsuarioComponent,
     CardTablaAdminEditorialComponent,
     CardTablaLibroComponent,
+    CardTablaLibroClienteComponent,
     CardTablaInventarioComponent,
     CardTablaInventarioDetalleComponent,
     CardTableComponent,

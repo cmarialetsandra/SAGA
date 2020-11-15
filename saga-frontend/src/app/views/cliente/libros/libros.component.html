@@ -1,20 +1,7 @@
-<main>
-  <section class="pt-20 pb-48">
-    <!--Contenedores de los libros-->
-    <div>
-        <label>Ingrese el mensaje aquí</label>
-         <input type="text" #mensaje><br/>
-        <br/>
-          <button #color (click)="componenteDinamico(mensaje.value)"> Crear Componente </button>
-        <br/>  
-        <div class="orden" >
-          <div class="lg:pt-12 pt-6 w-full flex flex-wrap px-4 text-center">
-            <ng-template appColordinamico></ng-template>
-          </div>
-        </div>
-     <!--Contenedores de los libros-->
-    </div>
-  </section>  
-</main>
+<div class="flex flex-wrap">
+  <div class="w-full lg:w-12 px-4">
+    <app-card-tabla-cliente-libro></app-card-tabla-cliente-libro>
+  </div>
+</div>
 
 

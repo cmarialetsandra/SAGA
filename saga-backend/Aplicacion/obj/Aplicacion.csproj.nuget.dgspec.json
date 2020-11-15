@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj": {}
+    "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj": {
+    "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj",
-        "packagesPath": "C:\\Users\\PERSONAL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Aplicacion\\obj\\",
+        "projectPath": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\JORDY\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PERSONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\JORDY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -27,11 +31,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj"
+              "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj"
               },
-              "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj"
+              "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -69,18 +73,22 @@
         }
       }
     },
-    "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\PERSONAL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\obj\\",
+        "projectPath": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\JORDY\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PERSONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\JORDY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -121,18 +129,22 @@
         }
       }
     },
-    "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\PERSONAL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\JORDY\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PERSONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\JORDY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -144,8 +156,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj"
+              "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\JORDY\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj"
               }
             }
           }

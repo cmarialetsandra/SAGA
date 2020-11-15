@@ -1,4 +1,16 @@
-import { Component, OnInit, ComponentFactoryResolver, ViewChild, Input } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
+
+@Component({
+  selector: "app-libro",
+  templateUrl: "./libros.component.html",
+})
+export class LibrosComponent implements OnInit {
+  constructor() {}
+
+  ngOnInit(): void {}
+}
+
+/*import { Component, OnInit, ComponentFactoryResolver, ViewChild, Input } from '@angular/core';
 import {ColordinamicoDirective} from '../../../colordinamico.directive';
 import {CarritoComponent } from '../modulocarrito/modulocarrito.component';
 
@@ -23,6 +35,6 @@ export class LibrosComponent implements OnInit {
     let vcr = this.eldinamico.viewContainerRef;
     vcr.createComponent(cf, 0);
   }
-}
+}*/
 
 
