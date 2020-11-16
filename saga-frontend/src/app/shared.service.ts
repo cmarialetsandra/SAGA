@@ -59,5 +59,23 @@ export class SharedService {
     return this.http.post(this.APIUrl+"/Libros",val)
   }
   //Fin métodos LIBRO
+
+  //Métodos de EJEMPLAR
+  getEjemplarTotal():Observable<any[]>{
+    return this.http.get<any>(this.APIUrl + "/VistaTotalEjemplares");
+  }
+
+  getEjemplar(val:number):Observable<any[]>{
+    return this.http.get<any>(this.APIUrl + "/VistaEjemplares/"+val);
+  }
+
+  getStock(val:number):Observable<any[]>{
+    return this.http.get<any>(this.APIUrl + "/Stock/"+val);
+  }
+
+  addEntradaEjemplar(val: any){
+    return this.http.post(this.APIUrl+"/Ejemplares",val)
+  }
+  //Fin métodos EJEMPLAR
 }
 
