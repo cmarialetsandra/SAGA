@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Aplicacion.VistaLibros
 {
-    public class ConsultaVistaLibros
+    public class ConsultaVistaTotalLibros
     {
         public class ListaVistaLibros : IRequest<List<VwLibro>> { }
 

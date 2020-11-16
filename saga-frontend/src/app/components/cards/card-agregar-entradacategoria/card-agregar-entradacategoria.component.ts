@@ -27,7 +27,7 @@ export class CardAgregarEntradaCategoriaComponent implements OnInit {
         toast: true,
         position: 'top-end',
         showConfirmButton: false,
-        timer: 2000,
+        timer: 5000,
         timerProgressBar: true,
         didOpen: (toast) => {
           toast.addEventListener('mouseenter', swal.stopTimer)

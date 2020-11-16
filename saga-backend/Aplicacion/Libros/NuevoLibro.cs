@@ -44,7 +44,7 @@ namespace Aplicacion.Libros
                     IdAutor = request.IdAutor,
                     IdEditorial = request.IdEditorial,
                     IdCategoria = request.IdCategoria
-        };
+                };
 
                 _context.tblLibro.Add(libro);
 
@@ -55,7 +55,7 @@ namespace Aplicacion.Libros
                     return Unit.Value;
                 }
 
-                throw new Exception("No se pudo apregar el libro");
+                throw new Exception("No se pudo agregar el libro");
             }
         }
 
