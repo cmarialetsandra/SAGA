@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Aplicacion.Usuarios
 {
-    public class ConsultaIdUsuario
+    public class ConsultaIdLibro
     {
         public class UsuarioUnico : IRequest<Usuario>
         {

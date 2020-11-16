@@ -1,4 +1,4 @@
-﻿using Aplicacion.VistaLibros;
+﻿using Aplicacion.VistaEjemplares;
 using Dominio;
 using MediatR;
 using Microsoft.AspNetCore.Components;
@@ -14,19 +14,19 @@ namespace saga_backend.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class VistaLibrosController : ControllerBase
+    public class StockController : ControllerBase
     {
         private readonly IMediator _mediator;
 
-        public VistaLibrosController(IMediator mediator)
+        public StockController(IMediator mediator)
         {
             this._mediator = mediator;
         }
 
-        [HttpGet]
-        public async Task<ActionResult<List<VwLibro>>> Get()
+        [HttpGet("{id}")]
+        public async Task<ActionResult<VwEjemplar>> FiltradoId(int id)
         {
-            return await _mediator.Send(new ConsultaVistaTotalLibros.ListaVistaLibros());
+            return await _mediator.Send(new ConsultaStock.UltimoStock { IdLibro = id });
         }
     }
 }

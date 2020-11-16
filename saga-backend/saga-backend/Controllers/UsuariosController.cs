@@ -32,7 +32,7 @@ namespace saga_backend.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Usuario>> FiltradoId(int id)
         {
-            return await _mediator.Send(new ConsultaIdUsuario.UsuarioUnico { IdUsuario = id });
+            return await _mediator.Send(new ConsultaIdLibro.UsuarioUnico { IdUsuario = id });
         }
 
         [HttpPost]
