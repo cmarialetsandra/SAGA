@@ -1,8 +1,10 @@
 ﻿using Dominio;
+using FluentValidation;
 using MediatR;
 using Persistencia;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -13,7 +15,16 @@ namespace Aplicacion.Editoriales
     {
         public class InsertarEditorial : IRequest
         {
+            //[Required(ErrorMessage = "Favor ingrese el nombre")]
             public string Nombre { get; set; }
+        }
+
+        public class EjecutaValidacion : AbstractValidator<InsertarEditorial>
+        {
+            public EjecutaValidacion()
+            {
+                RuleFor(x => x.Nombre).NotEmpty();
+            }
         }
 
         public class Manejador : IRequestHandler<InsertarEditorial>

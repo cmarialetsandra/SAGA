@@ -23,6 +23,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Persistencia;
+using FluentValidation.AspNetCore;
+using saga_backend.Middleware;
 
 namespace saga_backend
 {
@@ -51,15 +53,16 @@ namespace saga_backend
             services.AddMediatR(typeof(ConsultaUsuario.Manejador).Assembly);
             services.AddMediatR(typeof(ConsultaVistaTotalLibros.Manejador).Assembly);
             services.AddMediatR(typeof(ConsultaVistaTotalEjemplar.Manejador).Assembly);
-            services.AddControllers();
+            services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<NuevoEditorial>());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseMiddleware<ManejadorErrorMiddleware>();
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                //app.UseDeveloperExceptionPage();
             }
 
             app.UseCors(x => {
