@@ -1,10 +1,6 @@
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
 
-//Libros
-import { ColordinamicoDirective } from './colordinamico.directive';
-
-
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 
@@ -109,7 +105,6 @@ import { AgregarEntradaUsuarioComponent } from './views/admin/agregar-entradausu
 @NgModule({
   declarations: [
     AppComponent,
-    ColordinamicoDirective,
     DashboardComponent,
     CardBarChartComponent,
     CardEstadoEntregadoComponent,
