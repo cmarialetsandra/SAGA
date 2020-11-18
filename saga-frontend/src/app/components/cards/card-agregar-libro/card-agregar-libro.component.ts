@@ -19,10 +19,13 @@ export class CardAgregarLibroComponent implements OnInit {
   IdAutor:number;
   IdEditorial:number;
   IdCategoria:number;
+  IdLibro:number;
+  Entrada:number;
 
   AutorList:any=[];
   EditorialList:any=[];
   CategoriaList:any=[];
+  LibroList:any=[];
 
   AutorSeleccionado:string;
   EditorialSeleccionada:string;
@@ -74,29 +77,45 @@ export class CardAgregarLibroComponent implements OnInit {
       IdAutor:this.IdAutor,
       IdEditorial:this.IdEditorial,
       IdCategoria:this.IdCategoria
-    };
+    };   
     
     this.service.addLibro(val).subscribe(res=>{
-      /*Mensaje de éxito al guardar*/
-      const Toast = swal.mixin({
-        toast: true,
-        position: 'top-end',
-        showConfirmButton: false,
-        timer: 5000,
-        timerProgressBar: true,
-        didOpen: (toast) => {
-          toast.addEventListener('mouseenter', swal.stopTimer)
-          toast.addEventListener('mouseleave', swal.resumeTimer)
-        }
-      })
-      
-      Toast.fire({
-        icon: 'success',
-        title: 'Registro guardado con éxito'
-      })
-      /*Fin Mensaje de éxito al guardar*/
+      this.service.getUltimoLibro().subscribe(data=>{
+        this.LibroList=data;
+        this.IdLibro=this.LibroList.idLibro;
+        console.log("El id del libro insertado es: ",this.IdLibro);
 
-      this.router.navigate(['/admin/libro']);
+        var valE = {      
+          IdLibro:this.IdLibro,
+          Stock:this.Entrada,
+          Entrada:this.Entrada,
+          Salida: 0
+        };
+
+        this.service.addEntradaEjemplar(valE).subscribe(res=>{
+          /*Mensaje de éxito al guardar*/
+          const Toast = swal.mixin({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 5000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+              toast.addEventListener('mouseenter', swal.stopTimer)
+              toast.addEventListener('mouseleave', swal.resumeTimer)
+            }
+          })
+          
+          Toast.fire({
+            icon: 'success',
+            title: 'Registro guardado con éxito'
+          })
+          /*Fin Mensaje de éxito al guardar*/
+    
+          this.router.navigate(['/admin/libro']);
+        });
+
+      });
     });
   }
 }
