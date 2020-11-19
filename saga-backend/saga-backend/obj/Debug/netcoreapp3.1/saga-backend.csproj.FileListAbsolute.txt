@@ -737,3 +737,7 @@ C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1
 C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
 C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.MvcApplicationPartsAssemblyInfo.cs

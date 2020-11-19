@@ -1,4 +1,5 @@
-﻿using Aplicacion.VistaEjemplares;
+﻿using Aplicacion.Libros;
+using Aplicacion.VistaEjemplares;
 using Dominio;
 using MediatR;
 using Microsoft.AspNetCore.Components;
@@ -21,6 +22,12 @@ namespace saga_backend.Controllers
         public StockController(IMediator mediator)
         {
             this._mediator = mediator;
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<Libro>> Get()
+        {
+            return await _mediator.Send(new ConsultaUltimoLibro.LibroUltimo());
         }
 
         [HttpGet("{id}")]

@@ -76,6 +76,10 @@ export class SharedService {
   addEntradaEjemplar(val: any){
     return this.http.post(this.APIUrl+"/Ejemplares",val)
   }
+
+  getUltimoLibro():Observable<any[]>{
+    return this.http.get<any>(this.APIUrl + "/Stock");
+  }
   //Fin métodos EJEMPLAR
 }
 
