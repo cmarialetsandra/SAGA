@@ -1,5 +1,7 @@
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
+import { MatDialogModule } from '@angular/material/dialog';
+//import { MaterialModule } from "./material/material.module";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
@@ -27,6 +29,7 @@ import { CategoriaComponent } from "./views/admin/categoria/categoria.component"
 import { AutorComponent } from "./views/admin/autor/autor.component";
 import { EditorialComponent } from "./views/admin/editorial/editorial.component";
 import { LibroComponent } from "./views/admin/libro/libro.component";
+
 import { InventarioDetalleComponent } from "./views/admin/inventario-detalle/inventario-detalle.component";
 
 // auth views
@@ -37,6 +40,8 @@ import { RegisterComponent } from "./views/auth/register/register.component";
 import { CarritoComponent } from "./views/cliente/carrito/carrito.component";
 import { LibrosComponent } from "./views/cliente/libros/libros.component";
 import { PrestamosComponent } from "./views/cliente/prestamos/prestamos.component";
+import {PopupCliente} from "./views/cliente/pupupcliente/popupcliente.component";
+
 
 // no layouts views
 import { IndexComponent } from "./views/index/index.component";
@@ -69,6 +74,7 @@ import { CardTablaAdminPrestamoComponent } from "./components/cards/card-tabla-a
 import { CardTablaAdminUsuarioComponent } from "./components/cards/card-tabla-admin-usuario/card-tabla-admin-usuario.component";
 import { CardTablaAdminCategoriaComponent } from "./components/cards/card-tabla-admin-categoria/card-tabla-admin-categoria.component";
 import { CardTablaAdminAutorComponent } from "./components/cards/card-tabla-admin-autor/card-tabla-admin-autor.component";
+import {CardPopupCliente} from "./components/cards/card-popup-cliente/card-popup-cliente.component";
 import { CardTablaAdminEditorialComponent } from "./components/cards/card-tabla-admin-editorial/card-tabla-admin-editorial.component";
 import { CardTablaLibroComponent } from "./components/cards/card-tabla-admin-libro/card-tabla-admin-libro.component";
 import { CardTablaLibroClienteComponent } from "./components/cards/card-tabla-cliente-libro/card-tabla-cliente-libro.component";
@@ -100,6 +106,7 @@ import { HttpClientModule } from "@angular/common/http";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { UsuarioComponent } from './views/admin/usuario/usuario.component';
 import { AgregarEntradaUsuarioComponent } from './views/admin/agregar-entradausuario/agregar-entradausuario.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -179,15 +186,20 @@ import { AgregarEntradaUsuarioComponent } from './views/admin/agregar-entradausu
     IndexComponent,
     LandingComponent,
     ProfileComponent,
+    CardPopupCliente,
+    PopupCliente,
     AlertaExitoComponent
   ],
   imports: [
     BrowserModule, 
+    MatDialogModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule],
+    ReactiveFormsModule,
+    BrowserAnimationsModule],
   providers: [SharedService],
   bootstrap: [AppComponent],
+  entryComponents: [CardTablaLibroClienteComponent]
 })
 export class AppModule {}

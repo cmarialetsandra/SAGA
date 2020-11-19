@@ -1,11 +1,12 @@
 <div class="lg:pt-12 pt-6 w-full flex flex-wrap px-4 text-center" style="padding:5px;">
   <div class="w-full flex flex-col min-w-0 break-words bg-gray-900 w-full mb-8 shadow-lg rounded-lg lg:w-3/12" *ngFor="let dataItem of LibroList" style="width:416px; height:200px; margin:5px;">
       <div class="px-4 py-5 flex-auto">
-          <h6 class="text-xl text-white font-semibold">  {{dataItem.titulo}} </h6>
+        <app-card-popup-cliente  [libro]="libro" *ngIf="MostrarComponente"></app-card-popup-cliente>
+          <h6 class="text-xl text-white font-semibold"> {{dataItem.titulo}} </h6>
            <br>
            <p class="text-white">{{dataItem.descripcion}}</p>
            <br>
-           <button class="bg-red-600 active:bg-red-700 uppercase text-white font-semibold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150 " type="button">
+           <button (click)="Crear(dataItem)" class="bg-red-600 active:bg-red-700 uppercase text-white font-semibold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150" type="button" >
               <i class="fas fa-plus"></i>
            </button>
       </div> 
