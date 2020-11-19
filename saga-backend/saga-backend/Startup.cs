@@ -54,6 +54,7 @@ namespace saga_backend
             services.AddMediatR(typeof(ConsultaVistaTotalLibros.Manejador).Assembly);
             services.AddMediatR(typeof(ConsultaVistaTotalEjemplar.Manejador).Assembly);
             services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<NuevoEditorial>());
+            services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<NuevaCategoria>());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

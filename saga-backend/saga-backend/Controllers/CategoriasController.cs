@@ -36,9 +36,22 @@ namespace saga_backend.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Unit>> CrearAutor(NuevaCategoria.InsertarCategoria data)
+        public async Task<ActionResult<Unit>> CrearEditorial(NuevaCategoria.InsertarCategoria data)
         {
             return await _mediator.Send(data);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult<Unit>> Editar(int id, EditarCategoria.Ejecuta data)
+        {
+            data.IdCategoria = id;
+            return await _mediator.Send(data);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<Unit>> Eliminar(int id)
+        {
+            return await _mediator.Send(new EliminarCategoria.Ejecuta { IdCategoria = id });
         }
     }
 }

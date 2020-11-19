@@ -18,6 +18,7 @@ import { AgregarEntradaAutorComponent } from "./views/admin/agregar-entradaautor
 import { AgregarEntradaEditorialComponent } from "./views/admin/agregar-entradaeditorial/agregar-entradaeditorial.component";
 import { AgregarEntradaLibroComponent } from "./views/admin/agregar-entradalibro/agregar-entradalibro.component";
 import { EditarLibroComponent } from "./views/admin/editar-libro/editar-libro.component";
+import { EditarCategoriaComponent } from "./views/admin/editar-categoria/editar-categoria.component";
 import { AgregarLibroComponent } from "./views/admin/agregar-libro/agregar-libro.component";
 import { DashboardComponent } from "./views/admin/dashboard/dashboard.component";
 import { MapsComponent } from "./views/admin/maps/maps.component";
@@ -58,8 +59,9 @@ import { CardAgregarEntradaCategoriaComponent } from "./components/cards/card-ag
 import { CardAgregarEntradaAutorComponent } from "./components/cards/card-agregar-entradaautor/card-agregar-entradaautor.component";
 import { CardAgregarEntradaUsuarioComponent } from "./components/cards/card-agregar-entradausuario/card-agregar-entradausuario.component";
 import { CardAgregarEntradaEditorialComponent } from "./components/cards/card-agregar-entradaeditorial/card-agregar-entradaeditorial.component";
-import {CardEditarLibroComponent} from "./components/cards/card-editar-libro/card-editar-libro.component";
-import {CardAgregarLibroComponent} from "./components/cards/card-agregar-libro/card-agregar-libro.component";
+import { CardEditarLibroComponent } from "./components/cards/card-editar-libro/card-editar-libro.component";
+import { CardEditarCategoriaComponent } from "./components/cards/card-editar-categoria/card-editar-categoria.component";
+import { CardAgregarLibroComponent } from "./components/cards/card-agregar-libro/card-agregar-libro.component";
 import { CardAgregarEntradaLibroComponent } from "./components/cards/card-agregar-entradalibro/card-agregar-entradalibro.component";
 import { CardBarChartComponent } from "./components/cards/card-bar-chart/card-bar-chart.component";
 import { CardEstadoEntregadoComponent } from "./components/cards/card-estado-entregado/card-estado-entregado.component";
@@ -132,6 +134,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     CardAgregarEntradaEditorialComponent,
     CardAgregarEntradaLibroComponent,
     CardEditarLibroComponent,
+    CardEditarCategoriaComponent,
     CardAgregarLibroComponent,
     CardPageVisitsComponent,
     CardPrestamosClienteComponent,
@@ -166,6 +169,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AgregarEntradaLibroComponent,
     AgregarEntradaUsuarioComponent,
     EditarLibroComponent,
+    EditarCategoriaComponent,
     AgregarLibroComponent,
     MapsComponent,
     SettingsComponent,

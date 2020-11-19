@@ -18,6 +18,18 @@ export class SharedService {
   addCategoria(val: any){
     return this.http.post(this.APIUrl+"/Categorias",val)
   }
+
+  updateCategoria(id: number,val: any){
+    return this.http.put(this.APIUrl+"/Categorias/"+id,val)
+  }
+
+  deleteCategoria(id: number){
+    return this.http.delete(this.APIUrl+"/Categorias/"+id)
+  }
+
+  getCategoriaFiltrada(val:number):Observable<any[]>{
+    return this.http.get<any>(this.APIUrl + "/Categorias/"+val);
+  }
   //Fin métodos CATEGORIA
 
   //Métodos de EDITORIAL
