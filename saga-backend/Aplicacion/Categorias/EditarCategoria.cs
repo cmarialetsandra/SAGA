@@ -45,7 +45,7 @@ namespace Aplicacion.Categorias
                     return Unit.Value;
                 }
 
-                throw new Exception("No se guardaron los cambios en la tabla Categoría");
+                throw new Exception("No se actualizaron los cambios en la tabla Categoría");
             }
         }
     }

@@ -60,6 +60,18 @@ export class SharedService {
   addUsuario(val: any){
     return this.http.post(this.APIUrl+"/Usuarios",val)
   }
+  
+  updateUsuario(id: number,val: any){
+    return this.http.put(this.APIUrl+"/Usuarios/"+id,val)
+  }
+
+  deleteUsuario(id: number){
+    return this.http.delete(this.APIUrl+"/Usuarios/"+id)
+  }
+
+  getUsuarioFiltrado(val:number):Observable<any[]>{
+    return this.http.get<any>(this.APIUrl + "/Usuarios/"+val);
+  }
   //Fin métodos USUARIO
 
   //Métodos de LIBRO

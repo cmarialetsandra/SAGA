@@ -19,6 +19,7 @@ import { AgregarEntradaEditorialComponent } from "./views/admin/agregar-entradae
 import { AgregarEntradaLibroComponent } from "./views/admin/agregar-entradalibro/agregar-entradalibro.component";
 import { EditarLibroComponent } from "./views/admin/editar-libro/editar-libro.component";
 import { EditarCategoriaComponent } from "./views/admin/editar-categoria/editar-categoria.component";
+import { EditarUsuarioComponent } from "./views/admin/editar-usuario/editar-usuario.component";
 import { AgregarLibroComponent } from "./views/admin/agregar-libro/agregar-libro.component";
 import { DashboardComponent } from "./views/admin/dashboard/dashboard.component";
 import { MapsComponent } from "./views/admin/maps/maps.component";
@@ -61,6 +62,7 @@ import { CardAgregarEntradaUsuarioComponent } from "./components/cards/card-agre
 import { CardAgregarEntradaEditorialComponent } from "./components/cards/card-agregar-entradaeditorial/card-agregar-entradaeditorial.component";
 import { CardEditarLibroComponent } from "./components/cards/card-editar-libro/card-editar-libro.component";
 import { CardEditarCategoriaComponent } from "./components/cards/card-editar-categoria/card-editar-categoria.component";
+import { CardEditarUsuarioComponent } from "./components/cards/card-editar-usuario/card-editar-usuario.component";
 import { CardAgregarLibroComponent } from "./components/cards/card-agregar-libro/card-agregar-libro.component";
 import { CardAgregarEntradaLibroComponent } from "./components/cards/card-agregar-entradalibro/card-agregar-entradalibro.component";
 import { CardBarChartComponent } from "./components/cards/card-bar-chart/card-bar-chart.component";
@@ -135,6 +137,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     CardAgregarEntradaLibroComponent,
     CardEditarLibroComponent,
     CardEditarCategoriaComponent,
+    CardEditarUsuarioComponent,
     CardAgregarLibroComponent,
     CardPageVisitsComponent,
     CardPrestamosClienteComponent,
@@ -170,6 +173,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AgregarEntradaUsuarioComponent,
     EditarLibroComponent,
     EditarCategoriaComponent,
+    EditarUsuarioComponent,
     AgregarLibroComponent,
     MapsComponent,
     SettingsComponent,

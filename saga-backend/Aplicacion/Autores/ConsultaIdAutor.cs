@@ -1,8 +1,10 @@
-﻿using Dominio;
+﻿using Aplicacion.ManejadorError;
+using Dominio;
 using MediatR;
 using Persistencia;
 using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -27,6 +29,10 @@ namespace Aplicacion.Autores
             public async Task<Autor> Handle(AutorUnico request, CancellationToken cancellationToken)
             {
                 var autor = await _context.tblAutor.FindAsync(request.IdAutor);
+                if (autor == null)
+                {
+                    throw new ManejadorException(HttpStatusCode.NotFound, new { autor = "No se encontró el autor" });
+                }
                 return autor;
             }
         }

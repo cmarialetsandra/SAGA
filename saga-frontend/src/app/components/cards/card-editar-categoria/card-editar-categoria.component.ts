@@ -16,13 +16,10 @@ export class CardEditarCategoriaComponent implements OnInit {
   NombreCategoria:string;
   IdCategoria:number;
 
-  Nombre:string;
   CategoriaList:any=[];
 
   ngOnInit(): void {
     this.refreshCategoriaList();
-    console.log("Id categoría:",this.IdCategoria);
-    console.log("Nombre de categoría:",this.NombreCategoria);
   }
 
   refreshCategoriaList(){

@@ -24,6 +24,7 @@ import { AgregarEntradaCategoriaComponent } from "./views/admin/agregar-entradac
 import { AgregarEntradaEditorialComponent } from "./views/admin/agregar-entradaeditorial/agregar-entradaeditorial.component";
 import { EditarCategoriaComponent } from "./views/admin/editar-categoria/editar-categoria.component";
 import { EditarLibroComponent } from "./views/admin/editar-libro/editar-libro.component";
+import { EditarUsuarioComponent } from "./views/admin/editar-usuario/editar-usuario.component";
 import { AgregarLibroComponent } from "./views/admin/agregar-libro/agregar-libro.component";
 import { AgregarEntradaAutorComponent } from './views/admin/agregar-entradaautor/agregar-entradaautor.component';
 import { AgregarEntradaUsuarioComponent } from './views/admin/agregar-entradausuario/agregar-entradausuario.component';
@@ -43,7 +44,6 @@ import { IndexComponent } from "./views/index/index.component";
 import { LandingComponent } from "./views/landing/landing.component";
 import { ProfileComponent } from "./views/profile/profile.component";
 import { EditorialComponent } from './views/admin/editorial/editorial.component';
-import { CardEditarCategoriaComponent } from './components/cards/card-editar-categoria/card-editar-categoria.component';
 
 const routes: Routes = [
   // admin views
@@ -62,12 +62,13 @@ const routes: Routes = [
       { path: "inventario-detalle/:idLibro", component: InventarioDetalleComponent },
       { path: "categoria", component: CategoriaComponent },
       { path: "libro", component: LibroComponent },
-      { path:"editorial",component:EditorialComponent},
-      { path:"autor",component:AutorComponent},
-      { path:"usuario",component:UsuarioComponent},
+      { path: "editorial",component:EditorialComponent},
+      { path: "autor",component:AutorComponent},
+      { path: "usuario",component:UsuarioComponent},
       { path: "entrada-libro", component: AgregarLibroComponent},
       { path: "editar-libro", component: EditarLibroComponent},
       { path: "editar-categoria/:idCategoria", component: EditarCategoriaComponent},
+      { path: "editar-usuario/:idUsuario", component: EditarUsuarioComponent},
       { path: "entrada-categoria", component: AgregarEntradaCategoriaComponent },
       { path: "entrada-autor", component: AgregarEntradaAutorComponent },
       { path: "entrada-usuario", component: AgregarEntradaUsuarioComponent },

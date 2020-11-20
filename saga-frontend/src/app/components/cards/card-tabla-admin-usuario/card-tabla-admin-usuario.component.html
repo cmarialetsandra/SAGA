@@ -83,8 +83,8 @@
             Cliente
           </td>    
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            <i class="fas fa-edit text-red-500 mr-4"></i>
-            <i class="fas fa-trash text-red-500 mr-4"></i>
+            <i class="fas fa-edit text-red-500 mr-4" [routerLink]="['/admin/editar-usuario',dataItem.idUsuario]"></i>
+            <i class="fas fa-trash text-red-500 mr-4" (click)="deleteUsuario(dataItem.idUsuario)"></i>
           </td>          
         </tr>      
       </tbody>      

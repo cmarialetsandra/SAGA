@@ -1,6 +1,6 @@
-import { listLazyRoutes } from '@angular/compiler/src/aot/lazy_routes';
 import { Component, OnInit, Input } from "@angular/core";
 import { SharedService } from "src/app/shared.service";
+import swal from'sweetalert2';
 
 @Component({
     selector: "app-card-tabla-admin-usuario",
@@ -28,6 +28,30 @@ export class CardTablaAdminUsuarioComponent implements OnInit {
     refreshUsuarioList(){
       this.service.getUsuarioList().subscribe(data=>{
         this.UsuarioList=data;
+      });
+    }
+
+    deleteUsuario(id:number){
+      swal.fire({
+        title: '¿Estás seguro?',
+        text: "Si borras este registro podrías alterar otra tabla",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#f44e3c',
+        cancelButtonColor: '#a5a5a5',
+        confirmButtonText: 'Eliminar',
+        cancelButtonText: 'Cancelar'
+      }).then((result) => {
+        if (result.isConfirmed) {
+          this.service.deleteUsuario(id).subscribe(data=>{
+            this.refreshUsuarioList();
+          });
+          swal.fire(
+            'Éxito',
+            'El registro fue eliminado',
+            'success'
+          )
+        }
       });
     }
   }

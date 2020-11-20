@@ -8,14 +8,17 @@ using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-namespace Aplicacion.Editoriales
+namespace Aplicacion.Ejemplares
 {
-    public class EditarEditorial
+    public class EditarEjemplar
     {
         public class Ejecuta : IRequest
         {
-            public int IdEditorial { get; set; }
-            public string Nombre { get; set; }
+            public int IdEjemplar { get; set; }
+            public int IdLibro { get; set; }
+            public int Stock { get; set; }
+            public int Entrada { get; set; }
+            public int Salida { get; set; }
         }
 
         public class Manejador : IRequestHandler<Ejecuta>
@@ -29,15 +32,18 @@ namespace Aplicacion.Editoriales
 
             public async Task<Unit> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var editorial = await _context.tblEditorial.FindAsync(request.IdEditorial);
+                var ejemplar = await _context.tblEjemplar.FindAsync(request.IdEjemplar);
 
-                if (editorial == null)
+                if (ejemplar == null)
                 {
-                    throw new ManejadorException(HttpStatusCode.NotFound, new { editorial = "No se encontró la editorial" });
+                    throw new ManejadorException(HttpStatusCode.NotFound, new { ejemplar = "No se encontró el ejemplar" });
                 }
 
-                editorial.Nombre = request.Nombre ?? editorial.Nombre;
-               
+                ejemplar.IdLibro = request.IdLibro;
+                ejemplar.Stock = request.Stock;
+                ejemplar.Entrada = request.Entrada;
+                ejemplar.Salida = request.Salida;
+
                 var resultado = await _context.SaveChangesAsync();
 
                 if (resultado > 0)
@@ -45,7 +51,7 @@ namespace Aplicacion.Editoriales
                     return Unit.Value;
                 }
 
-                throw new Exception("No se actualizaron los cambios en la tabla Editorial");
+                throw new Exception("No se actualizaron los cambios en la tabla Ejemplar");
             }
         }
     }

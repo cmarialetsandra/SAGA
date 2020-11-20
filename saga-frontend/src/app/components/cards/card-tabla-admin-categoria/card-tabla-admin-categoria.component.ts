@@ -1,4 +1,3 @@
-import { ThrowStmt } from '@angular/compiler';
 import { Component, OnInit, Input } from "@angular/core";
 import { SharedService } from "src/app/shared.service";
 import swal from'sweetalert2';
@@ -33,7 +32,6 @@ export class CardTablaAdminCategoriaComponent implements OnInit {
     }
 
     deleteCategoria(id:number){
-
       swal.fire({
         title: '¿Estás seguro?',
         text: "Si borras este registro podrías alterar otra tabla",
@@ -55,13 +53,6 @@ export class CardTablaAdminCategoriaComponent implements OnInit {
           )
         }
       });
-
-      /*if(confirm('¿Estás seguro?')){
-        this.service.deleteCategoria(id).subscribe(data=>{
-          alert(data.toString());
-          this.refreshCategoriaList();
-        });
-      }*/
     }
   }
   

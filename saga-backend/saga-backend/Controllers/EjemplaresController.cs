@@ -40,5 +40,18 @@ namespace saga_backend.Controllers
         {
             return await _mediator.Send(data);
         }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult<Unit>> Editar(int id, EditarEjemplar.Ejecuta data)
+        {
+            data.IdEjemplar = id;
+            return await _mediator.Send(data);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<Unit>> Eliminar(int id)
+        {
+            return await _mediator.Send(new EliminarEjemplar.Ejecuta { IdEjemplar = id });
+        }
     }
 }

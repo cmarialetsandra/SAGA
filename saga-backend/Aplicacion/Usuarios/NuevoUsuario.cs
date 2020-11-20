@@ -1,4 +1,5 @@
 ﻿using Dominio;
+using FluentValidation;
 using MediatR;
 using Persistencia;
 using System;
@@ -20,6 +21,17 @@ namespace Aplicacion.Usuarios
             public int Rol { get; set; }
         }
 
+        public class EjecutaValidacion : AbstractValidator<InsertarUsuario>
+        {
+            public EjecutaValidacion()
+            {
+                RuleFor(x => x.User).NotEmpty();
+                RuleFor(x => x.Contrasenia).NotEmpty();
+                RuleFor(x => x.Nombres).NotEmpty();
+                RuleFor(x => x.Apellidos).NotEmpty();
+                RuleFor(x => x.Rol).NotEmpty();
+            }
+        }
         public class Manejador : IRequestHandler<InsertarUsuario>
         {
             private readonly SagaContext _context;
