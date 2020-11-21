@@ -1,4 +1,5 @@
-﻿using Aplicacion.Usuarios;
+﻿using Aplicacion.Seguridad;
+using Aplicacion.Usuarios;
 using Dominio;
 using MediatR;
 using Microsoft.AspNetCore.Components;
@@ -52,6 +53,12 @@ namespace saga_backend.Controllers
         public async Task<ActionResult<Unit>> Eliminar(int id)
         {
             return await _mediator.Send(new EliminarUsuario.Ejecuta { IdUsuario = id });
+        }
+
+        [HttpPost("login")]
+        public async Task<ActionResult<UsuarioData>> Login(Login.Ejecuta data)
+        {
+            return await _mediator.Send(data);
         }
     }
 }
