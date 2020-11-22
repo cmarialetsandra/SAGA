@@ -106,12 +106,12 @@ import swal from 'sweetalert2';
 
 //Otras importaciones
 import { SharedService } from "./shared.service";
-import { HttpClientModule } from "@angular/common/http";
+import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { UsuarioComponent } from './views/admin/usuario/usuario.component';
 import { AgregarEntradaUsuarioComponent } from './views/admin/agregar-entradausuario/agregar-entradausuario.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import {HttpErrorInterceptor} from './http-error.interceptor';
 
 @NgModule({
   declarations: [
@@ -206,7 +206,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule],
-  providers: [SharedService],
+  providers: [
+    SharedService,
+    { provide: HTTP_INTERCEPTORS, useClass: HttpErrorInterceptor, multi: true }
+  ],
   bootstrap: [AppComponent],
   entryComponents: [CardTablaLibroClienteComponent]
 })

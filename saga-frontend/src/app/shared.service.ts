@@ -16,15 +16,15 @@ export class SharedService {
   }
 
   addCategoria(val: any){
-    return this.http.post(this.APIUrl+"/Categorias",val)
+    return this.http.post(this.APIUrl+"/Categorias",val);
   }
 
   updateCategoria(id: number,val: any){
-    return this.http.put(this.APIUrl+"/Categorias/"+id,val)
+    return this.http.put(this.APIUrl+"/Categorias/"+id,val);
   }
 
   deleteCategoria(id: number){
-    return this.http.delete(this.APIUrl+"/Categorias/"+id)
+    return this.http.delete(this.APIUrl+"/Categorias/"+id);
   }
 
   getCategoriaFiltrada(val:number):Observable<any[]>{
@@ -38,7 +38,7 @@ export class SharedService {
   }
 
   addEditorial(val: any){
-    return this.http.post(this.APIUrl+"/Editoriales",val)
+    return this.http.post(this.APIUrl+"/Editoriales",val);
   }
   //Fin métodos EDITORIAL
 
@@ -48,7 +48,7 @@ export class SharedService {
   }
 
   addAutor(val: any){
-    return this.http.post(this.APIUrl+"/Autores",val)
+    return this.http.post(this.APIUrl+"/Autores",val);
   }
   //Fin métodos AUTOR
 
@@ -58,19 +58,23 @@ export class SharedService {
   }
 
   addUsuario(val: any){
-    return this.http.post(this.APIUrl+"/Usuarios",val)
+    return this.http.post(this.APIUrl+"/Usuarios",val);
   }
   
   updateUsuario(id: number,val: any){
-    return this.http.put(this.APIUrl+"/Usuarios/"+id,val)
+    return this.http.put(this.APIUrl+"/Usuarios/"+id,val);
   }
 
   deleteUsuario(id: number){
-    return this.http.delete(this.APIUrl+"/Usuarios/"+id)
+    return this.http.delete(this.APIUrl+"/Usuarios/"+id);
   }
 
   getUsuarioFiltrado(val:number):Observable<any[]>{
     return this.http.get<any>(this.APIUrl + "/Usuarios/"+val);
+  }
+
+  login(val: any):Observable<any[]>{
+    return this.http.post<any>(this.APIUrl+"/Usuarios/login",val);
   }
   //Fin métodos USUARIO
 
@@ -80,7 +84,7 @@ export class SharedService {
   }
 
   addLibro(val: any){
-    return this.http.post(this.APIUrl+"/Libros",val)
+    return this.http.post(this.APIUrl+"/Libros",val);
   }
   //Fin métodos LIBRO
 
@@ -98,7 +102,7 @@ export class SharedService {
   }
 
   addEntradaEjemplar(val: any){
-    return this.http.post(this.APIUrl+"/Ejemplares",val)
+    return this.http.post(this.APIUrl+"/Ejemplares",val);
   }
 
   getUltimoLibro():Observable<any[]>{
@@ -106,4 +110,3 @@ export class SharedService {
   }
   //Fin métodos EJEMPLAR
 }
-

@@ -51,6 +51,7 @@ namespace Aplicacion.Seguridad
                 {
                     return new UsuarioData
                     {
+                        IdUsuario = user.IdUsuario,
                         User = user.User,
                         Nombres = user.Nombres,
                         Apellidos = user.Apellidos,
