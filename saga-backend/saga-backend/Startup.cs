@@ -57,6 +57,7 @@ namespace saga_backend
             services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<NuevaCategoria>());
             services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<NuevoUsuario>());
             services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<NuevoEjemplar>());
+            services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<NuevoDetallePrestamo>());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
