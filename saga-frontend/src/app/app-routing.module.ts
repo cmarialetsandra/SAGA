@@ -68,7 +68,7 @@ const routes: Routes = [
       { path: "autor",component:AutorComponent},
       { path: "usuario",component:UsuarioComponent},
       { path: "entrada-libro", component: AgregarLibroComponent},
-      { path: "editar-libro", component: EditarLibroComponent},
+      { path: "editar-libro/:idLibro", component: EditarLibroComponent},
       { path: "editar-autor/:idAutor", component: EditarAutorComponent},
       { path: "editar-categoria/:idCategoria", component: EditarCategoriaComponent},
       { path: "editar-usuario/:idUsuario", component: EditarUsuarioComponent},

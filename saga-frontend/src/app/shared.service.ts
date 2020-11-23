@@ -111,6 +111,18 @@ export class SharedService {
   addLibro(val: any){
     return this.http.post(this.APIUrl+"/Libros",val);
   }
+
+  updateLibro(id: number,val: any){
+    return this.http.put(this.APIUrl+"/Libros/"+id,val);
+  }
+
+  deleteLibro(id: number){
+    return this.http.delete(this.APIUrl+"/Libros/"+id);
+  }
+
+  getLibroFiltrado(val:number):Observable<any[]>{
+    return this.http.get<any>(this.APIUrl + "/Libros/"+val);
+  }
   //Fin métodos LIBRO
 
   //Métodos de EJEMPLAR
