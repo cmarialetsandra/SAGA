@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -43,8 +44,9 @@ namespace Aplicacion.Seguridad
 
             public async Task<UsuarioData> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
+                var Password = HashPassword(request.Contrasenia);
                 var user = await _context.Set<Usuario>().OrderByDescending(t => t.IdUsuario)
-                    .Where(e => e.User == request.User && e.Contrasenia == request.Contrasenia)
+                    .Where(e => e.User == request.User && e.Contrasenia == Password)
                     .FirstOrDefaultAsync();
 
                 if (user != null)
@@ -64,6 +66,22 @@ namespace Aplicacion.Seguridad
                 }
 
                 throw new ManejadorException(HttpStatusCode.Unauthorized);
+            }
+
+            public static string HashPassword(string password)
+            {
+                //Declarations
+                Byte[] originalBytes;
+                Byte[] encodedBytes;
+                MD5 md5;
+
+                //Instantiate MD5CryptoServiceProvider, get bytes for original password and compute hash    (encoded password)
+                md5 = new MD5CryptoServiceProvider();
+                originalBytes = ASCIIEncoding.Default.GetBytes(password);
+                encodedBytes = md5.ComputeHash(originalBytes);
+
+                //Convert encoded bytes back to a 'readable' string
+                return BitConverter.ToString(encodedBytes);
             }
         }
     }
