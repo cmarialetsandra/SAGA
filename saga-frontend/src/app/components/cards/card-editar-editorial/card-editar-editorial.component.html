@@ -3,53 +3,38 @@
 > 
   <div class="rounded-t bg-white mb-0 px-6 py-6">    
     <div class="text-center flex justify-between">
-      <h6 class="text-gray-800 text-xl font-bold">Editar autor</h6>      
+      <h6 class="text-gray-800 text-xl font-bold">Editar editorial</h6>      
     </div>
   </div>
   <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
     <form>
       <h6 class="text-gray-500 text-sm mt-3 mb-6 font-bold uppercase"></h6>
       <div class="flex flex-wrap">
-        <div class="w-full lg:w-6/12 px-4">
+        <div class="w-full lg:w-12/12 px-4">
           <div class="relative w-full mb-3">
             <label
               class="block uppercase text-gray-700 text-xs font-bold mb-2"
               htmlFor="grid-password">
-              Nombres
+              Nombre de Editorial
             </label>                    
             <input
-              [(ngModel)]="Nombres"
-              name="Nombres"
+              [(ngModel)]="Nombre"
+              name="Nombre"
               type="text"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-              placeholder="Ingrese los nombres del autor"/>
-          </div>
-        </div>
-        <div class="w-full lg:w-6/12 px-4">
-          <div class="relative w-full mb-3">
-            <label
-              class="block uppercase text-gray-700 text-xs font-bold mb-2"
-              htmlFor="grid-password">
-              Apellidos
-            </label>                    
-            <input
-              [(ngModel)]="Apellidos"
-              name="Apellidos"
-              type="text"
-              class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-              placeholder="Ingrese los apellidos del autor"/>
+              placeholder="Ingrese una Editorial"/>
           </div>
         </div>
       </div>      
       <div class="flex flex-wrap">
         <div class="w-full lg:w-12/12 px-4">
           <button
-            (click)="editAutor()"
+            (click)="editEditorial()"
             class="bg-red-600 text-white active:bg-red-700 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
             type="button">Guardar</button>
           <button
               class="bg-white text-gray-800 active:bg-gray-100 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-              type="button" [routerLink]="['/admin/autor']">Cancelar</button>
+              type="button" [routerLink]="['/admin/editorial']">Cancelar</button>
         </div>
       </div>
     </form>

@@ -15,7 +15,6 @@ namespace Aplicacion.Editoriales
     {
         public class InsertarEditorial : IRequest
         {
-            //[Required(ErrorMessage = "Favor ingrese el nombre")]
             public string Nombre { get; set; }
         }
 

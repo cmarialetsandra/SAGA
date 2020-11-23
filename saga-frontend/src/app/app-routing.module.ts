@@ -26,6 +26,7 @@ import { EditarCategoriaComponent } from "./views/admin/editar-categoria/editar-
 import { EditarLibroComponent } from "./views/admin/editar-libro/editar-libro.component";
 import { EditarUsuarioComponent } from "./views/admin/editar-usuario/editar-usuario.component";
 import { EditarAutorComponent } from "./views/admin/editar-autor/editar-autor.component";
+import { EditarEditorialComponent } from "./views/admin/editar-editorial/editar-editorial.component";
 import { AgregarLibroComponent } from "./views/admin/agregar-libro/agregar-libro.component";
 import { AgregarEntradaAutorComponent } from './views/admin/agregar-entradaautor/agregar-entradaautor.component';
 import { AgregarEntradaUsuarioComponent } from './views/admin/agregar-entradausuario/agregar-entradausuario.component';
@@ -71,6 +72,7 @@ const routes: Routes = [
       { path: "editar-autor/:idAutor", component: EditarAutorComponent},
       { path: "editar-categoria/:idCategoria", component: EditarCategoriaComponent},
       { path: "editar-usuario/:idUsuario", component: EditarUsuarioComponent},
+      { path: "editar-editorial/:idEditorial", component: EditarEditorialComponent},
       { path: "entrada-categoria", component: AgregarEntradaCategoriaComponent },
       { path: "entrada-autor", component: AgregarEntradaAutorComponent },
       { path: "entrada-usuario", component: AgregarEntradaUsuarioComponent },

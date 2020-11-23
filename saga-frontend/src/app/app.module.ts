@@ -21,6 +21,7 @@ import { EditarLibroComponent } from "./views/admin/editar-libro/editar-libro.co
 import { EditarCategoriaComponent } from "./views/admin/editar-categoria/editar-categoria.component";
 import { EditarUsuarioComponent } from "./views/admin/editar-usuario/editar-usuario.component";
 import { EditarAutorComponent } from "./views/admin/editar-autor/editar-autor.component";
+import { EditarEditorialComponent } from "./views/admin/editar-editorial/editar-editorial.component";
 import { AgregarLibroComponent } from "./views/admin/agregar-libro/agregar-libro.component";
 import { DashboardComponent } from "./views/admin/dashboard/dashboard.component";
 import { MapsComponent } from "./views/admin/maps/maps.component";
@@ -64,6 +65,7 @@ import { CardAgregarEntradaEditorialComponent } from "./components/cards/card-ag
 import { CardEditarLibroComponent } from "./components/cards/card-editar-libro/card-editar-libro.component";
 import { CardEditarCategoriaComponent } from "./components/cards/card-editar-categoria/card-editar-categoria.component";
 import { CardEditarUsuarioComponent } from "./components/cards/card-editar-usuario/card-editar-usuario.component";
+import { CardEditarEditorialComponent } from "./components/cards/card-editar-editorial/card-editar-editorial.component";
 import { CardAgregarLibroComponent } from "./components/cards/card-agregar-libro/card-agregar-libro.component";
 import { CardAgregarEntradaLibroComponent } from "./components/cards/card-agregar-entradalibro/card-agregar-entradalibro.component";
 import { CardBarChartComponent } from "./components/cards/card-bar-chart/card-bar-chart.component";
@@ -140,6 +142,7 @@ import {HttpErrorInterceptor} from './http-error.interceptor';
     CardEditarAutorComponent,
     CardEditarCategoriaComponent,
     CardEditarUsuarioComponent,
+    CardEditarEditorialComponent,
     CardAgregarLibroComponent,
     CardPageVisitsComponent,
     CardPrestamosClienteComponent,
@@ -177,6 +180,7 @@ import {HttpErrorInterceptor} from './http-error.interceptor';
     EditarLibroComponent,
     EditarCategoriaComponent,
     EditarUsuarioComponent,
+    EditarEditorialComponent,
     AgregarLibroComponent,
     MapsComponent,
     SettingsComponent,

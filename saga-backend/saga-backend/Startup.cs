@@ -53,10 +53,13 @@ namespace saga_backend
             services.AddMediatR(typeof(ConsultaUsuario.Manejador).Assembly);
             services.AddMediatR(typeof(ConsultaVistaTotalLibros.Manejador).Assembly);
             services.AddMediatR(typeof(ConsultaVistaTotalEjemplar.Manejador).Assembly);
+            services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<NuevoAutor>());
             services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<NuevoEditorial>());
             services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<NuevaCategoria>());
             services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<NuevoUsuario>());
+            services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<NuevoLibro>());
             services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<NuevoEjemplar>());
+            services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<NuevoPrestamo>());
             services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<NuevoDetallePrestamo>());
         }
 

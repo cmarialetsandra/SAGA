@@ -1,4 +1,5 @@
 ﻿using Dominio;
+using FluentValidation;
 using MediatR;
 using Persistencia;
 using System;
@@ -21,6 +22,21 @@ namespace Aplicacion.Libros
             public int IdAutor { get; set; }
             public int IdEditorial { get; set; }
             public int IdCategoria { get; set; }
+        }
+
+        public class EjecutaValidacion : AbstractValidator<InsertarLibro>
+        {
+            public EjecutaValidacion()
+            {
+                RuleFor(x => x.Titulo).NotEmpty();
+                RuleFor(x => x.Descripcion).NotEmpty();
+                RuleFor(x => x.CantidadPaginas).NotEmpty();
+                RuleFor(x => x.ISBN).NotEmpty();
+                RuleFor(x => x.AnioPublicacion).NotEmpty();
+                RuleFor(x => x.IdAutor).NotEmpty();
+                RuleFor(x => x.IdEditorial).NotEmpty();
+                RuleFor(x => x.IdCategoria).NotEmpty();
+            }
         }
 
         public class Manejador : IRequestHandler<InsertarLibro>

@@ -41,6 +41,18 @@ export class SharedService {
   addEditorial(val: any){
     return this.http.post(this.APIUrl+"/Editoriales",val);
   }
+
+  updateEditorial(id: number,val: any){
+    return this.http.put(this.APIUrl+"/Editoriales/"+id,val);
+  }
+
+  deleteEditorial(id: number){
+    return this.http.delete(this.APIUrl+"/Editoriales/"+id);
+  }
+
+  getEditorialFiltrada(val:number):Observable<any[]>{
+    return this.http.get<any>(this.APIUrl + "/Editoriales/"+val);
+  }
   //Fin métodos EDITORIAL
 
   //Métodos de AUTOR
