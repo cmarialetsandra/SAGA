@@ -73,3 +73,12 @@ C:\Users\PERSONAL\Downloads\SAGA\saga-backend\Dominio\obj\Debug\netcoreapp3.1\Do
 C:\Users\PERSONAL\Downloads\SAGA\saga-backend\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\PERSONAL\Downloads\SAGA\saga-backend\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
 C:\Users\PERSONAL\Downloads\SAGA\saga-backend\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Dominio\obj\Debug\netcoreapp3.1\Dominio.csprojAssemblyReference.cache
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
