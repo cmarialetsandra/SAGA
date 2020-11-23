@@ -20,6 +20,7 @@ import { AgregarEntradaLibroComponent } from "./views/admin/agregar-entradalibro
 import { EditarLibroComponent } from "./views/admin/editar-libro/editar-libro.component";
 import { EditarCategoriaComponent } from "./views/admin/editar-categoria/editar-categoria.component";
 import { EditarUsuarioComponent } from "./views/admin/editar-usuario/editar-usuario.component";
+import { EditarAutorComponent } from "./views/admin/editar-autor/editar-autor.component";
 import { AgregarLibroComponent } from "./views/admin/agregar-libro/agregar-libro.component";
 import { DashboardComponent } from "./views/admin/dashboard/dashboard.component";
 import { MapsComponent } from "./views/admin/maps/maps.component";
@@ -51,7 +52,7 @@ import { LandingComponent } from "./views/landing/landing.component";
 import { ProfileComponent } from "./views/profile/profile.component";
 
 // components for views and layouts
-
+import { CardEditarAutorComponent } from "./components/cards/card-editar-autor/card-editar-autor.component";
 import { AdminNavbarComponent } from "./components/navbars/admin-navbar/admin-navbar.component";
 import { AuthNavbarComponent } from "./components/navbars/auth-navbar/auth-navbar.component";
 import { ClienteNavbarComponent } from "./components/navbars/cliente-navbar/cliente-navbar.component";
@@ -78,7 +79,7 @@ import { CardTablaAdminPrestamoComponent } from "./components/cards/card-tabla-a
 import { CardTablaAdminUsuarioComponent } from "./components/cards/card-tabla-admin-usuario/card-tabla-admin-usuario.component";
 import { CardTablaAdminCategoriaComponent } from "./components/cards/card-tabla-admin-categoria/card-tabla-admin-categoria.component";
 import { CardTablaAdminAutorComponent } from "./components/cards/card-tabla-admin-autor/card-tabla-admin-autor.component";
-import {CardPopupCliente} from "./components/cards/card-popup-cliente/card-popup-cliente.component";
+import { CardPopupCliente } from "./components/cards/card-popup-cliente/card-popup-cliente.component";
 import { CardTablaAdminEditorialComponent } from "./components/cards/card-tabla-admin-editorial/card-tabla-admin-editorial.component";
 import { CardTablaLibroComponent } from "./components/cards/card-tabla-admin-libro/card-tabla-admin-libro.component";
 import { CardTablaLibroClienteComponent } from "./components/cards/card-tabla-cliente-libro/card-tabla-cliente-libro.component";
@@ -136,6 +137,7 @@ import {HttpErrorInterceptor} from './http-error.interceptor';
     CardAgregarEntradaEditorialComponent,
     CardAgregarEntradaLibroComponent,
     CardEditarLibroComponent,
+    CardEditarAutorComponent,
     CardEditarCategoriaComponent,
     CardEditarUsuarioComponent,
     CardAgregarLibroComponent,
@@ -171,6 +173,7 @@ import {HttpErrorInterceptor} from './http-error.interceptor';
     AgregarEntradaEditorialComponent,
     AgregarEntradaLibroComponent,
     AgregarEntradaUsuarioComponent,
+    EditarAutorComponent,
     EditarLibroComponent,
     EditarCategoriaComponent,
     EditarUsuarioComponent,

@@ -1,8 +1,10 @@
 ﻿using Dominio;
+using FluentValidation;
 using MediatR;
 using Persistencia;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -23,7 +25,17 @@ namespace Aplicacion.Prestamos
         public class Manejador : IRequestHandler<InsertarPrestamo>
         {
             private readonly SagaContext _context;
-
+            public class EjecutaValidacion : AbstractValidator<InsertarPrestamo>
+            {
+                public EjecutaValidacion()
+                {
+                    RuleFor(x => x.IdUsuario).NotEmpty();
+                    RuleFor(x => x.FechaEmision).NotEmpty();
+                    RuleFor(x => x.FechaVencimiento).NotEmpty();
+                    RuleFor(x => x.FechaDevolucion).NotEmpty();
+                    RuleFor(x => x.Estado).NotEmpty();
+                }
+            }
             public Manejador(SagaContext context)
             {
                 _context = context;

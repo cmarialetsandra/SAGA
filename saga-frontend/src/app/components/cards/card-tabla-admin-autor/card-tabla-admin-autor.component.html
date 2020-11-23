@@ -4,7 +4,7 @@
 >
   <div class="rounded-t bg-white mb-0 px-6 py-6">
     <div class="text-center flex justify-between">
-      <h6 class="text-gray-800 text-xl font-bold">Gestionar Autor</h6>
+      <h1 class="text-gray-800 text-xl font-bold ">Gestionar Autor</h1>
       <button
         class="bg-red-600 text-white active:bg-red-700 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
         type="button" [routerLink]="['/admin/entrada-autor']">
@@ -57,8 +57,8 @@
             </span>
           </td>
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            <i class="fas fa-edit text-red-500 mr-4"></i>
-            <i class="fas fa-trash text-red-500 mr-4"></i>
+            <i class="fas fa-edit text-red-500 mr-4" [routerLink]="['/admin/editar-autor',dataItem.idAutor]"></i>
+            <i class="fas fa-trash text-red-500 mr-4" (click)="deleteAutor(dataItem.idAutor)"></i>
           </td>          
         </tr>      
       </tbody>

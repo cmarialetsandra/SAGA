@@ -10,6 +10,7 @@ export class SharedService {
 
   constructor(private http:HttpClient) {}
 
+    
   //Métodos de CATEGORIA
   getCategoriaList():Observable<any[]>{
     return this.http.get<any>(this.APIUrl + "/Categorias");
@@ -49,6 +50,18 @@ export class SharedService {
 
   addAutor(val: any){
     return this.http.post(this.APIUrl+"/Autores",val);
+  }
+
+  updateAutor(id: number,val: any){
+    return this.http.put(this.APIUrl+"/Autores/"+id,val);
+  }
+
+  deleteAutor(id: number){
+    return this.http.delete(this.APIUrl+"/Autores/"+id);
+  }
+
+  getAutorFiltrada(val:number):Observable<any[]>{
+    return this.http.get<any>(this.APIUrl + "/Autores/"+val);
   }
   //Fin métodos AUTOR
 

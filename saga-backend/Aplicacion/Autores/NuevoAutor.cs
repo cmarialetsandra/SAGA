@@ -1,8 +1,10 @@
 ﻿using Dominio;
+using FluentValidation;
 using MediatR;
 using Persistencia;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -20,6 +22,15 @@ namespace Aplicacion.Autores
         public class Manejador : IRequestHandler<InsertarAutor>
         {
             private readonly SagaContext _context;
+
+            public class EjecutaValidacion : AbstractValidator<InsertarAutor>
+            {
+                public EjecutaValidacion()
+                {
+                    RuleFor(x => x.Nombres).NotEmpty();
+                    RuleFor(x => x.Apellidos).NotEmpty();
+                }
+            }
 
             public Manejador(SagaContext context)
             {
