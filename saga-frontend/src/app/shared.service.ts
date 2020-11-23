@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 import { Observable } from "rxjs";
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
@@ -8,7 +9,7 @@ import { Observable } from "rxjs";
 export class SharedService {
   readonly APIUrl = "https://localhost:44301/api";
 
-  constructor(private http:HttpClient) {}
+  constructor(private http:HttpClient, private router:Router) {}
 
     
   //Métodos de CATEGORIA
@@ -96,11 +97,7 @@ export class SharedService {
 
   getUsuarioFiltrado(val:number):Observable<any[]>{
     return this.http.get<any>(this.APIUrl + "/Usuarios/"+val);
-  }
-
-  login(val: any):Observable<any[]>{
-    return this.http.post<any>(this.APIUrl+"/Usuarios/login",val);
-  }
+  }  
   //Fin métodos USUARIO
 
   //Métodos de LIBRO
@@ -146,4 +143,10 @@ export class SharedService {
     return this.http.get<any>(this.APIUrl + "/Stock");
   }
   //Fin métodos EJEMPLAR
+
+  //Métodos de SESIONES
+  login(val: any):Observable<any[]>{
+    return this.http.post<any>(this.APIUrl+"/Usuarios/login",val);
+  }
+  //Fin métodos SESIONES
 }

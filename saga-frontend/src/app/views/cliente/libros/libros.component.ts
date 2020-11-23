@@ -1,40 +1,26 @@
 import { Component, OnInit } from "@angular/core";
+import { Router } from '@angular/router';
 
 @Component({
   selector: "app-libro",
   templateUrl: "./libros.component.html",
 })
 export class LibrosComponent implements OnInit {
-  constructor() {}
+  tokenUser:string;
+  tokenRol:number;
 
-  ngOnInit(): void {}
+  constructor(private router:Router) {
+    this.tokenUser = localStorage.getItem('tokenUser');
+    this.tokenRol = parseInt(localStorage.getItem('tokenRol'), 10);
+  }
+
+  ngOnInit() {
+    this.autenticacion();
+  }
+
+  autenticacion(){
+    if(this.tokenRol != 2){
+      this.router.navigate(['/error404']);
+    }
+  }
 }
-
-/*import { Component, OnInit, ComponentFactoryResolver, ViewChild, Input } from '@angular/core';
-import {ColordinamicoDirective} from '../../../colordinamico.directive';
-import {CarritoComponent } from '../modulocarrito/modulocarrito.component';
-
-
-@Component({
-  selector: "app-libros",
-  templateUrl: "./libros.component.html"
-})
-
-export class LibrosComponent implements OnInit {
-  @ViewChild(ColordinamicoDirective, {static: true}) eldinamico: ColordinamicoDirective;
-  
-  constructor(private cfr: ComponentFactoryResolver) {}
-
-
-  ngOnInit(): void  {
-  }
-  
-  componenteDinamico(mensaje: string) {
-    sessionStorage.setItem('mensaje', mensaje );
-    let cf = this.cfr.resolveComponentFactory(CarritoComponent);
-    let vcr = this.eldinamico.viewContainerRef;
-    vcr.createComponent(cf, 0);
-  }
-}*/
-
-

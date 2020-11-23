@@ -41,6 +41,9 @@ import { CarritoComponent } from "./views/cliente/carrito/carrito.component";
 import { LibrosComponent } from "./views/cliente/libros/libros.component";
 import { PrestamosComponent } from "./views/cliente/prestamos/prestamos.component";
 
+//errores views
+import { Error404Component } from "./views/error404/error404.component";
+
 // no layouts views
 import { IndexComponent } from "./views/index/index.component";
 import { LandingComponent } from "./views/landing/landing.component";
@@ -91,21 +94,22 @@ const routes: Routes = [
       { path: "", redirectTo: "login", pathMatch: "full" },
     ],
   },
-    // cliente views
-    {
-      path: "cliente",
-      component: ClienteComponent,
-      children: [
-        { path: "libros", component: LibrosComponent },
-        { path: "carrito", component: CarritoComponent },
-        { path: "prestamos", component: PrestamosComponent },        
-        { path: "", redirectTo: "libros", pathMatch: "full" },
-      ],
-    },
+  // cliente views
+  {
+    path: "cliente",
+    component: ClienteComponent,
+    children: [
+      { path: "libros", component: LibrosComponent },
+      { path: "carrito", component: CarritoComponent },
+      { path: "prestamos", component: PrestamosComponent },        
+      { path: "", redirectTo: "libros", pathMatch: "full" },
+    ],
+  },
   // no layout views
   { path: "profile", component: ProfileComponent },
   { path: "landing", component: LandingComponent },
   { path: "", component: IndexComponent },
+  { path: "error404", component: Error404Component },
   { path: "**", redirectTo: "", pathMatch: "full" },
 ];
 

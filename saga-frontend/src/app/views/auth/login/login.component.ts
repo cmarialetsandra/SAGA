@@ -28,11 +28,15 @@ export class LoginComponent implements OnInit {
       this.Rol=parseInt(this.DataList.rol, 10);
 
       if(this.Rol==1){
-        this.router.navigate(['/admin/dashboard']);
+        localStorage.setItem('tokenUser',this.DataList.user);
+        localStorage.setItem('tokenRol',this.DataList.rol);
+        this.router.navigate(['/admin/usuario']);
       }
       else if(this.Rol==2){
+        localStorage.setItem('tokenUser',this.DataList.user);
+        localStorage.setItem('tokenRol',this.DataList.rol);
         this.router.navigate(['/cliente/libros']);
-      }      
+      }
     });
   }
 }

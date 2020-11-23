@@ -46,6 +46,8 @@ import { LibrosComponent } from "./views/cliente/libros/libros.component";
 import { PrestamosComponent } from "./views/cliente/prestamos/prestamos.component";
 import {PopupCliente} from "./views/cliente/pupupcliente/popupcliente.component";
 
+//errores views
+import { Error404Component } from "./views/error404/error404.component";
 
 // no layouts views
 import { IndexComponent } from "./views/index/index.component";
@@ -203,7 +205,8 @@ import {HttpErrorInterceptor} from './http-error.interceptor';
     ProfileComponent,
     CardPopupCliente,
     PopupCliente,
-    AlertaExitoComponent
+    AlertaExitoComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule, 
