@@ -120,6 +120,10 @@ export class SharedService {
   getLibroFiltrado(val:number):Observable<any[]>{
     return this.http.get<any>(this.APIUrl + "/Libros/"+val);
   }
+
+  getLibroIndividual(val:number):Observable<any[]>{
+    return this.http.get<any>(this.APIUrl + "/VistaLibros/"+val);
+  }
   //Fin métodos LIBRO
 
   //Métodos de EJEMPLAR

@@ -1,5 +1,5 @@
 <div class="text-center" style="padding:5px;">
-  <div style="width:616px; height:400px; margin:5px;">
+  <div style="width:616px; height:450px; margin:5px;">
     
       <button class="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none" (click)="close()">
         <span class="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
@@ -19,14 +19,23 @@
            <p class="text-xl" style="font-size:15px;"><b>ISBN:</b> {{isbn}}</p>
            <p class="text-xl" style="font-size:15px;"><b>Año de publicación:</b> {{anioPublicacion}}</p>
            <p class="text-xl" style="font-size:15px;"><b>Editorial:</b> {{nombre}}</p>
-           <br>
-          <button
-          class="bg-gray-900 text-white active:bg-gray-900 font-semibold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
+           <p class="text-xl" style="font-size:15px;"><b>Cantidad disponible:</b> {{Stock}}</p>
+           <br>        
+      </div> 
+      <div style="display: inline;">
+        <input type="number" [(ngModel)]="Cantidad" name="Cantidad" style="width: 60px; box-shadow: 0 0 5pt 2pt #D3D3D3;"
+          placeholder="0"
+          class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline ease-linear transition-all duration-150"
+          required>         
+        <button
+          (click)="agregarCarrito()"
+          style="margin-left: 5%;"
+          class="bg-gray-900 text-white active:bg-gray-900 font-semibold uppercase text-xs px-4 py-3 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
           type="button">
           <i class="fas fa-cart-plus"></i>
           Agregar al Carrito
-        </button>
-      </div> 
+        </button>  
+       </div>
   </div>
 </div>
  
