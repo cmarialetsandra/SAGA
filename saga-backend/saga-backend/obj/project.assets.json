@@ -9020,25 +9020,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Juan Teran\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\PERSONAL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Juan Teran\\Downloads\\SAGA\\saga-backend\\saga-backend\\saga-backend.csproj",
+      "projectUniqueName": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\saga-backend\\saga-backend.csproj",
       "projectName": "saga-backend",
-      "projectPath": "C:\\Users\\Juan Teran\\Downloads\\SAGA\\saga-backend\\saga-backend\\saga-backend.csproj",
-      "packagesPath": "C:\\Users\\Juan Teran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Juan Teran\\Downloads\\SAGA\\saga-backend\\saga-backend\\obj\\",
+      "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\saga-backend\\saga-backend.csproj",
+      "packagesPath": "C:\\Users\\PERSONAL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\saga-backend\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Juan Teran\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\PERSONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -9050,8 +9045,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Juan Teran\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "C:\\Users\\Juan Teran\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj"
+            "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj"
             }
           }
         }
