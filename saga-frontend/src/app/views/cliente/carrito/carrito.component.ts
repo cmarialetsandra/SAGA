@@ -62,19 +62,8 @@ export class CarritoComponent implements OnInit {
   }
 
   prestamorealizado(){
-    var valP = {
-      IdUsuario : 2,
-      FechaEmision : "2020-11-20",
-      FechaVencimiento : "2020-12-30",
-      Estado : false 
-    };
-    
-    console.log(valP);
-    this.service.addPrestamo(valP).subscribe(res=>{
-      this.Prestamolist = res;
-    });
 
-    /*swal.fire({
+    swal.fire({
       title: '¿Estás seguro de tu préstamo?',
       text: "Aún puedes agregar más libros a tu lista",
       icon: 'question',
@@ -85,21 +74,43 @@ export class CarritoComponent implements OnInit {
       confirmButtonText: 'Finalizar Préstamo',
     }).then((result) => {
       if (result.isConfirmed) {
-        
-        
+        var valP = {
+          IdUsuario : this.tokenId,
+          FechaEmision : this.fechaHoy,
+          FechaVencimiento : this.fechaVencimiento,
+          Estado : 0
+        };
+    
+        this.service.addPrestamo(valP).subscribe(res=>{
+          this.Prestamolist = res;
+          for(let i of this.DetalleList){
+            var valDP = {
+              Cantidad : i.cantidad,
+              IdPrestamo : this.Prestamolist.idPrestamo,
+              IdLibro : i.idLibro
+            }
+            this.service.addDetallePrestamo(valDP).subscribe(res=>{
+              this.DetalleList.splice(i,1);
+            });
+            
+          }
+          localStorage.removeItem('carrito');
+        });
+
         swal.fire(
           '¡Tu préstamo se ha realizado con éxito!',
           'SAGA',
           'success'
         )
       }
-    })*/
+    })
   }
 
   quitarLibro(id:number){
 
     swal.fire({
       title: '¿Estás seguro?',
+      text: "El libro se eliminará de tu carrito",
       icon: 'warning',
       showCancelButton: true,
       confirmButtonColor: '#f44e3c',

@@ -159,4 +159,10 @@ export class SharedService {
     return this.http.post<any>(this.APIUrl+"/Prestamos",val);
   }
   //Fin métodos PRÉSTAMOS
+
+  //Métodos de DETALLE PRÉSTAMO
+  addDetallePrestamo(val: any){
+    return this.http.post(this.APIUrl+"/DetallesPrestamos",val);
+  }
+  //Fin métodos DETALLE PRÉSTAMO
 }

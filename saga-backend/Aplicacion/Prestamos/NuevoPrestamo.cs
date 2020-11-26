@@ -19,7 +19,7 @@ namespace Aplicacion.Prestamos
             public DateTime FechaEmision { get; set; }
             public DateTime FechaVencimiento { get; set; }
             public DateTime FechaDevolucion { get; set; }
-            public bool Estado { get; set; }
+            public int Estado { get; set; }
         }
 
         public class EjecutaValidacion : AbstractValidator<InsertarPrestamo>
@@ -29,7 +29,7 @@ namespace Aplicacion.Prestamos
                 RuleFor(x => x.IdUsuario).NotEmpty();
                 RuleFor(x => x.FechaEmision).NotEmpty();
                 RuleFor(x => x.FechaVencimiento).NotEmpty();
-                RuleFor(x => x.Estado).NotEmpty();
+                //RuleFor(x => x.Estado).NotEmpty();
             }
         }
 
