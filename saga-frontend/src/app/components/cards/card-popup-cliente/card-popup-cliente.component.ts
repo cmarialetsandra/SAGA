@@ -90,7 +90,7 @@ export class CardPopupCliente implements OnInit {
   
         localStorage.setItem('carrito', "["+newstr2+","+JSON.stringify(val)+"]");
       }
-      
+      console.log("Carrito en popup:",localStorage.getItem('carrito'));
       this.close();
       this.prestamo();
     }

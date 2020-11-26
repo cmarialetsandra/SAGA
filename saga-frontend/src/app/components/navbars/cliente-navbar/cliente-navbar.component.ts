@@ -25,6 +25,7 @@ export class ClienteNavbarComponent implements OnInit {
   onLogout(){
     localStorage.removeItem('tokenUser');
     localStorage.removeItem('tokenRol');
+    localStorage.removeItem('tokenId');
     localStorage.clear();
     this.router.navigate(['/']);
   }

@@ -105,7 +105,7 @@
                       <td
                         class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-center"
                       >
-                        <i class="fas fa-trash text-red-500 mr-4"></i>
+                        <i class="fas fa-trash text-red-500 mr-4" (click)="quitarLibro(dataItem.idLibro)"></i>
                       </td>
                     </tr>
                   </tbody>
@@ -137,13 +137,13 @@
               </button> 
             </div>
 
-              <h4 class="font-semibold text-base text-gray-800" >Fecha de Emisión: <input type="date"></h4> 
-              <h4 class="font-semibold text-base text-gray-800">Fecha de Vencimiento: <input type="date"></h4>  
-              <h4 class="font-semibold text-base text-gray-800">Fecha de Evolución: <input type="date"></h4> 
-              
+              <h4 class="font-semibold text-base text-gray-800"> <b>Fecha de Emisión: </b><input disabled type="date" [(ngModel)]="fechaHoy" name="fechaHoy" ></h4> 
+              <h4 class="font-semibold text-base text-gray-800"> <b>Fecha de Vencimiento: </b><input disabled type="date" [(ngModel)]="fechaVencimiento" name="fechaVencimiento"></h4>
+              <p class="text-gray-500"><i>Debe devolver sus libros en 15 días a partir de la fecha de hoy</i></p>
             <div class="text-center mt-6">
               <button
-                class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150" type="button" (click)="prestamorealizado()">
+                class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150" type="button" 
+                (click)="prestamorealizado()">
                 Realizar Préstamo
               </button>
             </div>

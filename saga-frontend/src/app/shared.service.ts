@@ -153,4 +153,10 @@ export class SharedService {
     return this.http.post<any>(this.APIUrl+"/Usuarios/login",val);
   }
   //Fin métodos SESIONES
+
+  //Métodos de PRÉSTAMOS
+  addPrestamo(val: any):Observable<any[]>{
+    return this.http.post<any>(this.APIUrl+"/Prestamos",val);
+  }
+  //Fin métodos PRÉSTAMOS
 }

@@ -38,7 +38,8 @@ namespace saga_backend.Controllers
         [HttpPost]
         public async Task<ActionResult<Unit>> CrearPrestamo(NuevoPrestamo.InsertarPrestamo data)
         {
-            return await _mediator.Send(data);
+            var prestamo = await _mediator.Send(data);
+            return CreatedAtAction("FiltradoId", new { id = prestamo.IdPrestamo}, prestamo);
         }
 
         [HttpPut("{id}")]

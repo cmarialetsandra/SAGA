@@ -13,7 +13,7 @@ namespace Aplicacion.Prestamos
 {
     public class NuevoPrestamo
     {
-        public class InsertarPrestamo : IRequest
+        public class InsertarPrestamo : IRequest<Prestamo>
         {
             public int IdUsuario { get; set; }
             public DateTime FechaEmision { get; set; }
@@ -22,33 +22,33 @@ namespace Aplicacion.Prestamos
             public bool Estado { get; set; }
         }
 
-        public class Manejador : IRequestHandler<InsertarPrestamo>
+        public class EjecutaValidacion : AbstractValidator<InsertarPrestamo>
+        {
+            public EjecutaValidacion()
+            {
+                RuleFor(x => x.IdUsuario).NotEmpty();
+                RuleFor(x => x.FechaEmision).NotEmpty();
+                RuleFor(x => x.FechaVencimiento).NotEmpty();
+                RuleFor(x => x.Estado).NotEmpty();
+            }
+        }
+
+        public class Manejador : IRequestHandler<InsertarPrestamo,Prestamo>
         {
             private readonly SagaContext _context;
-            public class EjecutaValidacion : AbstractValidator<InsertarPrestamo>
-            {
-                public EjecutaValidacion()
-                {
-                    RuleFor(x => x.IdUsuario).NotEmpty();
-                    RuleFor(x => x.FechaEmision).NotEmpty();
-                    RuleFor(x => x.FechaVencimiento).NotEmpty();
-                    RuleFor(x => x.FechaDevolucion).NotEmpty();
-                    RuleFor(x => x.Estado).NotEmpty();
-                }
-            }
+            
             public Manejador(SagaContext context)
             {
                 _context = context;
             }
 
-            public async Task<Unit> Handle(InsertarPrestamo request, CancellationToken cancellationToken)
+            public async Task<Prestamo> Handle(InsertarPrestamo request, CancellationToken cancellationToken)
             {
                 var prestamo = new Prestamo
                 {
                     IdUsuario = request.IdUsuario,
                     FechaEmision = request.FechaEmision,
                     FechaVencimiento = request.FechaVencimiento,
-                    FechaDevolucion = request.FechaDevolucion,
                     Estado = request.Estado
                 };
 
@@ -58,7 +58,7 @@ namespace Aplicacion.Prestamos
 
                 if (valor > 0)
                 {
-                    return Unit.Value;
+                    return prestamo;
                 }
 
                 throw new Exception("No se pudo apregar el préstamo");
