@@ -34,6 +34,14 @@
               color === 'light'
                 ? 'bg-gray-100 text-gray-600 border-gray-200'
                 : 'bg-red-800 text-red-300 border-red-700'">
+            Nombre Completo
+          </th>
+          <th
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
+            [ngClass]="
+              color === 'light'
+                ? 'bg-gray-100 text-gray-600 border-gray-200'
+                : 'bg-red-800 text-red-300 border-red-700'">
             Fecha de emisión
           </th>
           <th
@@ -58,43 +66,41 @@
               color === 'light'
                 ? 'bg-gray-100 text-gray-600 border-gray-200'
                 : 'bg-red-800 text-red-300 border-red-700'">
-            Estado
-          </th>
-          <th
-            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
-            [ngClass]="
-              color === 'light'
-                ? 'bg-gray-100 text-gray-600 border-gray-200'
-                : 'bg-red-800 text-red-300 border-red-700'">
             Opciones
           </th>
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr *ngFor="let dataItem of PrestamosList">
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            1
+            {{dataItem.idPrestamo}}
           </td>
           <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left flex items-center">
             <span
               class="ml-3 font-bold"
               [ngClass]="color === 'light' ? 'text-gray-700' : 'text-white'">
-              Marialetsandra
+              {{dataItem.user}}
             </span>
           </th>
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            1/11/2020
+            {{dataItem.nombreCompleto}}
           </td>
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            7/11/2020
+            {{dataItem.fechaEmision | date: 'dd-MM-yyyy' }}
           </td>
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            7/11/2020
+            {{dataItem.fechaVencimiento | date: 'dd-MM-yyyy' }}
+          </td>
+          <td *ngIf="dataItem.fechaDevolucion == null" 
+          class="text-red-600 border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
+            <b>No entregado</b>
+          </td>
+          <td  *ngIf="dataItem.fechaDevolucion != null" 
+          class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
+            {{dataItem.fechaDevolucion | date: 'dd-MM-yyyy' }}
           </td>
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            No entregado
-          </td>
-          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
+            <i class="fas fa-eye text-red-500 mr-4" [routerLink]="['/admin/admin-detalle-prestamo',dataItem.idPrestamo]"></i>
             <i class="fas fa-edit text-red-500 mr-4" [routerLink]="['/admin/estado-entregado']"></i>
           </td>          
         </tr>      

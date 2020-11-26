@@ -52,6 +52,8 @@ namespace Persistencia
             modelBuilder.Entity<VwLibro>().HasKey(ci => ci.IdLibro);
             modelBuilder.Entity<VwTotalEjemplar>().HasKey(ci => ci.IdLibro);
             modelBuilder.Entity<VwEjemplar>().HasKey(ci => ci.IdLibro);
+            modelBuilder.Entity<VwDetallePrestamo>().HasKey(ci => ci.IdDetallePrestamo);
+            modelBuilder.Entity<VwPrestamo>().HasKey(ci => ci.IdPrestamo);
         }
 
         public DbSet<Autor> tblAutor { get; set; }
@@ -65,5 +67,7 @@ namespace Persistencia
         public DbSet<VwLibro> VwLibro { get; set; }
         public DbSet<VwTotalEjemplar> VwTotalEjemplar { get; set; }
         public DbSet<VwEjemplar> VwEjemplar { get; set; }
+        public DbSet<VwDetallePrestamo> VwDetallePrestamo { get; set; }
+        public DbSet<VwPrestamo> VwPrestamo { get; set; }
     }
 }

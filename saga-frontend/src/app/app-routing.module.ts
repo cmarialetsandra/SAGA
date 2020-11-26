@@ -8,6 +8,7 @@ import { ClienteComponent } from "./layouts/cliente/cliente.component";
 
 // admin views
 import { AdminPrestamoComponent } from "./views/admin/admin-prestamo/admin-prestamo.component";
+import { AdminDetallePrestamoComponent } from "./views/admin/admin-detalle-prestamo/admin-detalle-prestamo.component";
 import { AgregarEntradaLibroComponent } from "./views/admin/agregar-entradalibro/agregar-entradalibro.component";
 import { DashboardComponent } from "./views/admin/dashboard/dashboard.component";
 import { MapsComponent } from "./views/admin/maps/maps.component";
@@ -40,6 +41,7 @@ import { RegisterComponent } from "./views/auth/register/register.component";
 import { CarritoComponent } from "./views/cliente/carrito/carrito.component";
 import { LibrosComponent } from "./views/cliente/libros/libros.component";
 import { PrestamosComponent } from "./views/cliente/prestamos/prestamos.component";
+import { DetallePrestamosComponent } from './views/cliente/detalle-prestamos/detalle-prestamos.component';
 
 //errores views
 import { Error404Component } from "./views/error404/error404.component";
@@ -57,6 +59,7 @@ const routes: Routes = [
     component: AdminComponent,
     children: [
       { path: "admin-prestamo", component: AdminPrestamoComponent },
+      { path: "admin-detalle-prestamo/:idPrestamo", component: AdminDetallePrestamoComponent },
       { path: "agregar-entradalibro/:idLibro", component: AgregarEntradaLibroComponent },
       { path: "dashboard", component: DashboardComponent },
       { path: "settings", component: SettingsComponent },
@@ -101,7 +104,8 @@ const routes: Routes = [
     children: [
       { path: "libros", component: LibrosComponent },
       { path: "carrito", component: CarritoComponent },
-      { path: "prestamos", component: PrestamosComponent },        
+      { path: "prestamos", component: PrestamosComponent },    
+      { path: "detalle-prestamos/:idPrestamo", component: DetallePrestamosComponent },    
       { path: "", redirectTo: "libros", pathMatch: "full" },
     ],
   },

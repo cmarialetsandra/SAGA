@@ -158,11 +158,23 @@ export class SharedService {
   addPrestamo(val: any):Observable<any[]>{
     return this.http.post<any>(this.APIUrl+"/Prestamos",val);
   }
+
+  getPrestamosAdmin():Observable<any[]>{
+    return this.http.get<any>(this.APIUrl + "/VistaPrestamos");
+  }
+
+  getPrestamosClientes(val:number):Observable<any[]>{
+    return this.http.get<any>(this.APIUrl + "/PrestamosClientes/"+val);
+  }
   //Fin métodos PRÉSTAMOS
 
   //Métodos de DETALLE PRÉSTAMO
   addDetallePrestamo(val: any){
     return this.http.post(this.APIUrl+"/DetallesPrestamos",val);
+  }
+
+  getDetallePrestamos(val:number):Observable<any[]>{
+    return this.http.get<any>(this.APIUrl + "/VistaDetallesPrestamos/"+val);
   }
   //Fin métodos DETALLE PRÉSTAMO
 }

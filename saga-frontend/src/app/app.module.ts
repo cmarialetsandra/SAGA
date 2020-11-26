@@ -13,6 +13,7 @@ import { ClienteComponent } from "./layouts/cliente/cliente.component";
 
 // admin views
 import { AdminPrestamoComponent } from "./views/admin/admin-prestamo/admin-prestamo.component";
+import { AdminDetallePrestamoComponent } from "./views/admin/admin-detalle-prestamo/admin-detalle-prestamo.component";
 import { AgregarEntradaCategoriaComponent } from "./views/admin/agregar-entradacategoria/agregar-entradacategoria.component";
 import { AgregarEntradaAutorComponent } from "./views/admin/agregar-entradaautor/agregar-entradaautor.component";
 import { AgregarEntradaEditorialComponent } from "./views/admin/agregar-entradaeditorial/agregar-entradaeditorial.component";
@@ -44,6 +45,7 @@ import { RegisterComponent } from "./views/auth/register/register.component";
 import { CarritoComponent } from "./views/cliente/carrito/carrito.component";
 import { LibrosComponent } from "./views/cliente/libros/libros.component";
 import { PrestamosComponent } from "./views/cliente/prestamos/prestamos.component";
+import { DetallePrestamosComponent } from "./views/cliente/detalle-prestamos/detalle-prestamos.component";
 import {PopupCliente} from "./views/cliente/pupupcliente/popupcliente.component";
 
 //errores views
@@ -75,11 +77,13 @@ import { CardEstadoEntregadoComponent } from "./components/cards/card-estado-ent
 import { CardLineChartComponent } from "./components/cards/card-line-chart/card-line-chart.component";
 import { CardPageVisitsComponent } from "./components/cards/card-page-visits/card-page-visits.component";
 import { CardPrestamosClienteComponent } from "./components/cards/card-prestamos-cliente/card-prestamos-cliente.component";
+import { CardDetallePrestamosClienteComponent } from "./components/cards/card-detalle-prestamos-cliente/card-detalle-prestamos-cliente.component";
 import { CardProfileComponent } from "./components/cards/card-profile/card-profile.component";
 import { CardSettingsComponent } from "./components/cards/card-settings/card-settings.component";
 import { CardSocialTrafficComponent } from "./components/cards/card-social-traffic/card-social-traffic.component";
 import { CardStatsComponent } from "./components/cards/card-stats/card-stats.component";
 import { CardTablaAdminPrestamoComponent } from "./components/cards/card-tabla-admin-prestamo/card-tabla-admin-prestamo.component";
+import { CardTablaAdminDetallePrestamoComponent } from "./components/cards/card-tabla-admin-detalle-prestamo/card-tabla-admin-detalle-prestamo.component";
 import { CardTablaAdminUsuarioComponent } from "./components/cards/card-tabla-admin-usuario/card-tabla-admin-usuario.component";
 import { CardTablaAdminCategoriaComponent } from "./components/cards/card-tabla-admin-categoria/card-tabla-admin-categoria.component";
 import { CardTablaAdminAutorComponent } from "./components/cards/card-tabla-admin-autor/card-tabla-admin-autor.component";
@@ -133,6 +137,8 @@ import {HttpErrorInterceptor} from './http-error.interceptor';
     SidebarComponent,
     FooterComponent,
     FooterSmallComponent,
+    CardTablaAdminDetallePrestamoComponent,
+    AdminDetallePrestamoComponent,
     FooterAdminComponent,
     FooterClienteComponent,
     CardAgregarEntradaAutorComponent,
@@ -206,7 +212,9 @@ import {HttpErrorInterceptor} from './http-error.interceptor';
     CardPopupCliente,
     PopupCliente,
     AlertaExitoComponent,
-    Error404Component
+    Error404Component,
+    DetallePrestamosComponent,
+    CardDetallePrestamosClienteComponent
   ],
   imports: [
     BrowserModule, 

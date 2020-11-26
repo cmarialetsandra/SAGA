@@ -15,6 +15,7 @@ export class CarritoComponent implements OnInit {
   CarritoList:any=[];
   DetalleList:any=[];
   Prestamolist:any=[];
+  StockList:any=[];
   fechaHoy:string;
   fechaVencimiento:string;
 
@@ -22,7 +23,8 @@ export class CarritoComponent implements OnInit {
     this.tokenUser = localStorage.getItem('tokenUser');
     this.tokenRol = parseInt(localStorage.getItem('tokenRol'), 10);
     this.tokenId = parseInt(localStorage.getItem('tokenId'), 10);
-    this.fechaHoy = (new Date()).toISOString().substring(0,10);
+    var tzoffset = (new Date()).getTimezoneOffset() * 60000;
+    this.fechaHoy = (new Date(Date.now() - tzoffset)).toISOString().substring(0,10);
 
     var fecha = new Date(this.fechaHoy);
     var dias = 15; // Número de días a agregar
@@ -88,11 +90,22 @@ export class CarritoComponent implements OnInit {
               Cantidad : i.cantidad,
               IdPrestamo : this.Prestamolist.idPrestamo,
               IdLibro : i.idLibro
-            }
+            }  
+            this.service.getStock(i.idLibro).subscribe(res=>{
+              this.StockList = res;
+              var nuevoStock = this.StockList.stock - i.cantidad;
+              var valE = {
+                IdLibro : i.idLibro,
+                Entrada : 0,
+                Salida : i.cantidad,
+                Stock : nuevoStock
+              }
+              console.log("valE",valE);
+              this.service.addEntradaEjemplar(valE).subscribe(res=>{});
+            });  
             this.service.addDetallePrestamo(valDP).subscribe(res=>{
               this.DetalleList.splice(i,1);
-            });
-            
+            });        
           }
           localStorage.removeItem('carrito');
         });
