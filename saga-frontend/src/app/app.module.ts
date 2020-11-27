@@ -46,7 +46,8 @@ import { CarritoComponent } from "./views/cliente/carrito/carrito.component";
 import { LibrosComponent } from "./views/cliente/libros/libros.component";
 import { PrestamosComponent } from "./views/cliente/prestamos/prestamos.component";
 import { DetallePrestamosComponent } from "./views/cliente/detalle-prestamos/detalle-prestamos.component";
-import {PopupCliente} from "./views/cliente/pupupcliente/popupcliente.component";
+import { PopupCliente } from "./views/cliente/pupupcliente/popupcliente.component";
+import { ClienteIndexComponent } from "./views/cliente/cliente-index/cliente-index.component";
 
 //errores views
 import { Error404Component } from "./views/error404/error404.component";
@@ -107,6 +108,7 @@ import { PagesDropdownComponent } from "./components/dropdowns/pages-dropdown/pa
 import { NotificationDropdownComponent } from "./components/dropdowns/notification-dropdown/notification-dropdown.component";
 import { SidebarComponent } from "./components/sidebar/sidebar.component";
 import { UserDropdownComponent } from "./components/dropdowns/user-dropdown/user-dropdown.component";
+import { CardLandingComponent } from "./components/cards/card-landing/card-landing.component";
 
 //Alertas
 import { AlertaExitoComponent } from "./components/alertas/alerta-exito/alerta-exito.component"
@@ -206,6 +208,7 @@ import {HttpErrorInterceptor} from './http-error.interceptor';
     CarritoComponent,
     LibrosComponent,
     PrestamosComponent,
+    ClienteIndexComponent,
     IndexComponent,
     LandingComponent,
     ProfileComponent,
@@ -214,7 +217,8 @@ import {HttpErrorInterceptor} from './http-error.interceptor';
     AlertaExitoComponent,
     Error404Component,
     DetallePrestamosComponent,
-    CardDetallePrestamosClienteComponent
+    CardDetallePrestamosClienteComponent,
+    CardLandingComponent
   ],
   imports: [
     BrowserModule, 
