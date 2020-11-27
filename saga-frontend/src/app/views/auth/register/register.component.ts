@@ -77,7 +77,7 @@ export class RegisterComponent  implements OnInit {
       })
       /*Fin Mensaje de éxito al guardar*/
 
-      this.router.navigate(['/cliente/libros']);
+      this.router.navigate(['/']);
     }); 
   }
 }

@@ -15,6 +15,8 @@ export class CardEstadoEntregadoComponent implements OnInit {
   Estado:number;
   fechaHoy:string;
   tzoffset:number;
+  DetallePrestamoList:any=[];
+  EjemplarList:any=[];
 
   constructor(private service: SharedService, private route: ActivatedRoute, private router:Router) {
     this.IdFiltrado = parseInt(this.route.snapshot.paramMap.get('idPrestamo'),10);
@@ -22,7 +24,15 @@ export class CardEstadoEntregadoComponent implements OnInit {
     this.tzoffset = (new Date()).getTimezoneOffset() * 60000;
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.refreshDetallePrestamo();
+  }
+
+  refreshDetallePrestamo(){
+    this.service.getDetallePrestamos(this.IdFiltrado).subscribe(res=>{
+      this.DetallePrestamoList = res;
+    });
+  }
 
   mensaje(){
     const Toast = swal.mixin({
@@ -61,7 +71,35 @@ export class CardEstadoEntregadoComponent implements OnInit {
       Estado : this.Estado
     };
     this.service.updatePrestamos(this.IdFiltrado,val).subscribe(res=>{
-      this.mensaje();
+      for(let i of this.DetallePrestamoList){
+        
+        this.service.getStock(i.idLibro).subscribe(res =>{
+          this.EjemplarList = res;
+          
+          if(this.Estado == 2){ 
+            var suma = this.EjemplarList.stock + i.cantidad;
+            var valE = {      
+              IdLibro:i.idLibro,
+              Stock:suma,
+              Entrada:i.cantidad,
+              Salida: 0
+            };   
+            
+            this.service.addEntradaEjemplar(valE).subscribe(res=>{ });
+          }else if(this.Estado == 1){ 
+            var resta = this.EjemplarList.stock - i.cantidad;
+            var valS = {      
+              IdLibro:i.idLibro,
+              Stock:resta,
+              Entrada: 0,
+              Salida: i.cantidad
+            };    
+            
+            this.service.addEntradaEjemplar(valS).subscribe(res=>{ });
+          }
+        });
+      }
+      this.mensaje();  
     });
   }
 }
