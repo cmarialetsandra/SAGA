@@ -65,7 +65,7 @@ const routes: Routes = [
       { path: "settings", component: SettingsComponent },
       { path: "tables", component: TablesComponent },
       { path: "maps", component: MapsComponent },
-      { path: "estado-entregado", component: EstadoEntregadoComponent },
+      { path: "estado-entregado/:idPrestamo/:estado", component: EstadoEntregadoComponent },
       { path: "inventario", component: InventarioComponent },
       { path: "inventario-detalle/:idLibro", component: InventarioDetalleComponent },
       { path: "categoria", component: CategoriaComponent },

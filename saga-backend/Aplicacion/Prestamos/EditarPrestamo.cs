@@ -16,10 +16,7 @@ namespace Aplicacion.Prestamos
         public class Ejecuta : IRequest
         {
             public int IdPrestamo { get; set; }
-            public int IdUsuario { get; set; }
-            public DateTime FechaEmision { get; set; }
-            public DateTime FechaVencimiento { get; set; }
-            public DateTime FechaDevolucion { get; set; }
+            public DateTime? FechaDevolucion { get; set; }
             public int Estado { get; set; }
         }
 
@@ -41,10 +38,19 @@ namespace Aplicacion.Prestamos
                     throw new ManejadorException(HttpStatusCode.NotFound, new { prestamo = "No se encontró el préstamo" });
                 }
 
-                prestamo.IdUsuario = request.IdUsuario != 0 ? request.IdUsuario : prestamo.IdUsuario;
-                prestamo.FechaEmision = request.FechaEmision;
-                prestamo.FechaVencimiento = request.FechaVencimiento;
+                //prestamo.FechaDevolucion = request.FechaDevolucion == null ? null : prestamo.FechaDevolucion;
+
                 prestamo.FechaDevolucion = request.FechaDevolucion;
+
+                /*if (request.FechaDevolucion == null)
+                {
+                    prestamo.FechaDevolucion = null;
+                }
+                else
+                {
+                    prestamo.FechaDevolucion = request.FechaDevolucion;
+                }*/
+
                 prestamo.Estado = request.Estado != 0 ? request.Estado : prestamo.Estado;
 
                 var resultado = await _context.SaveChangesAsync();

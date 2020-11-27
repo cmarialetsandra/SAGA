@@ -166,6 +166,10 @@ export class SharedService {
   getPrestamosClientes(val:number):Observable<any[]>{
     return this.http.get<any>(this.APIUrl + "/PrestamosClientes/"+val);
   }
+
+  updatePrestamos(id: number,val: any){
+    return this.http.put(this.APIUrl+"/Prestamos/"+id,val);
+  }
   //Fin métodos PRÉSTAMOS
 
   //Métodos de DETALLE PRÉSTAMO

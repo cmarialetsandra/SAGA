@@ -80,7 +80,7 @@ export class CarritoComponent implements OnInit {
           IdUsuario : this.tokenId,
           FechaEmision : this.fechaHoy,
           FechaVencimiento : this.fechaVencimiento,
-          Estado : 0
+          Estado : 1
         };
     
         this.service.addPrestamo(valP).subscribe(res=>{

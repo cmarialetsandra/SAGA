@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from "@angular/core";
 import { SharedService } from "src/app/shared.service";
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: "app-card-tabla-admin-detalle-prestamo",
@@ -18,7 +19,7 @@ export class CardTablaAdminDetallePrestamoComponent implements OnInit {
   IdFiltrado:number;
   DetallesPrestamosList:any=[];
 
-  constructor(private service: SharedService) {
+  constructor(private service: SharedService, private route: ActivatedRoute) {
     this.IdFiltrado = parseInt(this.route.snapshot.paramMap.get('idPrestamo'),10);
   }
 
