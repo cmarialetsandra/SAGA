@@ -53,5 +53,11 @@ namespace saga_backend.Controllers
         {
             return await _mediator.Send(new EliminarLibro.Ejecuta { IdLibro = id });
         }
+
+        [HttpPost("validarLibro")]
+        public async Task<ActionResult<Libro>> ExisteLibro(ExisteLibro.ExisteLibroValidacion data)
+        {
+            return await _mediator.Send(data);
+        }
     }
 }

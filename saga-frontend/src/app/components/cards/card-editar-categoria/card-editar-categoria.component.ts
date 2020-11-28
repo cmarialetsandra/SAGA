@@ -15,6 +15,7 @@ export class CardEditarCategoriaComponent implements OnInit {
   @Input() cat: any;
   NombreCategoria:string;
   IdCategoria:number;
+  DataList: any = [];
 
   CategoriaList:any=[];
 
@@ -34,6 +35,9 @@ export class CardEditarCategoriaComponent implements OnInit {
       NombreCategoria:this.NombreCategoria
     };
     
+    this.service.ExisteCategoria(val).subscribe(res => {
+      this.DataList = res;
+
     this.service.updateCategoria(this.IdCategoria,val).subscribe(res=>{
       /*Mensaje de éxito al guardar*/
       const Toast = swal.mixin({
@@ -56,5 +60,6 @@ export class CardEditarCategoriaComponent implements OnInit {
 
       this.router.navigate(['/admin/categoria']);
     });
+  });
   }
 }

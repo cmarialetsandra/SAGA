@@ -21,6 +21,7 @@ export class RegisterComponent  implements OnInit {
   Nombres:string;
   Apellidos:string;
   Rol:number = 2;
+  DataList: any = [];
 
   ngOnInit(): void {
     this.initForm();
@@ -47,7 +48,8 @@ export class RegisterComponent  implements OnInit {
 
 
   //Método para guardar el usuario
-  addUsuario(){
+
+  Registrar(){
     var val = {
       User:this.User,
       Contrasenia:this.Contrasenia,
@@ -56,28 +58,34 @@ export class RegisterComponent  implements OnInit {
       Rol:this.Rol
     };
 
-    this.service.addUsuario(val).subscribe(res=>{
-     
-      /*Mensaje de éxito al guardar*/
-      const Toast = swal.mixin({
-        toast: true,
-        position: 'top-end',
-        showConfirmButton: false,
-        timer: 2000,
-        timerProgressBar: true,
-        didOpen: (toast) => {
-          toast.addEventListener('mouseenter', swal.stopTimer)
-          toast.addEventListener('mouseleave', swal.resumeTimer)
-        }
-      })
-      
-      Toast.fire({
-        icon: 'success',
-        title: 'Registro guardado con éxito'
-      })
-      /*Fin Mensaje de éxito al guardar*/
+    this.service.ExisteUsuario(val).subscribe(res => {
+      this.DataList = res;
 
-      this.router.navigate(['/cliente/libros']);
-    }); 
+      this.service.addUsuario(val).subscribe(res=>{
+     
+        /*Mensaje de éxito al guardar*/
+        const Toast = swal.mixin({
+          toast: true,
+          position: 'top-end',
+          showConfirmButton: false,
+          timer: 2000,
+          timerProgressBar: true,
+          didOpen: (toast) => {
+            toast.addEventListener('mouseenter', swal.stopTimer)
+            toast.addEventListener('mouseleave', swal.resumeTimer)
+          }
+        })
+        
+        Toast.fire({
+          icon: 'success',
+          title: 'Registro guardado con éxito'
+        })
+        /*Fin Mensaje de éxito al guardar*/
+  
+        this.router.navigate(['/auth/login']);
+      }); 
+    
+    });
+
   }
 }

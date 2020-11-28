@@ -1,30 +1,32 @@
 import { Component, OnInit, Input } from "@angular/core";
 import { SharedService } from "src/app/shared.service";
 import { Router } from '@angular/router';
-import swal from'sweetalert2';
+import swal from 'sweetalert2';
 
 @Component({
   selector: "app-card-agregar-entradaeditorial",
   templateUrl: "./card-agregar-entradaeditorial.component.html",
 })
 export class CardAgregarEntradaEditorialComponent implements OnInit {
-  constructor(private service:SharedService, private router:Router) {}
-  titularAlerta:string='';
+  constructor(private service: SharedService, private router: Router) { }
+  titularAlerta: string = '';
 
   @Input() cat: any;
-  Nombre:string;
+  DataList: any = [];
+  Nombre: string;
 
   ngOnInit(): void {
   }
 
-  addEditorial(){
-    this.titularAlerta='Guardado';
+  ambosmetodos() {
     var val = {
-      Nombre:this.Nombre
+      Nombre: this.Nombre
     };
-    
-    this.service.addEditorial(val).subscribe(res=>{
-        /*Mensaje de éxito al guardar*/
+    this.service.ExisteEditorial(val).subscribe(res => {
+      this.DataList = res;
+
+      this.service.addEditorial(val).subscribe(res => {
+
         const Toast = swal.mixin({
           toast: true,
           position: 'top-end',
@@ -36,13 +38,14 @@ export class CardAgregarEntradaEditorialComponent implements OnInit {
             toast.addEventListener('mouseleave', swal.resumeTimer)
           }
         })
-        
+
         Toast.fire({
           icon: 'success',
           title: 'Registro guardado con éxito'
         })
-        /*Fin Mensaje de éxito al guardar*/
-      this.router.navigate(['/admin/editorial']);
+
+        this.router.navigate(['/admin/editorial']);
+      });
     });
   }
 }

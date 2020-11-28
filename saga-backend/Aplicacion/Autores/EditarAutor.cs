@@ -1,9 +1,7 @@
 ﻿using Aplicacion.ManejadorError;
 using MediatR;
-using Microsoft.EntityFrameworkCore;
 using Persistencia;
 using System;
-using System.Collections.Generic;
 using System.Net;
 using System.Text;
 using System.Threading;

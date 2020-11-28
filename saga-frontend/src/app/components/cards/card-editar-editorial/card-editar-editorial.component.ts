@@ -1,40 +1,43 @@
 import { Component, OnInit, Input } from "@angular/core";
 import { SharedService } from "src/app/shared.service";
 import { ActivatedRoute, Router } from '@angular/router';
-import swal from'sweetalert2';
+import swal from 'sweetalert2';
 
 @Component({
   selector: "app-card-editar-editorial",
   templateUrl: "./card-editar-editorial.component.html",
 })
 export class CardEditarEditorialComponent implements OnInit {
-  constructor(private service:SharedService, private router:Router, private route:ActivatedRoute) {
+  constructor(private service: SharedService, private router: Router, private route: ActivatedRoute) {
     this.IdEditorial = parseInt(this.route.snapshot.paramMap.get('idEditorial'), 10);
   }
 
   @Input() edit: any;
-  IdEditorial:number;
-  Nombre:string;
+  IdEditorial: number;
+  Nombre: string;
+  DataList: any = [];
 
-  EditorialList:any=[];
+  EditorialList: any = [];
 
   ngOnInit(): void {
     this.refreshEditorialList();
   }
 
-  refreshEditorialList(){
+  refreshEditorialList() {
     this.service.getEditorialFiltrada(this.IdEditorial).subscribe(data => {
       this.EditorialList = data;
-      this.Nombre=this.EditorialList.nombre;
+      this.Nombre = this.EditorialList.nombre;
     });
   }
 
-  editEditorial(){
+  editAutor() {
     var val = {
-      Nombre:this.Nombre
+      Nombre: this.Nombre
     };
-    
-    this.service.updateEditorial(this.IdEditorial,val).subscribe(res=>{
+    this.service.ExisteEditorial(val).subscribe(res => {
+      this.DataList = res;
+
+      this.service.updateEditorial(this.IdEditorial, val).subscribe(res => {
         /*Mensaje de éxito al guardar*/
         const Toast = swal.mixin({
           toast: true,
@@ -47,13 +50,15 @@ export class CardEditarEditorialComponent implements OnInit {
             toast.addEventListener('mouseleave', swal.resumeTimer)
           }
         })
-        
+
         Toast.fire({
           icon: 'success',
           title: 'Registro editado con éxito'
         })
         /*Fin Mensaje de éxito al guardar*/
-      this.router.navigate(['/admin/editorial']);
+        this.router.navigate(['/admin/editorial']);
+      });
     });
   }
+
 }

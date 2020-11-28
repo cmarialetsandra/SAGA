@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using static Aplicacion.Categorias.NuevaCategoria;
 using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 
 namespace saga_backend.Controllers
@@ -52,6 +53,12 @@ namespace saga_backend.Controllers
         public async Task<ActionResult<Unit>> Eliminar(int id)
         {
             return await _mediator.Send(new EliminarCategoria.Ejecuta { IdCategoria = id });
+        }
+
+        [HttpPost("validarCategoria")]
+        public async Task<ActionResult<Categoria>> ExisteCategoria(ExisteCategoria.ExisteCategoriaValidacion data)
+        {
+            return await _mediator.Send(data);
         }
     }
 }

@@ -5,4 +5,5 @@ export const ValidarQueSeanIguales: ValidatorFn = (control: FormGroup): Validati
   const confirmarPassword = control.get('ConfirmarContrasenia');
 
   return password.value === confirmarPassword.value ? null : { 'noSonIguales': true };
+  
 };

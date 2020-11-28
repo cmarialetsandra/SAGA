@@ -23,6 +23,8 @@ export class CardEditarUsuarioComponent implements OnInit {
   Rol:number;
   rolSeleccionado:string;
   IdUsuario:number;
+  DataList: any = [];
+  
   UsuarioList:any=[];
 
   ngOnInit(): void {
@@ -52,6 +54,9 @@ export class CardEditarUsuarioComponent implements OnInit {
       Apellidos:this.Apellidos,
       Rol:this.Rol
     };
+
+    this.service.ExisteUsuario(val).subscribe(res => {
+      this.DataList = res;
     
     this.service.updateUsuario(this.IdUsuario,val).subscribe(res=>{
       /*Mensaje de éxito al guardar*/
@@ -75,5 +80,6 @@ export class CardEditarUsuarioComponent implements OnInit {
 
       this.router.navigate(['/admin/usuario']);
     });
+  });
   }
 }

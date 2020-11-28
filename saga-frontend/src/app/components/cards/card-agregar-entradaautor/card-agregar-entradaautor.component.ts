@@ -13,15 +13,19 @@ export class CardAgregarEntradaAutorComponent implements OnInit {
   @Input() cat: any;
   Nombres:string;
   Apellidos:string;
+  DataList:any=[];
 
   ngOnInit(): void {
   }
 
-  addAutor(){
+  ambosmetodos(){
     var val = {
       Nombres:this.Nombres,
       Apellidos:this.Apellidos
     };
+    
+    this.service.ExisteAutor(val).subscribe(res=>{
+    this.DataList=res;   
     
     this.service.addAutor(val).subscribe(res=>{
         /*Mensaje de éxito al guardar*/
@@ -45,5 +49,6 @@ export class CardAgregarEntradaAutorComponent implements OnInit {
 
       this.router.navigate(['/admin/autor']);
     });
+    });   
   }
 }

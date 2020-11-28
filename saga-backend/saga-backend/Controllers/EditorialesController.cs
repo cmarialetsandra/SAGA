@@ -53,5 +53,11 @@ namespace saga_backend.Controllers
         {
             return await _mediator.Send(new EliminarEditorial.Ejecuta { IdEditorial = id });
         }
+
+        [HttpPost("validarEditorial")]
+        public async Task<ActionResult<Editorial>> ExisteEditorial(ExisteEditorial.ExisteEditorialValidacion data)
+        {
+            return await _mediator.Send(data);
+        }
     }
 }

@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {}
+    "C:\\Users\\Juan Teran\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\Juan Teran\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Juan Teran\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\PERSONAL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\obj\\",
+        "projectPath": "C:\\Users\\Juan Teran\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\Juan Teran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Juan Teran\\Downloads\\SAGA\\saga-backend\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PERSONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Juan Teran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

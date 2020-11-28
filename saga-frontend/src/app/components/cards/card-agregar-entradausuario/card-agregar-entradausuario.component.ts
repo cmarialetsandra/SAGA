@@ -21,6 +21,7 @@ export class CardAgregarEntradaUsuarioComponent implements OnInit {
   Apellidos:string;
   Rol:number;
   rolSeleccionado:string;
+  DataList: any = [];
 
   ngOnInit(): void {
     this.initForm();
@@ -47,7 +48,7 @@ export class CardAgregarEntradaUsuarioComponent implements OnInit {
     this.Rol = parseInt(this.rolSeleccionado, 10);
   }
 
-  addUsuario(){
+  ambosmetodos(){
     var val = {
       User:this.User,
       Contrasenia:this.Contrasenia,
@@ -55,6 +56,10 @@ export class CardAgregarEntradaUsuarioComponent implements OnInit {
       Apellidos:this.Apellidos,
       Rol:this.Rol
     };
+
+    this.service.ExisteUsuario(val).subscribe(res => {
+      this.DataList = res;
+
     
     this.service.addUsuario(val).subscribe(res=>{
       /*Mensaje de éxito al guardar*/
@@ -77,6 +82,7 @@ export class CardAgregarEntradaUsuarioComponent implements OnInit {
       /*Fin Mensaje de éxito al guardar*/
 
       this.router.navigate(['/admin/usuario']);
+    });
     });
   }
 }

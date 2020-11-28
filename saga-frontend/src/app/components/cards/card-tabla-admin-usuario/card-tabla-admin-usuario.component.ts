@@ -20,7 +20,8 @@ export class CardTablaAdminUsuarioComponent implements OnInit {
     constructor(private service: SharedService) {}
 
     UsuarioList:any=[];
-  
+    p: number = 1;
+
     ngOnInit(): void {
       this.refreshUsuarioList();
     }

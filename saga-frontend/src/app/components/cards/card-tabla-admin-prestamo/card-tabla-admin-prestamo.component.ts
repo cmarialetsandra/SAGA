@@ -15,6 +15,8 @@ export class CardTablaAdminPrestamoComponent implements OnInit {
   private _color = "light";
 
   constructor() {}
+  p: number = 1;
+
 
   ngOnInit(): void {}
 }
