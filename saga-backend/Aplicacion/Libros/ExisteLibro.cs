@@ -44,7 +44,7 @@ namespace Aplicacion.Libros
                 if (libro != null)
                 {
                     var errorMensaje = "No se puede guardar registros duplicados";
-                    throw new ManejadorException(HttpStatusCode.Forbidden, new { errorMensaje });
+                    throw new ManejadorException(HttpStatusCode.MethodNotAllowed, new { errorMensaje });
                 }
                 else
                 {

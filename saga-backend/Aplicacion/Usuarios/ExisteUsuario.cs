@@ -43,7 +43,7 @@ namespace Aplicacion.Usuarios
                 if (usuario != null)
                 {
                     var errorMensaje = "No se puede guardar registros duplicados";
-                    throw new ManejadorException(HttpStatusCode.Forbidden, new { errorMensaje });
+                    throw new ManejadorException(HttpStatusCode.NotAcceptable, new { errorMensaje });
                 }
                 else
                 {

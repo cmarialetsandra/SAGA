@@ -18,7 +18,6 @@ namespace Aplicacion.Autores
             public string Apellidos { get; set; }
         }
 
-
         public class Manejador : IRequestHandler<Ejecuta>
         {
             private readonly SagaContext _context;
@@ -50,6 +49,5 @@ namespace Aplicacion.Autores
                 throw new Exception("No se actualizaron los cambios en la tabla Autor");
             }
         }
-
     }
 }

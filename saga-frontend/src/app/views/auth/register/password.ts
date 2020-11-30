@@ -7,5 +7,5 @@ import {Component} from '@angular/core';
 
 export class FormFieldPrefixSuffixExample {
   hide = true;
+  hide2 = true;
 }
-

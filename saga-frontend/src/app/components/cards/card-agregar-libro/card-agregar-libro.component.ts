@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from "@angular/core";
+import { FormBuilder, Validators } from '@angular/forms';
 import { SharedService } from "src/app/shared.service";
 import { Router } from '@angular/router';
 import swal from 'sweetalert2';
@@ -8,7 +9,19 @@ import swal from 'sweetalert2';
   templateUrl: "./card-agregar-libro.component.html",
 })
 export class CardAgregarLibroComponent implements OnInit {
-  constructor(private service: SharedService, private router: Router) { }
+
+  form = this.fb.group({
+    Titulo: ['', Validators.required],
+    Descripcion: ['', Validators.required],
+    CantidadPaginas: ['', Validators.required],
+    Isbn: ['', Validators.required],
+    AnioPublicacion: ['', Validators.required],
+    AutorSeleccionado: ['', Validators.required],
+    EditorialSeleccionada: ['', Validators.required],
+    CategoriaSeleccionada: ['', Validators.required],
+  }, {});
+
+  constructor(private service: SharedService, private router: Router, private fb: FormBuilder) { }
 
   @Input() lib: any;
   Titulo: string;
@@ -31,6 +44,21 @@ export class CardAgregarLibroComponent implements OnInit {
   AutorSeleccionado: string;
   EditorialSeleccionada: string;
   CategoriaSeleccionada: string;
+
+  /*Métodos para la validación de campos vaciós*/
+  getErrorMessage(field: string):string{
+    let message;
+    if(this.form.get(field).errors.required){
+      message = 'No se permite campos vacios';
+    }
+    
+    return message;
+  }
+
+  isValidField(field:string):boolean{
+    return((this.form.get(field).touched || this.form.get(field).dirty) && !this.form.get(field).valid);
+  }
+  /*Fin de métodos para validación de campos vacíos*/
 
   loadAutorList() {
     this.service.getAutorList().subscribe((data: any) => {

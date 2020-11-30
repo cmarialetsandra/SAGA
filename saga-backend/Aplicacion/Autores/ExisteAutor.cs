@@ -48,11 +48,11 @@ namespace Aplicacion.Autores
                 if (autor != null)
                 {
                     var errorMensaje = "No se puede guardar registros duplicados";
-                    throw new ManejadorException(HttpStatusCode.Forbidden, new { errorMensaje });
+                    throw new ManejadorException(HttpStatusCode.OK, new { errorMensaje });
                 }
                 else
                 {
-                    throw new ManejadorException(HttpStatusCode.OK);
+                    throw new ManejadorException(HttpStatusCode.Forbidden);
                 }
 
                 throw new ManejadorException(HttpStatusCode.Unauthorized);

@@ -119,6 +119,7 @@ import { UsuarioComponent } from './views/admin/usuario/usuario.component';
 import { AgregarEntradaUsuarioComponent } from './views/admin/agregar-entradausuario/agregar-entradausuario.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpErrorInterceptor } from './http-error.interceptor';
+import { MustMatch } from '../app/_helpers/must-match.validator';
 
 @NgModule({
   declarations: [

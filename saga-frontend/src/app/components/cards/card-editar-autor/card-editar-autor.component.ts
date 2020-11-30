@@ -1,14 +1,18 @@
 import { Component, OnInit, Input } from "@angular/core";
 import { SharedService } from "src/app/shared.service";
 import { ActivatedRoute, Router } from '@angular/router';
+import { FormBuilder, Validators } from '@angular/forms';
 import swal from 'sweetalert2';
 
 @Component({
   selector: "app-card-editar-autor",
   templateUrl: "./card-editar-autor.component.html",
 })
-export class CardEditarAutorComponent implements OnInit {
-  constructor(private service: SharedService, private router: Router, private route: ActivatedRoute) {
+export class CardEditarAutorComponent  implements OnInit {
+
+  form = this.fb.group({ Nombres: ['', Validators.required], Apellidos: ['', Validators.required], }, { });
+
+  constructor(private service: SharedService, private router: Router, private route: ActivatedRoute, private fb: FormBuilder) {
     this.IdAutor = parseInt(this.route.snapshot.paramMap.get('idAutor'), 10);
   }
 
@@ -19,9 +23,25 @@ export class CardEditarAutorComponent implements OnInit {
   DataList: any = [];
   AutorList: any = [];
 
+
   ngOnInit(): void {
     this.refreshAutorList();
   }
+
+   /*Validación de campos vacíos*/
+   getErrorMessage(field: string): string {
+    let message;
+    if (this.form.get(field).errors.required) {
+      message = 'No se permite campos vacios';
+    }
+
+    return message;
+  }
+
+  isValidField(field: string): boolean {
+    return ((this.form.get(field).touched || this.form.get(field).dirty) && !this.form.get(field).valid);
+  }
+  /*Fin validación*/
 
   refreshAutorList() {
     this.service.getAutorFiltrada(this.IdAutor).subscribe(data => {
@@ -34,7 +54,7 @@ export class CardEditarAutorComponent implements OnInit {
   editAutor() {
     var val = {
       Nombres: this.Nombres,
-      Aoellidos: this.Apellidos
+      Apellidos: this.Apellidos
     };
 
     this.service.ExisteAutor(val).subscribe(res => {

@@ -1,3 +1,4 @@
+import { FormBuilder, FormGroup, Validators, FormControl } from '@angular/forms';
 import { Component, OnInit, Input } from "@angular/core";
 import { SharedService } from "src/app/shared.service";
 import { ActivatedRoute, Router } from '@angular/router';
@@ -8,7 +9,8 @@ import swal from 'sweetalert2';
   templateUrl: "./card-editar-editorial.component.html",
 })
 export class CardEditarEditorialComponent implements OnInit {
-  constructor(private service: SharedService, private router: Router, private route: ActivatedRoute) {
+  form = this.fb.group({ Nombre: ['', Validators.required], }, {});
+  constructor(private service: SharedService, private router: Router, private route: ActivatedRoute, private fb: FormBuilder) {
     this.IdEditorial = parseInt(this.route.snapshot.paramMap.get('idEditorial'), 10);
   }
 
@@ -16,11 +18,22 @@ export class CardEditarEditorialComponent implements OnInit {
   IdEditorial: number;
   Nombre: string;
   DataList: any = [];
-
   EditorialList: any = [];
 
   ngOnInit(): void {
     this.refreshEditorialList();
+  }
+
+  getErrorMessage(field: string):string{
+    let message;
+    if(this.form.get(field).errors.required){
+      message = 'No se permite campos vacíos';
+    }
+    return message;
+  }
+  
+  isValidField(field:string):boolean{
+    return((this.form.get(field).touched || this.form.get(field).dirty) && !this.form.get(field).valid);
   }
 
   refreshEditorialList() {

@@ -9,6 +9,9 @@ import swal from'sweetalert2';
   selector: "app-register",
   templateUrl: "./register.component.html",
 })
+
+
+
 export class RegisterComponent  implements OnInit {
   loginForm: FormGroup;
 

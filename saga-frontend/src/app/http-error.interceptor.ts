@@ -29,6 +29,18 @@ export class HttpErrorInterceptor implements HttpInterceptor {
           this.encontrado();
           return throwError(errorMessage);
         }
+        if (error instanceof HttpErrorResponse && error.status == 406 ) {
+          errorMessage = `Client-side error: ${error.message}`;
+
+          this.usuario();
+          return throwError(errorMessage);
+        }
+        if (error instanceof HttpErrorResponse && error.status == 405 ) {
+          errorMessage = `Client-side error: ${error.message}`;
+
+          this.libro();
+          return throwError(errorMessage);
+        }
       })
     );
   }
@@ -70,6 +82,44 @@ export class HttpErrorInterceptor implements HttpInterceptor {
     Toast.fire({
       icon: 'error',
       title: 'Registro duplicado'
+    })
+  }
+
+  usuario() {
+    const Toast = swal.mixin({
+      toast: true,
+      position: 'top-end',
+      showConfirmButton: false,
+      timer: 5000,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+        toast.addEventListener('mouseenter', swal.stopTimer)
+        toast.addEventListener('mouseleave', swal.resumeTimer)
+      }
+    })
+
+    Toast.fire({
+      icon: 'error',
+      title: 'El usuario ya existe'
+    })
+  }
+
+  libro() {
+    const Toast = swal.mixin({
+      toast: true,
+      position: 'top-end',
+      showConfirmButton: false,
+      timer: 5000,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+        toast.addEventListener('mouseenter', swal.stopTimer)
+        toast.addEventListener('mouseleave', swal.resumeTimer)
+      }
+    })
+
+    Toast.fire({
+      icon: 'error',
+      title: 'El libro ya existe'
     })
   }
 }
