@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from "@angular/core";
 import { SharedService } from "src/app/shared.service";
 import { ActivatedRoute, Router } from '@angular/router';
+import { FormBuilder, Validators } from '@angular/forms';
 import { FormGroup } from '@angular/forms';
 import swal from'sweetalert2';
 
@@ -9,9 +10,17 @@ import swal from'sweetalert2';
   templateUrl: "./card-editar-usuario.component.html",
 })
 export class CardEditarUsuarioComponent implements OnInit {
-  form: FormGroup;
+ 
+  form = this.fb.group({
+    User: ['', [Validators.required, Validators.minLength(4)]],
+    Rol: ['', Validators.required],
+    Nombres: ['', Validators.required],
+    Apellidos: ['', Validators.required],
+    Contrasenia: ['', Validators.required],
+    ConfirmarContrasenia: ['', Validators.required]
+  }, { });
 
-  constructor(private service:SharedService, private router:Router, private route:ActivatedRoute) {
+  constructor(private service:SharedService, private router:Router, private route:ActivatedRoute, private fb: FormBuilder) {
     this.IdUsuario = parseInt(this.route.snapshot.paramMap.get('idUsuario'), 10);
   }
 
@@ -31,6 +40,31 @@ export class CardEditarUsuarioComponent implements OnInit {
     this.refreshUsuarioList();
   }
 
+  //Método para validar el mínimo del usuario
+  getErrorMessageUser(field: string): string {
+    let message;
+    if (this.form.get(field).errors.required) {
+      message = 'No se permite campos vacios';
+    } else if (this.form.get(field).hasError('minlength')) {
+      message = 'El usuario debe tener como mínimo 4 caracteres';
+    }
+    return message;
+  }
+  /*Método para la validación de campos vaciós*/
+  getErrorMessage(field: string):string{
+    let message;
+    if(this.form.get(field).errors.required){
+      message = 'No se permite campos vacios';
+    }
+    
+    return message;
+  }
+
+  isValidField(field:string):boolean{
+    return((this.form.get(field).touched || this.form.get(field).dirty) && !this.form.get(field).valid);
+  }
+  /*Fin de método para validación de campos vacíos*/
+  
   refreshUsuarioList(){
     this.service.getUsuarioFiltrado(this.IdUsuario).subscribe(data => {
       this.UsuarioList = data;

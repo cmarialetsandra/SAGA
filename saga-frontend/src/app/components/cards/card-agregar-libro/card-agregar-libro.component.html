@@ -17,7 +17,7 @@
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
               placeholder="Ingrese título del libro" />
             <mat-error *ngIf="isValidField('Titulo')">
-              {{getErrorMessage('Titulo')}}
+              {{getErrorMessageTitulo('Titulo')}}
             </mat-error>
           </div>
           <div class="relative w-full mb-3">
@@ -28,7 +28,7 @@
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
               placeholder="Ingrese la descripción del libro" />
             <mat-error *ngIf="isValidField('Descripcion')">
-              {{getErrorMessage('Descripcion')}}
+              {{getErrorMessageDesc('Descripcion')}}
             </mat-error>
           </div>
           <div class="relative w-full mb-3">
@@ -37,7 +37,7 @@
             </label>
             <input formControlName="CantidadPaginas" [(ngModel)]="CantidadPaginas" name="CantidadPaginas" type="number"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-              placeholder="Ingrese la cantidad de páginas del libro" />
+              placeholder="Ingrese la cantidad de páginas del libro" required/>
             <mat-error *ngIf="isValidField('CantidadPaginas')">
               {{getErrorMessage('CantidadPaginas')}}
             </mat-error>
@@ -115,9 +115,12 @@
             <label class="block uppercase text-gray-700 text-xs font-bold mb-2" htmlFor="grid-password">
               Entradas
             </label>
-            <input [(ngModel)]="Entrada" name="Entrada" type="number"
+            <input [(ngModel)]="Entrada" name="Entrada" type="number" formControlName="Entrada"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
               placeholder="Ingrese la cantidad de entradas del libro" />
+              <mat-error *ngIf="isValidField('Entrada')">
+                {{getErrorMessage('Entrada')}}
+              </mat-error>
           </div>
         </div>
       </div>

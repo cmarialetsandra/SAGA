@@ -16,7 +16,6 @@ namespace Aplicacion.Autores
     {
         public class ExisteAutorValidacion : IRequest<Autor>
         {
-            public int IdAutor { get; set; }
             public string Nombres { get; set; }
             public string Apellidos { get; set; }
         }
@@ -41,18 +40,17 @@ namespace Aplicacion.Autores
             public async Task<Autor> Handle(ExisteAutorValidacion request, CancellationToken cancellationToken)
             {
                 var autor = await _context.Set<Autor>().OrderByDescending(t => t.IdAutor)
-                     .Where(e => e.Nombres == request.Nombres || e.Apellidos == request.Apellidos)
+                     .Where(e => e.Nombres == request.Nombres && e.Apellidos == request.Apellidos)
                     .FirstOrDefaultAsync();
-
 
                 if (autor != null)
                 {
                     var errorMensaje = "No se puede guardar registros duplicados";
-                    throw new ManejadorException(HttpStatusCode.OK, new { errorMensaje });
+                    throw new ManejadorException(HttpStatusCode.Forbidden, new { errorMensaje });
                 }
                 else
                 {
-                    throw new ManejadorException(HttpStatusCode.Forbidden);
+                    throw new ManejadorException(HttpStatusCode.OK);
                 }
 
                 throw new ManejadorException(HttpStatusCode.Unauthorized);

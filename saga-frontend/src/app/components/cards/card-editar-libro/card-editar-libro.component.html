@@ -17,7 +17,7 @@
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
               placeholder="Ingrese título del libro" />
             <mat-error *ngIf="isValidField('Titulo')">
-              {{getErrorMessage('Titulo')}}
+              {{getErrorMessageTitulo('Titulo')}}
             </mat-error>
           </div>
           <div class="relative w-full mb-3">
@@ -28,7 +28,7 @@
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
               placeholder="Ingrese la descripción del libro" />
             <mat-error *ngIf="isValidField('Descripcion')">
-              {{getErrorMessage('Descripcion')}}
+              {{getErrorMessageDesc('Descripcion')}}
             </mat-error>
           </div>
           <div class="relative w-full mb-3">

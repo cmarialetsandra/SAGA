@@ -1,4 +1,3 @@
-
 import { Injectable } from '@angular/core';
 import { HttpHandler, HttpRequest, HttpInterceptor, HttpErrorResponse } from '@angular/common/http';
 import { throwError } from 'rxjs';
@@ -41,6 +40,7 @@ export class HttpErrorInterceptor implements HttpInterceptor {
           this.libro();
           return throwError(errorMessage);
         }
+        
       })
     );
   }
@@ -119,7 +119,7 @@ export class HttpErrorInterceptor implements HttpInterceptor {
 
     Toast.fire({
       icon: 'error',
-      title: 'El libro ya existe'
+      title: 'Hay registros duplicados, intente con otros datos.'
     })
   }
 }

@@ -93,14 +93,16 @@
               htmlFor="grid-password">
               Contraseña
             </label>                    
-            <input
-              [(ngModel)]="Contrasenia"
-              [ngModelOptions]="{standalone: true}"
-              name="Contrasenia"
-              formControlName="Contrasenia" 
-              type="password"
-              class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-              placeholder="Ingrese la contraseña" required/>
+            <mat-form-field>
+              <input matInput [type]="hide ? 'text' : 'password'" [(ngModel)]="Contrasenia" name="Contrasenia"
+                type="password" formControlName="Contrasenia"
+                class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150 "
+                placeholder="Ingresa tu contraseña" required>
+              <button class="fas fa-eye text-blue mr-4" mat-icon-button matSuffix (click)="hide = !hide"
+                [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide"
+                style=" position: absolute;left:-5%; position: absolute;bottom:10%; margin-left: 95%; margin-top: 0px;  margin-bottom: 8px;">
+              </button>
+            </mat-form-field>
               <mat-error *ngIf="isValidField('Contrasenia')">
                 {{getErrorMessage('Contrasenia')}}
               </mat-error>
@@ -113,12 +115,16 @@
               htmlFor="grid-password">
               Confirmar Contraseña
             </label>                    
-            <input
-              type="password"
-              name="ConfirmarContrasenia"
-              formControlName="ConfirmarContrasenia"
-              class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-              placeholder="Confirme la contraseña" required/>
+            <mat-form-field>
+              <input matInput [type]="hide ? 'text' : 'password'" [(ngModel)]="ConfirmarContrasenia"
+                name="ConfirmarContrasenia" type="password" formControlName="ConfirmarContrasenia"
+                class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150 "
+                placeholder="Ingresa tu contraseña" required>
+              <button class="fas fa-eye text-blue mr-4" mat-icon-button matSuffix (click)="hide = !hide"
+                [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide2"
+                style=" position: absolute;left:-5%; position: absolute;bottom:10%; margin-left: 95%; margin-top: 0px;  margin-bottom: 8px;">
+              </button>
+            </mat-form-field>
               <mat-error *ngIf="isValidField('ConfirmarContrasenia')">
                 {{getErrorMessage('ConfirmarContrasenia')}}
               </mat-error>

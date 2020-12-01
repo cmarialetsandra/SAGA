@@ -59,5 +59,11 @@ namespace saga_backend.Controllers
         {
             return await _mediator.Send(data);
         }
+
+        [HttpPost("validarIsbn")]
+        public async Task<ActionResult<Libro>> ExisteIsbn(ExisteIsbn.ExisteLibroIsbnValidacion data)
+        {
+            return await _mediator.Send(data);
+        }
     }
 }

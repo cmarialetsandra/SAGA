@@ -43,31 +43,31 @@ export class CardAgregarEntradaAutorComponent implements OnInit {
       Apellidos:this.Apellidos
     };
     
-    this.service.ExisteAutor(val).subscribe(res=>{
-    this.DataList=res;   
-    
-    this.service.addAutor(val).subscribe(res=>{
-        /*Mensaje de éxito al guardar*/
-        const Toast = swal.mixin({
-          toast: true,
-          position: 'top-end',
-          showConfirmButton: false,
-          timer: 5000,
-          timerProgressBar: true,
-          didOpen: (toast) => {
-            toast.addEventListener('mouseenter', swal.stopTimer)
-            toast.addEventListener('mouseleave', swal.resumeTimer)
-          }
-        })
-        
-        Toast.fire({
-          icon: 'success',
-          title: 'Registro guardado con éxito'
-        })
-        /*Fin Mensaje de éxito al guardar*/
+    this.service.ExisteAutor(val).subscribe(res => {
+      this.DataList = res;
 
-      this.router.navigate(['/admin/autor']);
-    });
+      this.service.addAutor(val).subscribe(res=>{
+          /*Mensaje de éxito al guardar*/
+          const Toast = swal.mixin({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 5000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+              toast.addEventListener('mouseenter', swal.stopTimer)
+              toast.addEventListener('mouseleave', swal.resumeTimer)
+            }
+          })
+          
+          Toast.fire({
+            icon: 'success',
+            title: 'Registro guardado con éxito'
+          })
+          /*Fin Mensaje de éxito al guardar*/
+
+        this.router.navigate(['/admin/autor']);
+      });
     });   
   }
 }

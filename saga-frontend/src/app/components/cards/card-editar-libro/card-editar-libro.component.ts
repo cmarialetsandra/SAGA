@@ -11,14 +11,15 @@ import swal from 'sweetalert2';
 export class CardEditarLibroComponent implements OnInit {
 
   form = this.fb.group({
-    Titulo: ['', Validators.required],
-    Descripcion: ['', Validators.required],
+    Titulo: ['', [Validators.required, Validators.maxLength(50)]],
+    Descripcion: ['', [Validators.required, Validators.maxLength(100)]],
     CantidadPaginas: ['', Validators.required],
     Isbn: ['', Validators.required],
-    AnioPublicacion: ['', Validators.required],
+    AnioPublicacion: ['', [Validators.required, Validators.maxLength(4), Validators.minLength(4)]],
     AutorSeleccionado: ['', Validators.required],
     EditorialSeleccionada: ['', Validators.required],
     CategoriaSeleccionada: ['', Validators.required],
+    Entrada: ['', Validators.required],
   }, {});
 
   constructor(private service: SharedService, private router: Router, private route: ActivatedRoute, private fb: FormBuilder) {
@@ -48,17 +49,40 @@ export class CardEditarLibroComponent implements OnInit {
   CategoriaSeleccionada: string;
 
   /*Métodos para la validación de campos vaciós*/
-  getErrorMessage(field: string):string{
+  getErrorMessage(field: string): string {
     let message;
-    if(this.form.get(field).errors.required){
+    if (this.form.get(field).errors.required) {
       message = 'No se permite campos vacios';
+    }else if (this.form.get(field).hasError('minlength')) {
+      message = 'El año de publicación debe tener mínimo 4 dígitos';
+    } else if (this.form.get(field).hasError('maxlength')) {
+      message = 'El año de publicación debe tener máximo 4 dígitos';
     }
-    
+    return message;
+  }
+  
+  getErrorMessageDesc(field: string): string {
+    let message;
+    if (this.form.get(field).errors.required) {
+      message = 'No se permite campos vacios';
+    } else if (this.form.get(field).hasError('maxlength')) {
+      message = 'La descricpción debe de tener 100 caracteres máximo';
+    }
     return message;
   }
 
-  isValidField(field:string):boolean{
-    return((this.form.get(field).touched || this.form.get(field).dirty) && !this.form.get(field).valid);
+  getErrorMessageTitulo(field: string): string {
+    let message;
+    if (this.form.get(field).errors.required) {
+      message = 'No se permite campos vacios';
+    } else if (this.form.get(field).hasError('maxlength')) {
+      message = 'El título del libro debe de tener 50 caracteres máximo';
+    }
+    return message;
+  }
+
+  isValidField(field: string): boolean {
+    return ((this.form.get(field).touched || this.form.get(field).dirty) && !this.form.get(field).valid);
   }
   /*Fin de métodos para validación de campos vacíos*/
 
@@ -129,29 +153,32 @@ export class CardEditarLibroComponent implements OnInit {
     this.service.ExisteLibro(val).subscribe(res => {
       this.DataList = res;
 
-      this.service.updateLibro(this.IdLibro, val).subscribe(res => {
-        /*Mensaje de éxito al guardar*/
-        const Toast = swal.mixin({
-          toast: true,
-          position: 'top-end',
-          showConfirmButton: false,
-          timer: 5000,
-          timerProgressBar: true,
-          didOpen: (toast) => {
-            toast.addEventListener('mouseenter', swal.stopTimer)
-            toast.addEventListener('mouseleave', swal.resumeTimer)
-          }
-        })
+      this.service.ExisteIsbn(val).subscribe(res => {
+        this.DataList = res;
 
-        Toast.fire({
-          icon: 'success',
-          title: 'Registro editado con éxito'
-        })
-        /*Fin Mensaje de éxito al guardar*/
+        this.service.updateLibro(this.IdLibro, val).subscribe(res => {
+          /*Mensaje de éxito al guardar*/
+          const Toast = swal.mixin({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 5000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+              toast.addEventListener('mouseenter', swal.stopTimer)
+              toast.addEventListener('mouseleave', swal.resumeTimer)
+            }
+          })
 
-        this.router.navigate(['/admin/libro']);
+          Toast.fire({
+            icon: 'success',
+            title: 'Registro editado con éxito'
+          })
+          /*Fin Mensaje de éxito al guardar*/
+
+          this.router.navigate(['/admin/libro']);
+        });
       });
     });
-
   }
 }

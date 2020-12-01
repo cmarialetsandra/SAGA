@@ -144,6 +144,10 @@ export class SharedService {
   ExisteLibro(val: any):Observable<any[]>{
     return this.http.post<any>(this.APIUrl+"/Libros/validarLibro",val);
   }
+
+  ExisteIsbn(val: any):Observable<any[]>{
+    return this.http.post<any>(this.APIUrl+"/Libros/validarIsbn",val);
+  }
   //Fin métodos LIBRO
 
   //Métodos de EJEMPLAR

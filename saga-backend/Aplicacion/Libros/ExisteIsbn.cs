@@ -9,23 +9,25 @@ using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Aplicacion.Usuarios
+
+namespace Aplicacion.Libros
 {
-    public class ExisteUsuario
+    public class ExisteIsbn
     {
-        public class ExisteUsuarioValidacion : IRequest<Usuario>
+        public class ExisteLibroIsbnValidacion : IRequest<Libro>
         {
-            public string User { get; set; }
+            public string ISBN { get; set; }
+
         }
 
-        public class EjecutaValidacion : AbstractValidator<ExisteUsuarioValidacion>
+        public class EjecutaValidacion : AbstractValidator<ExisteLibroIsbnValidacion>
         {
             public EjecutaValidacion()
             {
-                RuleFor(x => x.User).NotEmpty();
+                RuleFor(x => x.ISBN).NotEmpty();
             }
         }
-        public class Manejador : IRequestHandler<ExisteUsuarioValidacion, Usuario>
+        public class Manejador : IRequestHandler<ExisteLibroIsbnValidacion, Libro>
         {
             private readonly SagaContext _context;
 
@@ -34,13 +36,13 @@ namespace Aplicacion.Usuarios
                 _context = context;
             }
 
-            public async Task<Usuario> Handle(ExisteUsuarioValidacion request, CancellationToken cancellationToken)
+            public async Task<Libro> Handle(ExisteLibroIsbnValidacion request, CancellationToken cancellationToken)
             {
-                var usuario = await _context.Set<Usuario>().OrderByDescending(t => t.IdUsuario)
-                     .Where(e => e.User == request.User)
+                var isbn = await _context.Set<Libro>().OrderByDescending(t => t.IdLibro)
+                     .Where(e => e.ISBN == request.ISBN)
                     .FirstOrDefaultAsync();
 
-                if (usuario != null)
+                if (isbn != null)
                 {
                     var errorMensaje = "No se puede guardar registros duplicados";
                     throw new ManejadorException(HttpStatusCode.MethodNotAllowed, new { errorMensaje });
@@ -52,7 +54,6 @@ namespace Aplicacion.Usuarios
 
                 throw new ManejadorException(HttpStatusCode.Unauthorized);
             }
-
         }
     }
 }
