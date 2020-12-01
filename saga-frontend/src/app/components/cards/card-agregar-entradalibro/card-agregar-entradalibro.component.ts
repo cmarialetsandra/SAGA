@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from "@angular/core";
 import { SharedService } from "src/app/shared.service";
 import { ActivatedRoute, Router } from '@angular/router';
+import { FormBuilder, Validators } from '@angular/forms';
 import swal from 'sweetalert2';
 
 @Component({
@@ -9,6 +10,8 @@ import swal from 'sweetalert2';
 })
 export class CardAgregarEntradaLibroComponent implements OnInit {
 
+  form = this.fb.group({Entrada: ['', Validators.required],}, {});
+
   IdFiltrado: number;
   Stock: number;
   EjemplarList: any = [];
@@ -16,9 +19,24 @@ export class CardAgregarEntradaLibroComponent implements OnInit {
   @Input() ent: any;
   Entrada: string;
 
-  constructor(private service: SharedService, private route: ActivatedRoute, private router: Router) {
+  constructor(private service: SharedService, private route: ActivatedRoute, private router: Router, private fb: FormBuilder) {
     this.IdFiltrado = parseInt(this.route.snapshot.paramMap.get('idLibro'), 10);
   }
+
+  /*Validación de campos vacíos*/
+  getErrorMessage(field: string):string{
+    let message;
+    if(this.form.get(field).errors.required){
+      message = 'No se permite campos vacios';
+    }
+    
+    return message;
+  }
+
+  isValidField(field:string):boolean{
+    return((this.form.get(field).touched || this.form.get(field).dirty) && !this.form.get(field).valid);
+  }
+
 
   ngOnInit(): void {
     this.refreshStockList();

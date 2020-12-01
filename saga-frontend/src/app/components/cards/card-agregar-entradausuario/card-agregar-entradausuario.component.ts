@@ -4,7 +4,6 @@ import { Router } from '@angular/router';
 import { FormBuilder, Validators } from '@angular/forms';
 import { ValidarQueSeanIguales } from './card-agregar-entradausuario.validator';
 import swal from 'sweetalert2';
-import { MustMatch } from "../../../_helpers/must-match.validator";
 
 @Component({
   selector: "app-card-agregar-entradausuario",
@@ -13,13 +12,12 @@ import { MustMatch } from "../../../_helpers/must-match.validator";
 export class CardAgregarEntradaUsuarioComponent implements OnInit {
 
   form = this.fb.group({
-
-    User: ['', Validators.required],
     Rol: ['', Validators.required],
     Nombres: ['', Validators.required],
     Apellidos: ['', Validators.required],
-    Contrasenia: ['', Validators.required],
-    ConfirmarContrasenia: ['', Validators.required]
+    User: ['', [Validators.required, Validators.minLength(4)]],
+    Contrasenia: ['', [Validators.required, Validators.minLength(6)]],
+    ConfirmarContrasenia: ['', [Validators.required, , Validators.minLength(6)]]
   }, {
     validators: ValidarQueSeanIguales
   });
@@ -37,31 +35,40 @@ export class CardAgregarEntradaUsuarioComponent implements OnInit {
 
   ngOnInit(): void {}
 
+  getErrorMessagePwd(field: string): string {
+    let message;
+    if (this.form.get(field).errors.required) {
+      message = 'No se permite campos vacios';
+    } else if (this.form.get(field).hasError('minlength')) {
+      message = 'La contraseña debe tener como mínimo 6 caracteres';
+    }
+    return message;
+  }
+
+  //Método para validar el mínimo del usuario
+  getErrorMessageUser(field: string): string {
+    let message;
+    if (this.form.get(field).errors.required) {
+      message = 'No se permite campos vacios';
+    } else if (this.form.get(field).hasError('minlength')) {
+      message = 'El usuario debe tener como mínimo 4 caracteres';
+    }
+    return message;
+  }
+
   /*Métodos para la validación de campos vaciós*/
   getErrorMessage(field: string):string{
     let message;
     if(this.form.get(field).errors.required){
       message = 'No se permite campos vacios';
     }
-    
     return message;
   }
 
   isValidField(field:string):boolean{
     return((this.form.get(field).touched || this.form.get(field).dirty) && !this.form.get(field).valid);
   }
-  /*Fin de métodos para validación de campos vacíos*/
-
-  //Validación de campos iguales
-  /*initForm() {
-    this.form = this.fb.group({
-      'Contrasenia': ['', Validators.required],
-      'ConfirmarContrasenia': ['', Validators.required]
-    }, {
-      validators: ValidarQueSeanIguales
-    });
-  }*/
-
+  
   checarSiSonIguales(): boolean {
     return this.form.hasError('noSonIguales') &&
       this.form.get('Contrasenia').dirty &&

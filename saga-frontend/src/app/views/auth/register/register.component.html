@@ -44,7 +44,7 @@
               <input [(ngModel)]="User" [ngModelOptions]="{standalone: true}" name="User" type="text"
                 formControlName="User"
                 class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-                placeholder="Ingrese su nombre de usuario" />
+                placeholder="Ingrese su nombre de usuario"/>
               <mat-error *ngIf="isValidField('User')">
                 {{getErrorMessageUser('User')}}
               </mat-error>
@@ -66,7 +66,7 @@
                 </button>
               </mat-form-field>
               <mat-error *ngIf="isValidField('Contrasenia')">
-                {{getErrorMessage('Contrasenia')}}
+                {{getErrorMessageContrasenia('Contrasenia')}}
               </mat-error>
             </div>
 
@@ -76,19 +76,19 @@
                 Confirmar Contraseña
               </label>
               <mat-form-field>
-                <input matInput [type]="hide ? 'text' : 'password'" [(ngModel)]="ConfirmarContrasenia"
+                <input matInput [type]="hide2 ? 'text' : 'password'" [(ngModel)]="ConfirmarContrasenia"
                   name="ConfirmarContrasenia" type="password" formControlName="ConfirmarContrasenia"
                   class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150 "
                   placeholder="Ingresa tu contraseña" required>
-                <button class="fas fa-eye text-blue mr-4" mat-icon-button matSuffix (click)="hide = !hide"
+                <button class="fas fa-eye text-blue mr-4" mat-icon-button matSuffix (click)="hide2 = !hide2"
                   [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide2"
                   style=" position: absolute;left:-5%; position: absolute;bottom:10%; margin-left: 95%; margin-top: 0px;  margin-bottom: 8px;">
                 </button>
               </mat-form-field>
-              <mat-error *ngIf="isValidField('ConfirmarContrasenia')">
-                {{getErrorMessage('ConfirmarContrasenia')}}
-              </mat-error>
             </div>
+            <mat-error *ngIf="isValidField('ConfirmarContrasenia')">
+              {{getErrorMessageContrasenia('ConfirmarContrasenia')}}
+            </mat-error>
             <span *ngIf="checarSiSonIguales()">Las contraseñas no coinciden</span>
 
             <div class="text-center mt-6">

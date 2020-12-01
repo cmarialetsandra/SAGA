@@ -14,9 +14,9 @@ export class RegisterComponent implements OnInit {
   form = this.fb.group({
     Nombres: ['', Validators.required],
     Apellidos: ['', Validators.required],
-    User: ['', Validators.required],
-    Contrasenia: ['', Validators.required],
-    ConfirmarContrasenia: ['', Validators.required]
+    User: ['', [Validators.required, Validators.minLength(4)]],
+    Contrasenia: ['', [Validators.required, Validators.minLength(6)]],
+    ConfirmarContrasenia: ['', [Validators.required, , Validators.minLength(6)]]
   }, {
     validators: ValidarQueSeanIguales
   });
@@ -33,8 +33,7 @@ export class RegisterComponent implements OnInit {
 
 
   ngOnInit(): void { }
-  /*Método para la validación de campos vaciós*/
-  /*Métodos para la validación de campos vaciós*/
+  /*Métodos para la validación de campos vacíos*/
   getErrorMessage(field: string):string{
     let message;
     if(this.form.get(field).errors.required){
@@ -43,7 +42,7 @@ export class RegisterComponent implements OnInit {
     
     return message;
   }
-  /*Fin de métodos para validación de campos vacíos*/
+
   //Método para validar el mínimo de la contraseña
   getErrorMessageDesc(field: string): string {
     let message;
