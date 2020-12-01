@@ -66,7 +66,7 @@
                 </button>
               </mat-form-field>
               <mat-error *ngIf="isValidField('Contrasenia')">
-                {{getErrorMessageDesc('Contrasenia')}}
+                {{getErrorMessage('Contrasenia')}}
               </mat-error>
             </div>
 
@@ -85,9 +85,11 @@
                   style=" position: absolute;left:-5%; position: absolute;bottom:10%; margin-left: 95%; margin-top: 0px;  margin-bottom: 8px;">
                 </button>
               </mat-form-field>
-              
-              <span *ngIf="checarSiSonIguales()">Las contraseñas no coinciden</span>
+              <mat-error *ngIf="isValidField('ConfirmarContrasenia')">
+                {{getErrorMessage('ConfirmarContrasenia')}}
+              </mat-error>
             </div>
+            <span *ngIf="checarSiSonIguales()">Las contraseñas no coinciden</span>
 
             <div class="text-center mt-6">
               <button (click)="addUsuario()"

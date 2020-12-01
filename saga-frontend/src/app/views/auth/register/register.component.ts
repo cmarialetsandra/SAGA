@@ -12,12 +12,14 @@ import swal from 'sweetalert2';
 export class RegisterComponent implements OnInit {
 
   form = this.fb.group({
-    User: ['', Validators.required],
     Nombres: ['', Validators.required],
     Apellidos: ['', Validators.required],
-    Contrasenia: ['', [Validators.required, Validators.minLength(6)]],
-    ConfirmarContrasenia: ['', [Validators.required, Validators.minLength(6)]]
-  }, {});
+    User: ['', Validators.required],
+    Contrasenia: ['', Validators.required],
+    ConfirmarContrasenia: ['', Validators.required]
+  }, {
+    validators: ValidarQueSeanIguales
+  });
 
   constructor(private service: SharedService, private router: Router, private fb: FormBuilder) { }
 
@@ -32,15 +34,16 @@ export class RegisterComponent implements OnInit {
 
   ngOnInit(): void { }
   /*Método para la validación de campos vaciós*/
-  getErrorMessage(field: string): string {
+  /*Métodos para la validación de campos vaciós*/
+  getErrorMessage(field: string):string{
     let message;
-    if (this.form.get(field).errors.required) {
+    if(this.form.get(field).errors.required){
       message = 'No se permite campos vacios';
     }
-
+    
     return message;
   }
-
+  /*Fin de métodos para validación de campos vacíos*/
   //Método para validar el mínimo de la contraseña
   getErrorMessageDesc(field: string): string {
     let message;
