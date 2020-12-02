@@ -9,26 +9,25 @@ using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
-
-namespace Aplicacion.Libros
+namespace Aplicacion.Usuarios
 {
-    public class ExisteLibro
+    public class ExisteUsuarioEditar
     {
-        public class ExisteLibroValidacion : IRequest<Libro>
+        public class ExisteUsuarioValidacion : IRequest<Usuario>
         {
-            public string Titulo { get; set; }
-            public int IdAutor { get; set; }
+            public int IdUsuario { get; set; }
+            public string User { get; set; }
         }
 
-        public class EjecutaValidacion : AbstractValidator<ExisteLibroValidacion>
+        public class EjecutaValidacion : AbstractValidator<ExisteUsuarioValidacion>
         {
             public EjecutaValidacion()
             {
-                RuleFor(x => x.Titulo).NotEmpty();
-                RuleFor(x => x.IdAutor).NotEmpty();
+                RuleFor(x => x.User).NotEmpty();
+                RuleFor(x => x.IdUsuario).NotEmpty();
             }
         }
-        public class Manejador : IRequestHandler<ExisteLibroValidacion, Libro>
+        public class Manejador : IRequestHandler<ExisteUsuarioValidacion, Usuario>
         {
             private readonly SagaContext _context;
 
@@ -37,13 +36,13 @@ namespace Aplicacion.Libros
                 _context = context;
             }
 
-            public async Task<Libro> Handle(ExisteLibroValidacion request, CancellationToken cancellationToken)
+            public async Task<Usuario> Handle(ExisteUsuarioValidacion request, CancellationToken cancellationToken)
             {
-                var libro = await _context.Set<Libro>().OrderByDescending(t => t.IdLibro)
-                     .Where(e => e.Titulo == request.Titulo && e.IdAutor == request.IdAutor)
+                var usuario = await _context.Set<Usuario>().OrderByDescending(t => t.IdUsuario)
+                     .Where(e => e.User == request.User && e.IdUsuario != request.IdUsuario)
                     .FirstOrDefaultAsync();
 
-                if (libro != null)
+                if (usuario != null)
                 {
                     var errorMensaje = "No se puede guardar registros duplicados";
                     throw new ManejadorException(HttpStatusCode.MethodNotAllowed, new { errorMensaje });
@@ -55,6 +54,7 @@ namespace Aplicacion.Libros
 
                 throw new ManejadorException(HttpStatusCode.Unauthorized);
             }
+
         }
     }
 }

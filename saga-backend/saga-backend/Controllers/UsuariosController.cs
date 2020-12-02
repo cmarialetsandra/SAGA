@@ -66,5 +66,11 @@ namespace saga_backend.Controllers
         {
             return await _mediator.Send(data);
         }
+
+        [HttpPost("validarUsuarioEditar")]
+        public async Task<ActionResult<Usuario>> ExisteUsuarioEditar(ExisteUsuarioEditar.ExisteUsuarioValidacion data)
+        {
+            return await _mediator.Send(data);
+        }
     }
 }

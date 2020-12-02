@@ -139,6 +139,11 @@ export class CardEditarLibroComponent implements OnInit {
   }
 
   editarLibro() {
+
+    if(this.IdAutor == undefined){
+      this.IdAutor = parseInt(this.AutorSeleccionado, 10);
+    }
+
     var val = {
       Titulo: this.Titulo,
       Descripcion: this.Descripcion,
@@ -150,11 +155,27 @@ export class CardEditarLibroComponent implements OnInit {
       IdCategoria: this.IdCategoria
     };
 
-    this.service.ExisteLibro(val).subscribe(res => {
-      this.DataList = res;
+    var val2 = {
+      IdLibro: this.IdLibro,
+      Titulo: this.Titulo,
+      Isbn: this.Isbn,
+      IdAutor: this.IdAutor
+    };
 
-      this.service.ExisteIsbn(val).subscribe(res => {
-        this.DataList = res;
+    /*var val3 = {
+      IdLibro: this.IdLibro,
+      Isbn: this.Isbn,
+    };*/
+
+    console.log("val2", val2);
+    console.log("val", val);
+
+    this.service.ExisteLibroEditar(val2).subscribe(res => {
+      this.DataList = res;
+      
+
+      /*this.service.ExisteIsbnEditar(val3).subscribe(res => {
+        this.DataList = res;*/
 
         this.service.updateLibro(this.IdLibro, val).subscribe(res => {
           /*Mensaje de éxito al guardar*/
@@ -178,7 +199,7 @@ export class CardEditarLibroComponent implements OnInit {
 
           this.router.navigate(['/admin/libro']);
         });
-      });
+     // });
     });
   }
 }

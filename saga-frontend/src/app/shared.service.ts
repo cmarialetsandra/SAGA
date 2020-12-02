@@ -118,6 +118,10 @@ export class SharedService {
   ExisteUsuario(val: any):Observable<any[]>{
     return this.http.post<any>(this.APIUrl+"/Usuarios/validarUsuario",val);
   }
+
+  ExisteUsuarioEditar(val: any):Observable<any[]>{
+    return this.http.post<any>(this.APIUrl+"/Usuarios/validarUsuarioEditar",val);
+  }
   //Fin métodos USUARIO
 
   //Métodos de LIBRO
@@ -147,6 +151,10 @@ export class SharedService {
 
   ExisteIsbn(val: any):Observable<any[]>{
     return this.http.post<any>(this.APIUrl+"/Libros/validarIsbn",val);
+  }
+
+  ExisteLibroEditar(val: any):Observable<any[]>{
+    return this.http.post<any>(this.APIUrl+"/Libros/validarLibroEditar",val);
   }
   //Fin métodos LIBRO
 

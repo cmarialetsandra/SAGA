@@ -77,9 +77,6 @@
               <option value={{autor.idAutor}} *ngFor="let autor of AutorList">{{autor.nombres}} {{autor.apellidos}}
               </option>
             </select>
-            <mat-error *ngIf="isValidField('AutorSeleccionado')">
-              {{getErrorMessage('AutorSeleccionado')}}
-            </mat-error>
           </div>
           <div class="relative w-full mb-3">
             <label class="block uppercase text-gray-700 text-xs font-bold mb-2" htmlFor="grid-password">

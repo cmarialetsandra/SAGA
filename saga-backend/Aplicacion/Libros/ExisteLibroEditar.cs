@@ -12,23 +12,27 @@ using System.Threading.Tasks;
 
 namespace Aplicacion.Libros
 {
-    public class ExisteLibro
+    public class ExisteLibroEditar
     {
-        public class ExisteLibroValidacion : IRequest<Libro>
+        public class ExisteLibroEditarValidacion : IRequest<Libro>
         {
             public string Titulo { get; set; }
             public int IdAutor { get; set; }
+            public int IdLibro { get; set; }
+            public string ISBN { get; set; }
         }
 
-        public class EjecutaValidacion : AbstractValidator<ExisteLibroValidacion>
+        public class EjecutaValidacion : AbstractValidator<ExisteLibroEditarValidacion>
         {
             public EjecutaValidacion()
             {
                 RuleFor(x => x.Titulo).NotEmpty();
                 RuleFor(x => x.IdAutor).NotEmpty();
+                RuleFor(x => x.IdLibro).NotEmpty();
+                RuleFor(x => x.ISBN).NotEmpty();
             }
         }
-        public class Manejador : IRequestHandler<ExisteLibroValidacion, Libro>
+        public class Manejador : IRequestHandler<ExisteLibroEditarValidacion, Libro>
         {
             private readonly SagaContext _context;
 
@@ -37,10 +41,10 @@ namespace Aplicacion.Libros
                 _context = context;
             }
 
-            public async Task<Libro> Handle(ExisteLibroValidacion request, CancellationToken cancellationToken)
+            public async Task<Libro> Handle(ExisteLibroEditarValidacion request, CancellationToken cancellationToken)
             {
                 var libro = await _context.Set<Libro>().OrderByDescending(t => t.IdLibro)
-                     .Where(e => e.Titulo == request.Titulo && e.IdAutor == request.IdAutor)
+                     .Where(e => (e.Titulo == request.Titulo && e.IdAutor == request.IdAutor && e.IdLibro != request.IdLibro) || (e.ISBN == request.ISBN && e.IdLibro != request.IdLibro)  )
                     .FirstOrDefaultAsync();
 
                 if (libro != null)

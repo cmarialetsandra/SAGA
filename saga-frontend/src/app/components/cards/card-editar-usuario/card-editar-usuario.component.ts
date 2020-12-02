@@ -89,7 +89,12 @@ export class CardEditarUsuarioComponent implements OnInit {
       Rol:this.Rol
     };
 
-    this.service.ExisteUsuario(val).subscribe(res => {
+    var val2={
+      IdUsuario : this.IdUsuario,
+      User:this.User
+    };
+    
+    this.service.ExisteUsuarioEditar(val2).subscribe(res => {
       this.DataList = res;
     
     this.service.updateUsuario(this.IdUsuario,val).subscribe(res=>{
