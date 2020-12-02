@@ -56,7 +56,7 @@ export class CardAgregarEntradaLibroComponent implements OnInit {
       Entrada: this.Entrada,
       Salida: 0
     };
-
+    
     this.service.addEntradaEjemplar(val).subscribe(res => {
       /*Mensaje de éxito al guardar*/
       const Toast = swal.mixin({
