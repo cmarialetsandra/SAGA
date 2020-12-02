@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from "@angular/core";
+import { SharedService } from "src/app/shared.service";
 
 @Component({
   selector: "app-card-tabla-admin-prestamo",
@@ -14,7 +15,19 @@ export class CardTablaAdminPrestamoComponent implements OnInit {
   }
   private _color = "light";
 
-  constructor() {}
+  PrestamosList:any=[];
 
-  ngOnInit(): void {}
+  p: number = 1;
+
+  constructor(private service: SharedService) {}
+
+  ngOnInit(): void {
+    this.refreshPrestamosList();
+  }
+
+  refreshPrestamosList(){
+    this.service.getPrestamosAdmin().subscribe(data=>{
+      this.PrestamosList=data;
+    });
+  }
 }

@@ -1,13 +1,21 @@
-<nav class="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-gray-900 mb-3">
+<nav class="relative bg-gray-900 flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
   <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
     <div
       class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
     >
       <a
-        [routerLink]="['/']"
         class="text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase"
       >
-      <img style="width: 60px; height: 60px;" src="assets/img/Logo1.png"/> 
+      <div class="flex flex-wrap">
+        <div class="lg:w-3/12 px-4">
+          <img style="width: 60px; height: 60px;" src="assets/img/Logo1.png"/> 
+        </div>
+        <div class="lg:w-9/12 px-4">
+          <h4 class="text-xs text-white" style="padding-top: 8%;"><b>Bienvenido(a):</b> {{ tokenNombreCompleto }}</h4>
+        </div>
+      </div>
+      
+      
       </a>
       <button
         class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -21,8 +29,20 @@
       <ul class="flex flex-col lg:flex-row list-none ml-auto">
         <li class="nav-item">
           <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+            [routerLink]="['/cliente/cliente-index']">
+            Inicio
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
             [routerLink]="['/cliente/libros']">
             Libros
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+            [routerLink]="['/cliente/prestamos']">
+            Mis préstamos
           </a>
         </li>
         <li class="nav-item">
@@ -31,6 +51,13 @@
             <i class="fas fa-shopping-cart text-lg leading-lg text-white opacity-75"></i>
           </a>
         </li>
+        <li class="flex items-center">
+        <button
+          class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+          type="button" (click)="onLogout()">
+          Cerrar Sesión
+        </button>
+      </li>
       </ul>
     </div>
   </div>

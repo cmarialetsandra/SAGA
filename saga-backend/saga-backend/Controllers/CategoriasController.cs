@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using static Aplicacion.Categorias.NuevaCategoria;
 using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 
 namespace saga_backend.Controllers
@@ -36,7 +37,26 @@ namespace saga_backend.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Unit>> CrearAutor(NuevaCategoria.InsertarCategoria data)
+        public async Task<ActionResult<Unit>> CrearEditorial(NuevaCategoria.InsertarCategoria data)
+        {
+            return await _mediator.Send(data);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult<Unit>> Editar(int id, EditarCategoria.Ejecuta data)
+        {
+            data.IdCategoria = id;
+            return await _mediator.Send(data);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<Unit>> Eliminar(int id)
+        {
+            return await _mediator.Send(new EliminarCategoria.Ejecuta { IdCategoria = id });
+        }
+
+        [HttpPost("validarCategoria")]
+        public async Task<ActionResult<Categoria>> ExisteCategoria(ExisteCategoria.ExisteCategoriaValidacion data)
         {
             return await _mediator.Send(data);
         }

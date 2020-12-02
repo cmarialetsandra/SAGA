@@ -1,8 +1,10 @@
-﻿using Dominio;
+﻿using Aplicacion.ManejadorError;
+using Dominio;
 using MediatR;
 using Persistencia;
 using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -27,6 +29,10 @@ namespace Aplicacion.Libros
             public async Task<Libro> Handle(LibroUnico request, CancellationToken cancellationToken)
             {
                 var libro = await _context.tblLibro.FindAsync(request.IdLibro);
+                if (libro == null)
+                {
+                    throw new ManejadorException(HttpStatusCode.NotFound, new { libro = "No se encontró el libro" });
+                }
                 return libro;
             }
         }

@@ -13,8 +13,8 @@ namespace Dominio
         public Usuario tblUsuario { get; set; }
         public DateTime FechaEmision { get; set; }
         public DateTime FechaVencimiento { get; set; }
-        public DateTime FechaDevolucion { get; set; }
-        public bool Estado { get; set; }
+        public DateTime? FechaDevolucion { get; set; }
+        public int Estado { get; set; }
         public ICollection<DetallePrestamo> listaPrestamos { get; set; } = new HashSet<DetallePrestamo>();
     }
 }

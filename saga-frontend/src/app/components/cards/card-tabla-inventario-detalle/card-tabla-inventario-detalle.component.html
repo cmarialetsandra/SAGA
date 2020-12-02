@@ -4,10 +4,10 @@
 >
   <div class="rounded-t bg-white mb-0 px-6 py-6">
     <div class="text-center flex justify-between">
-      <h6 class="text-gray-800 text-xl font-bold">Detalle de inventario de libro</h6>
+      <h1 class="text-gray-800 text-xl font-bold">Detalle de inventario de libro</h1>
       <button
         class="bg-red-600 text-white active:bg-red-700 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
-        type="button" [routerLink]="['/admin/agregar-entradalibro']">
+        type="button" [routerLink]="['/admin/agregar-entradalibro',IdFiltrado]">
         Agregar entradas
       </button>
     </div>
@@ -60,49 +60,29 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr *ngFor="let dataItem of EjemplarList | paginate: {itemsPerPage: 7, currentPage: p}">
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            1
+            {{dataItem.idLibro}}
           </td>
           <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left flex items-center">
             <span
               class="ml-3 font-bold"
               [ngClass]="color === 'light' ? 'text-gray-700' : 'text-white'">
-              Cazadores de Sombras
+              {{dataItem.titulo}}
             </span>
           </th>
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            5
+            {{dataItem.entrada}}
           </td>
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            0
+            {{dataItem.salida}}
           </td>
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            5
+            {{dataItem.stock}}
           </td>        
-        </tr>  
-        <tr>
-          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            1
-          </td>
-          <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left flex items-center">
-            <span
-              class="ml-3 font-bold"
-              [ngClass]="color === 'light' ? 'text-gray-700' : 'text-white'">
-              Cazadores de Sombras
-            </span>
-          </th>
-          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            5
-          </td>
-          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            0
-          </td>
-          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            10
-          </td>        
-        </tr>     
+        </tr> 
       </tbody>
     </table>
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
   </div>
 </div>

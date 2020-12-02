@@ -11,5 +11,10 @@ namespace Dominio
         public int IdCategoria { get; set; }
         public string NombreCategoria { get; set; }
         public ICollection<Libro> listaLibros { get; set; } = new HashSet<Libro>();
+
+        public static implicit operator int(Categoria v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -1,0 +1,64 @@
+<div
+  class="relative flex flex-col min-w-0 break-words bg-gray-100 w-full mb-6 shadow-lg rounded">
+  <div class="rounded-t mb-0 px-4 py-3 border-0">
+    <table class="items-center w-full bg-transparent border-collapse">
+      <thead>
+        <tr>
+          <th
+            class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-center"
+          >
+            Id Préstamo
+          </th>
+          <th
+            class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-center"
+          >
+            Fecha de Emisión
+          </th>
+          <th
+            class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-center"
+          >
+            Fecha de Vencimiento
+          </th>
+          <th
+            class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-center"
+          >
+            Fecha de Devolución
+          </th>
+          <th
+            class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-center"
+          >
+            Opciones
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let dataItem of PrestamosList">
+          <th
+            class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-center">
+            {{dataItem.idPrestamo}}
+          </th>
+          <td
+            class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-center">
+            {{ dataItem.fechaEmision | date:'dd-MM-yyyy' }}
+          </td>
+          <td
+            class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-center">
+            {{dataItem.fechaVencimiento | date:'dd-MM-yyyy'}}
+          </td>
+          <td *ngIf="dataItem.fechaDevolucion == null"
+            class="text-red-600 border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-center">
+            <b>No devuelto</b>
+          </td>
+          <td *ngIf="dataItem.fechaDevolucion != null"
+            class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-center">
+            {{dataItem.fechaDevolucion | date:'dd-MM-yyyy'}}
+          </td>
+          <td
+            class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-center">
+            <i class="fas fa-eye text-blue-700 mr-4" [routerLink]="['/cliente/detalle-prestamos',dataItem.idPrestamo]"></i>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

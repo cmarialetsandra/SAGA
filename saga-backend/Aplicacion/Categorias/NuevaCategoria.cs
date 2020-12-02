@@ -1,8 +1,14 @@
-﻿using Dominio;
+﻿using Aplicacion.ManejadorError;
+using Dominio;
+using FluentValidation;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using Persistencia;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -14,6 +20,14 @@ namespace Aplicacion.Categorias
         public class InsertarCategoria: IRequest
         {
             public string NombreCategoria { get; set; }
+        }
+
+        public class EjecutaValidacion : AbstractValidator<InsertarCategoria>
+        {
+            public EjecutaValidacion()
+            {
+                RuleFor(x => x.NombreCategoria).NotEmpty();
+            }
         }
 
         public class Manejador : IRequestHandler<InsertarCategoria>

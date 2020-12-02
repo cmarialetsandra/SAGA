@@ -1,4 +1,5 @@
-﻿using Aplicacion.Usuarios;
+﻿using Aplicacion.Seguridad;
+using Aplicacion.Usuarios;
 using Dominio;
 using MediatR;
 using Microsoft.AspNetCore.Components;
@@ -32,11 +33,42 @@ namespace saga_backend.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Usuario>> FiltradoId(int id)
         {
-            return await _mediator.Send(new ConsultaIdUsuario.UsuarioUnico { IdUsuario = id });
+            return await _mediator.Send(new ConsultaIdLibro.UsuarioUnico { IdUsuario = id });
         }
 
         [HttpPost]
         public async Task<ActionResult<Unit>> CrearUsuario(NuevoUsuario.InsertarUsuario data)
+        {
+            return await _mediator.Send(data);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult<Unit>> Editar(int id, EditarUsuario.Ejecuta data)
+        {
+            data.IdUsuario = id;
+            return await _mediator.Send(data);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<Unit>> Eliminar(int id)
+        {
+            return await _mediator.Send(new EliminarUsuario.Ejecuta { IdUsuario = id });
+        }
+
+        [HttpPost("login")]
+        public async Task<ActionResult<UsuarioData>> Login(Login.Ejecuta data)
+        {
+            return await _mediator.Send(data);
+        }
+
+        [HttpPost("validarUsuario")]
+        public async Task<ActionResult<Usuario>> ExisteUsuario(ExisteUsuario.ExisteUsuarioValidacion data)
+        {
+            return await _mediator.Send(data);
+        }
+
+        [HttpPost("validarUsuarioEditar")]
+        public async Task<ActionResult<Usuario>> ExisteUsuarioEditar(ExisteUsuarioEditar.ExisteUsuarioValidacion data)
         {
             return await _mediator.Send(data);
         }

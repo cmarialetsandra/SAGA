@@ -1,0 +1,103 @@
+<div
+  class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-200 border-0"
+> 
+  <div class="rounded-t bg-white mb-0 px-6 py-6">    
+    <div class="text-center flex justify-between">
+      <h1 class="text-gray-800 text-xl font-bold">Editar usuario</h1>      
+    </div>
+  </div>
+  <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
+    <form [formGroup]="form">
+      <h6 class="text-gray-500 text-sm mt-3 mb-6 font-bold uppercase"></h6>
+      <div class="flex flex-wrap">
+        <div class="w-full lg:w-6/12 px-4">
+          <div class="relative w-full mb-3">
+            <label
+              class="block uppercase text-gray-700 text-xs font-bold mb-2"
+              htmlFor="grid-password">
+              Nombres
+            </label>                    
+            <input
+              formControlName="Nombres"
+              [(ngModel)]="Nombres"
+              [ngModelOptions]="{standalone: true}"
+              name="Nombres"
+              type="text"
+              class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
+              placeholder="Ingrese los nombres del usuario" required/>
+              <mat-error *ngIf="isValidField('Nombres')">
+                {{getErrorMessage('Nombres')}}
+              </mat-error>
+          </div>
+        </div>
+        <div class="w-full lg:w-6/12 px-4">
+          <div class="relative w-full mb-3">
+            <label
+              class="block uppercase text-gray-700 text-xs font-bold mb-2"
+              htmlFor="grid-password">
+              Apellidos
+            </label>                    
+            <input
+              formControlName="Apellidos"
+              [(ngModel)]="Apellidos"
+              [ngModelOptions]="{standalone: true}"
+              name="Apellidos"
+              type="text"
+              class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
+              placeholder="Ingrese los apellidos del usuario" required/>
+              <mat-error *ngIf="isValidField('Apellidos')">
+                {{getErrorMessage('Apellidos')}}
+              </mat-error>
+          </div>
+        </div>
+        <div class="w-full lg:w-6/12 px-4">
+          <div class="relative w-full mb-3">
+            <label
+              class="block uppercase text-gray-700 text-xs font-bold mb-2"
+              htmlFor="grid-password">
+              Usuario
+            </label>                    
+            <input
+              formControlName="User"
+              [(ngModel)]="User"
+              [ngModelOptions]="{standalone: true}"
+              name="User"
+              type="text"
+              class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
+              placeholder="Ingrese el nombre de usuario" required/>
+              <mat-error *ngIf="isValidField('User')">
+                {{getErrorMessageUser('User')}}
+              </mat-error>
+          </div>
+        </div>
+        <div class="w-full lg:w-6/12 px-4">
+          <div class="relative w-full mb-3">
+            <label
+              class="block uppercase text-gray-700 text-xs font-bold mb-2"
+              htmlFor="grid-password">
+              Rol
+            </label>                    
+            <select name="Rol" id="Rol"
+            [(ngModel)]="rolSeleccionado" (change)="capturar()" [ngModelOptions]="{standalone: true}"
+            class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150" required> 
+              <option disabled selected>Selecciona una opción</option>
+              <option value="1">Administrador</option>
+              <option value="2">Cliente</option>
+            </select>
+          </div>
+        </div>     
+      </div>      
+      <div class="flex flex-wrap">
+        <div class="w-full lg:w-12/12 px-4">
+          <button
+            (click)="editUsuario()"
+            class="bg-red-600 text-white active:bg-red-700 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
+            type="button">Guardar</button>
+          <button
+              class="bg-white text-gray-800 active:bg-gray-100 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+              type="button" [routerLink]="['/admin/usuario']">Cancelar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

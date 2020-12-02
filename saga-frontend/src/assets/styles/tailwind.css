@@ -3652,3 +3652,9 @@ video {
     width: 66.666667%;
   }
 }
+
+.notification{
+  position: fixed;
+  top: 10em;
+  right: 10em;
+}

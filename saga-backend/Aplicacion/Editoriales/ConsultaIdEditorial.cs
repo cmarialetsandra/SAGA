@@ -1,8 +1,10 @@
-﻿using Dominio;
+﻿using Aplicacion.ManejadorError;
+using Dominio;
 using MediatR;
 using Persistencia;
 using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -26,6 +28,10 @@ namespace Aplicacion.Editoriales
             public async Task<Editorial> Handle(EditorialUnico request, CancellationToken cancellationToken)
             {
                 var editorial = await _context.tblEditorial.FindAsync(request.IdEditorial);
+                if (editorial == null)
+                {
+                    throw new ManejadorException(HttpStatusCode.NotFound, new { editorial = "No se encontró la editorial" });
+                }
                 return editorial;
             }
         }

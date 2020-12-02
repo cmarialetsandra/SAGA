@@ -1,21 +1,163 @@
 <main>
-  <section class="pt-20 pb-48">
-    <div class="container mx-auto px-4">
-      <div class="flex flex-wrap justify-center text-center mb-24">
-        <div class="w-full lg:w-6/12 px-4">
-          <h2 class="text-4xl font-semibold">Carrito</h2>
-          <p class="text-lg leading-relaxed m-4 text-gray-600">
-            Sección del carrito
-          </p>
+  <h1 style="font-weight:bold; font-size:30px; padding:15px;" class="text-gray-800 justify-center text-center">
+    Carrito de Préstamo en <i>SAGA</i> </h1>
+ <section class="pb-48">
+   <div class="flex flex-wrap">
+     
+    <div class="w-full xl:w-8/12 mb-12 xl:mb-0 px-4">
+      <div class="flex flex-wrap justify-center text-center">
+        <div class="w-full ">
+                      <div
+              class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
+              [ngClass]="color === 'light' ? 'bg-white' : 'bg-red-900 text-white'"
+            >
+            <!--Inicio de tabla-->
+              <div class="rounded-t mb-0 px-4 py-3 border-0">
+                <div class="flex flex-wrap items-center">
+                  <div class="relative w-full px-4 max-w-full flex-grow flex-1">
+                    <h3
+                      class="font-semibold text-lg"
+                      [ngClass]="color === 'light' ? 'text-gray-800' : 'text-white'"
+                    >
+                      Detalle del Préstamo
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="block w-full overflow-x-auto">
+                <!-- Projects table -->
+                <table class="items-center w-full bg-transparent border-collapse">
+                  <thead>
+                    <tr>
+                      <th
+                      class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
+                      [ngClass]=" color === 'light' ? 'bg-gray-100 text-gray-600 border-gray-200' : 'bg-red-800 text-red-300 border-red-700'">
+                      Título del libro
+                    </th>
+                      <th
+                        class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
+                        [ngClass]="
+                          color === 'light'
+                            ? 'bg-gray-100 text-gray-600 border-gray-200'
+                            : 'bg-red-800 text-red-300 border-red-700'
+                        "
+                      >
+                        Autor
+                      </th>
+                      <th
+                        class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
+                        [ngClass]="
+                          color === 'light'
+                            ? 'bg-gray-100 text-gray-600 border-gray-200'
+                            : 'bg-red-800 text-red-300 border-red-700'
+                        "
+                      >
+                        Categoría
+                      </th>
+                    <th
+                    class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-center"
+                    [ngClass]="
+                      color === 'light'
+                        ? 'bg-gray-100 text-gray-600 border-gray-200'
+                        : 'bg-red-800 text-red-300 border-red-700'
+                    "
+                  >
+                    Cantidad de libros a prestar
+                  </th>
+                      <th
+                        class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-center"
+                        [ngClass]="
+                          color === 'light'
+                            ? 'bg-gray-100 text-gray-600 border-gray-200'
+                            : 'bg-red-800 text-red-300 border-red-700'
+                        ">
+                      Opciones
+                    </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let dataItem of DetalleList">
+                      <th
+                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
+                      >
+                        <span
+                          class="ml-3 font-bold"
+                          [ngClass]="color === 'light' ? 'text-gray-700' : 'text-white'"
+                        >
+                          {{dataItem.titulo}}
+                        </span>
+                      </th>
+                      <td
+                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
+                      >
+                        {{dataItem.autor}}
+                      </td>
+                      <td
+                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
+                      >
+                        {{dataItem.categoria}}
+                      </td>
+                      <td
+                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-center"
+                      >
+                        {{dataItem.cantidad}}
+                      </td>
+                      <td
+                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-center"
+                      >
+                        <i class="fas fa-trash text-red-500 mr-4" (click)="quitarLibro(dataItem.idLibro)"></i>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          <!--Tabla fin-->
         </div>        
       </div>
-      <div class="text-center mt-6">
-        <button
-          class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
-          type="button" [routerLink]="['/cliente/prestamos']">
-          Préstamos
-        </button>
+    </div>
+
+    <!--Contenedor Izquierdo-->
+        <div class="w-full xl:w-4/12 px-4">
+          <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
+          <div class="rounded-t mb-0 px-4 py-3 bg-transparent">
+            <div class="flex flex-wrap items-center">
+              <div class="relative w-full max-w-full flex-grow flex-1">
+                <h5 class="uppercase text-gray-500 mb-1 text-xs font-semibold">
+                  SAGA
+                </h5>
+                <h2 class="text-gray-800 text-xl font-semibold">
+                  Opciones de Préstamo
+                  <i class="devicons devicons-git_compare"></i>
+                </h2>
+              </div> 
+              <button class="bg-red-600 text-white active:bg-red-700 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
+                      type="button" [routerLink]="['/cliente/libros']">
+                 Buscar más 
+              </button> 
+            </div>
+
+              <h4 class="font-semibold text-base text-gray-800"> <b>Fecha de Emisión: </b><input disabled type="date" [(ngModel)]="fechaHoy" name="fechaHoy" ></h4> 
+              <h4 class="font-semibold text-base text-gray-800"> <b>Fecha de Vencimiento: </b><input disabled type="date" [(ngModel)]="fechaVencimiento" name="fechaVencimiento"></h4>
+              <p class="text-gray-500"><i>Debe devolver sus libros en 15 días a partir de la fecha de hoy</i></p>
+            <div class="text-center mt-6">
+              <button
+                class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150" type="button" 
+                (click)="prestamorealizado()">
+                Realizar Préstamo
+              </button>
+            </div>
+            <div class="text-center mt-2">              
+              <button
+                class="bg-white text-gray-800 active:bg-gray-100 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
+                type="button" >
+                Cancelar
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
+      <!--Fin contenedor Izquierda-->
     </div>
   </section>  
 </main>

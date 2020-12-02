@@ -3,7 +3,7 @@
 >
   <div class="rounded-t bg-white mb-0 px-6 py-6">
     <div class="text-center flex justify-between">
-      <h6 class="text-gray-800 text-xl font-bold">Cambiar estado de entrega del libro</h6>      
+      <h1 class="text-gray-800 text-xl font-bold">Cambiar estado de entrega del libro</h1>      
     </div>
   </div>
   <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
@@ -17,17 +17,19 @@
               htmlFor="grid-password">
               Cambiar estado
             </label>
-            <select name="estado" id="estado"
+            <select [(ngModel)]="EstadoSeleccionado" name="EstadoSeleccionado" id="EstadoSeleccionado"
+            (change)="capturar()" [ngModelOptions]="{standalone: true}"
             class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150">
-              <option value="false">No entregado</option>
-              <option value="true">Entregado</option>
+              <option disabled selected>Selecciona una opción</option>  
+              <option value="1">No entregado</option>
+              <option value="2">Entregado</option>
             </select>
           </div>
         </div>
       </div>      
       <div class="flex flex-wrap">
         <div class="w-full lg:w-12/12 px-4">
-          <button
+          <button (click)="updateEstado()"
             class="bg-red-600 text-white active:bg-red-700 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
             type="button">Guardar</button>
           <button

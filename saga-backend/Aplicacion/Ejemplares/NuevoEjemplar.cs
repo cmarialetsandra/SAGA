@@ -1,4 +1,5 @@
 ﻿using Dominio;
+using FluentValidation;
 using MediatR;
 using Persistencia;
 using System;
@@ -18,6 +19,17 @@ namespace Aplicacion.Ejemplares
             public int Entrada { get; set; }
             public int Salida { get; set; }
         }
+
+        /*public class EjecutaValidacion : AbstractValidator<InsertarEjemplar>
+        {
+            public EjecutaValidacion()
+            {
+                RuleFor(x => x.IdLibro).NotEmpty();
+                RuleFor(x => x.Stock).NotEmpty();
+                RuleFor(x => x.Entrada).NotEmpty();
+                RuleFor(x => x.Salida).NotEmpty();
+            }
+        }*/
 
         public class Manejador : IRequestHandler<InsertarEjemplar>
         {

@@ -1,4 +1,6 @@
 import { Component, OnInit, Input } from "@angular/core";
+import { SharedService } from "src/app/shared.service";
+import { Router } from '@angular/router';
 
 @Component({
   selector: "app-card-tabla-inventario",
@@ -14,7 +16,18 @@ export class CardTablaInventarioComponent implements OnInit {
   }
   private _color = "light";
 
-  constructor() {}
+  constructor(private service:SharedService, private router:Router) {}
 
-  ngOnInit(): void {}
+  TotalEjemplarList:any=[];
+  p: number = 1;
+    
+  ngOnInit(): void {
+    this.refreshTotalEjemplarList();
+  }
+
+  refreshTotalEjemplarList(){
+    this.service.getEjemplarTotal().subscribe(data=>{
+      this.TotalEjemplarList=data;
+    });
+  }
 }

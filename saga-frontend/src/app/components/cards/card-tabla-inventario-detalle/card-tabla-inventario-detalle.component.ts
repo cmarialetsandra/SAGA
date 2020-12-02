@@ -1,4 +1,6 @@
 import { Component, OnInit, Input } from "@angular/core";
+import { SharedService } from "src/app/shared.service";
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: "app-card-tabla-inventario-detalle",
@@ -14,7 +16,21 @@ export class CardTablaInventarioDetalleComponent implements OnInit {
   }
   private _color = "light";
 
-  constructor() {}
+  IdFiltrado:number;
+  EjemplarList:any=[];
+  p: number = 1;
 
-  ngOnInit(): void {}
+  constructor(private service:SharedService, private route: ActivatedRoute) {
+    this.IdFiltrado = parseInt(this.route.snapshot.paramMap.get('idLibro'),10);
+  }
+
+  ngOnInit(): void {
+    this.refreshEjemplarList();
+  }
+
+  refreshEjemplarList(){
+    this.service.getEjemplar(this.IdFiltrado).subscribe(data=>{
+      this.EjemplarList=data;
+    });
+  }
 }

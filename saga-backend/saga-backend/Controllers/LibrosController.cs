@@ -40,5 +40,36 @@ namespace saga_backend.Controllers
         {
             return await _mediator.Send(data);
         }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult<Unit>> Editar(int id, EditarLibro.Ejecuta data)
+        {
+            data.IdLibro = id;
+            return await _mediator.Send(data);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<Unit>> Eliminar(int id)
+        {
+            return await _mediator.Send(new EliminarLibro.Ejecuta { IdLibro = id });
+        }
+
+        [HttpPost("validarLibro")]
+        public async Task<ActionResult<Libro>> ExisteLibro(ExisteLibro.ExisteLibroValidacion data)
+        {
+            return await _mediator.Send(data);
+        }
+
+        [HttpPost("validarIsbn")]
+        public async Task<ActionResult<Libro>> ExisteIsbn(ExisteIsbn.ExisteLibroIsbnValidacion data)
+        {
+            return await _mediator.Send(data);
+        }
+
+        [HttpPost("validarLibroEditar")]
+        public async Task<ActionResult<Libro>> ExisteLibroEditar(ExisteLibroEditar.ExisteLibroEditarValidacion data)
+        {
+            return await _mediator.Send(data);
+        }
     }
 }

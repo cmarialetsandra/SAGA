@@ -12,7 +12,7 @@ namespace Aplicacion.Autores
 {
     public class ConsultaAutor
     {
-        public class ListaAutores: IRequest<List<Autor>> {}
+        public class ListaAutores : IRequest<List<Autor>> { }
 
         public class Manejador : IRequestHandler<ListaAutores, List<Autor>>
         {

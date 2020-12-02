@@ -9,6 +9,7 @@ namespace Dominio
     {
         [Key]
         public int IdEditorial { get; set; }
+       // [Required(ErrorMessage ="Favor ingrese el nombre")]
         public string Nombre { get; set; }
         public ICollection<Libro> listaLibros { get; set; } = new HashSet<Libro>();
     }

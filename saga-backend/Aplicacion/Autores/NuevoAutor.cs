@@ -1,8 +1,14 @@
-﻿using Dominio;
+﻿using Aplicacion.ManejadorError;
+using Dominio;
+using FluentValidation;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using Persistencia;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -17,34 +23,45 @@ namespace Aplicacion.Autores
             public string Apellidos { get; set; }
         }
 
-        public class Manejador : IRequestHandler<InsertarAutor>
-        {
-            private readonly SagaContext _context;
-
-            public Manejador(SagaContext context)
+    
+            public class EjecutaValidacion : AbstractValidator<InsertarAutor>
             {
-                _context = context;
+                public EjecutaValidacion()
+                {
+                    RuleFor(x => x.Nombres).NotEmpty();
+                    RuleFor(x => x.Apellidos).NotEmpty();
+                }
             }
 
-            public async Task<Unit> Handle(InsertarAutor request, CancellationToken cancellationToken)
+            public class Manejador : IRequestHandler<InsertarAutor>
             {
-                var autor = new Autor
-                {
-                    Nombres = request.Nombres,
-                    Apellidos = request.Apellidos
-                };
+                private readonly SagaContext _context;
 
-                _context.tblAutor.Add(autor);
-
-                var valor = await _context.SaveChangesAsync();
-                
-                if(valor > 0)
+                public Manejador(SagaContext context)
                 {
-                    return Unit.Value;
+                    _context = context;
                 }
 
-                throw new Exception("No se pudo apregar el autor");
+                public async Task<Unit> Handle(InsertarAutor request, CancellationToken cancellationToken)
+                {
+                    var autor = new Autor
+                    {
+                        Nombres = request.Nombres,
+                        Apellidos = request.Apellidos
+                    };
+
+                    _context.tblAutor.Add(autor);
+
+                    var valor = await _context.SaveChangesAsync();
+
+                    if (valor > 0)
+                    {
+                        return Unit.Value;
+                    }
+
+                    throw new Exception("No se pudo apregar el autor");
+                }
             }
         }
     }
-}
+

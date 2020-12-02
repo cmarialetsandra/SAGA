@@ -1,8 +1,10 @@
 ﻿using Dominio;
+using FluentValidation;
 using MediatR;
 using Persistencia;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -16,6 +18,16 @@ namespace Aplicacion.DetallesPrestamos
             public int Cantidad { get; set; }
             public int IdPrestamo { get; set; }
             public int IdLibro { get; set; }
+        }
+
+        public class EjecutaValidacion : AbstractValidator<InsertarDetallePrestamo>
+        {
+            public EjecutaValidacion()
+            {
+                RuleFor(x => x.Cantidad).NotEmpty();
+                RuleFor(x => x.IdPrestamo).NotEmpty();
+                RuleFor(x => x.IdLibro).NotEmpty();
+            }
         }
 
         public class Manejador : IRequestHandler<InsertarDetallePrestamo>

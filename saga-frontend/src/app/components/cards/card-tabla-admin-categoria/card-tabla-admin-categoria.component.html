@@ -4,7 +4,12 @@
 >
   <div class="rounded-t bg-white mb-0 px-6 py-6">
     <div class="text-center flex justify-between">
-      <h6 class="text-gray-800 text-xl font-bold">Gestionar Categoría</h6>
+      <h1 class="text-gray-800 text-xl font-bold">Gestionar Categoría</h1>
+      <button
+        class="bg-red-600 text-white active:bg-red-700 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
+        type="button" [routerLink]="['/admin/entrada-categoria']">
+        Agregar entradas
+      </button>
     </div>
   </div>
   <div class="block w-full overflow-x-auto">
@@ -39,22 +44,25 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            1
+        <tr *ngFor="let dataItem of CategoriaList | paginate: {itemsPerPage: 7, currentPage: p}">
+          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
+            id="idCat">
+            {{dataItem.idCategoria}}
           </td>
-          <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left flex items-center">
+          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left flex items-center">
             <span
               class="ml-3 font-bold"
               [ngClass]="color === 'light' ? 'text-gray-700' : 'text-white'">
-              Mecánica Cuántica
+              {{dataItem.nombreCategoria}}
             </span>
-          </th>
+          </td>
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4">
-            <i class="fas fa-search text-red-500 mr-4" [routerLink]="['/admin/categoria']"></i>
+            <i class="fas fa-edit text-red-500 mr-4" [routerLink]="['/admin/editar-categoria',dataItem.idCategoria]"></i>
+            <i class="fas fa-trash text-red-500 mr-4" (click)="deleteCategoria(dataItem.idCategoria)"></i>
           </td>          
         </tr>      
       </tbody>
     </table>
+     <pagination-controls (pageChange)="p = $event"></pagination-controls>
   </div>
 </div>

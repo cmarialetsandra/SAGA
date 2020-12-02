@@ -1,4 +1,5 @@
 ﻿using Dominio;
+using FluentValidation;
 using MediatR;
 using Persistencia;
 using System;
@@ -23,6 +24,21 @@ namespace Aplicacion.Libros
             public int IdCategoria { get; set; }
         }
 
+        public class EjecutaValidacion : AbstractValidator<InsertarLibro>
+        {
+            public EjecutaValidacion()
+            {
+                RuleFor(x => x.Titulo).NotEmpty();
+                RuleFor(x => x.Descripcion).NotEmpty();
+                RuleFor(x => x.CantidadPaginas).NotEmpty();
+                RuleFor(x => x.ISBN).NotEmpty();
+                RuleFor(x => x.AnioPublicacion).NotEmpty();
+                RuleFor(x => x.IdAutor).NotEmpty();
+                RuleFor(x => x.IdEditorial).NotEmpty();
+                RuleFor(x => x.IdCategoria).NotEmpty();
+            }
+        }
+
         public class Manejador : IRequestHandler<InsertarLibro>
         {
             private readonly SagaContext _context;
@@ -44,7 +60,7 @@ namespace Aplicacion.Libros
                     IdAutor = request.IdAutor,
                     IdEditorial = request.IdEditorial,
                     IdCategoria = request.IdCategoria
-        };
+                };
 
                 _context.tblLibro.Add(libro);
 
@@ -55,7 +71,7 @@ namespace Aplicacion.Libros
                     return Unit.Value;
                 }
 
-                throw new Exception("No se pudo apregar el libro");
+                throw new Exception("No se pudo agregar el libro");
             }
         }
 
