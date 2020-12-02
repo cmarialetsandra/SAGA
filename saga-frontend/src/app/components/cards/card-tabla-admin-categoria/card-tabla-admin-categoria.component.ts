@@ -20,6 +20,7 @@ export class CardTablaAdminCategoriaComponent implements OnInit {
     constructor(private service: SharedService) {}
 
     CategoriaList:any=[];
+    p: number = 1;
   
     ngOnInit(): void {
       this.refreshCategoriaList();

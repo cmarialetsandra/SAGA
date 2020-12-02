@@ -18,6 +18,7 @@ export class CardTablaInventarioDetalleComponent implements OnInit {
 
   IdFiltrado:number;
   EjemplarList:any=[];
+  p: number = 1;
 
   constructor(private service:SharedService, private route: ActivatedRoute) {
     this.IdFiltrado = parseInt(this.route.snapshot.paramMap.get('idLibro'),10);

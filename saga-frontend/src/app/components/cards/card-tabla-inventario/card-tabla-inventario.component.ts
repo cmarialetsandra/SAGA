@@ -19,6 +19,7 @@ export class CardTablaInventarioComponent implements OnInit {
   constructor(private service:SharedService, private router:Router) {}
 
   TotalEjemplarList:any=[];
+  p: number = 1;
     
   ngOnInit(): void {
     this.refreshTotalEjemplarList();

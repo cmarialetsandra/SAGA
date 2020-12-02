@@ -32,6 +32,14 @@ export class SharedService {
   getCategoriaFiltrada(val:number):Observable<any[]>{
     return this.http.get<any>(this.APIUrl + "/Categorias/"+val);
   }
+
+  getCategoriaNombre(val:string):Observable<any[]>{
+    return this.http.get<any>(this.APIUrl + "/Categorias/"+val);
+  }
+
+  ExisteCategoria(val: any):Observable<any[]>{
+    return this.http.post<any>(this.APIUrl+"/Categorias/validarCategoria",val);
+  }
   //Fin métodos CATEGORIA
 
   //Métodos de EDITORIAL
@@ -53,6 +61,10 @@ export class SharedService {
 
   getEditorialFiltrada(val:number):Observable<any[]>{
     return this.http.get<any>(this.APIUrl + "/Editoriales/"+val);
+  }
+
+  ExisteEditorial(val: any):Observable<any[]>{
+    return this.http.post<any>(this.APIUrl+"/Editoriales/validarEditorial",val);
   }
   //Fin métodos EDITORIAL
 
@@ -76,6 +88,10 @@ export class SharedService {
   getAutorFiltrada(val:number):Observable<any[]>{
     return this.http.get<any>(this.APIUrl + "/Autores/"+val);
   }
+
+  ExisteAutor(val: any):Observable<any[]>{
+    return this.http.post<any>(this.APIUrl+"/Autores/validarAutor",val);
+  }
   //Fin métodos AUTOR
 
   //Métodos de USUARIO
@@ -97,7 +113,15 @@ export class SharedService {
 
   getUsuarioFiltrado(val:number):Observable<any[]>{
     return this.http.get<any>(this.APIUrl + "/Usuarios/"+val);
-  }  
+  } 
+  
+  ExisteUsuario(val: any):Observable<any[]>{
+    return this.http.post<any>(this.APIUrl+"/Usuarios/validarUsuario",val);
+  }
+
+  ExisteUsuarioEditar(val: any):Observable<any[]>{
+    return this.http.post<any>(this.APIUrl+"/Usuarios/validarUsuarioEditar",val);
+  }
   //Fin métodos USUARIO
 
   //Métodos de LIBRO
@@ -123,6 +147,17 @@ export class SharedService {
 
   getLibroIndividual(val:number):Observable<any[]>{
     return this.http.get<any>(this.APIUrl + "/VistaLibros/"+val);
+
+  ExisteLibro(val: any):Observable<any[]>{
+    return this.http.post<any>(this.APIUrl+"/Libros/validarLibro",val);
+  }
+
+  ExisteIsbn(val: any):Observable<any[]>{
+    return this.http.post<any>(this.APIUrl+"/Libros/validarIsbn",val);
+  }
+
+  ExisteLibroEditar(val: any):Observable<any[]>{
+    return this.http.post<any>(this.APIUrl+"/Libros/validarLibroEditar",val);
   }
   //Fin métodos LIBRO
 

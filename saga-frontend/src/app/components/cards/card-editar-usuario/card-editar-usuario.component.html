@@ -18,12 +18,16 @@
               Nombres
             </label>                    
             <input
+              formControlName="Nombres"
               [(ngModel)]="Nombres"
               [ngModelOptions]="{standalone: true}"
               name="Nombres"
               type="text"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
               placeholder="Ingrese los nombres del usuario" required/>
+              <mat-error *ngIf="isValidField('Nombres')">
+                {{getErrorMessage('Nombres')}}
+              </mat-error>
           </div>
         </div>
         <div class="w-full lg:w-6/12 px-4">
@@ -34,12 +38,16 @@
               Apellidos
             </label>                    
             <input
+              formControlName="Apellidos"
               [(ngModel)]="Apellidos"
               [ngModelOptions]="{standalone: true}"
               name="Apellidos"
               type="text"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
               placeholder="Ingrese los apellidos del usuario" required/>
+              <mat-error *ngIf="isValidField('Apellidos')">
+                {{getErrorMessage('Apellidos')}}
+              </mat-error>
           </div>
         </div>
         <div class="w-full lg:w-6/12 px-4">
@@ -50,12 +58,16 @@
               Usuario
             </label>                    
             <input
+              formControlName="User"
               [(ngModel)]="User"
               [ngModelOptions]="{standalone: true}"
               name="User"
               type="text"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
               placeholder="Ingrese el nombre de usuario" required/>
+              <mat-error *ngIf="isValidField('User')">
+                {{getErrorMessageUser('User')}}
+              </mat-error>
           </div>
         </div>
         <div class="w-full lg:w-6/12 px-4">
@@ -67,7 +79,7 @@
             </label>                    
             <select name="Rol" id="Rol"
             [(ngModel)]="rolSeleccionado" (change)="capturar()" [ngModelOptions]="{standalone: true}"
-            class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150">
+            class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150" required> 
               <option disabled selected>Selecciona una opción</option>
               <option value="1">Administrador</option>
               <option value="2">Cliente</option>

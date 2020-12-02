@@ -17,6 +17,8 @@ export class CardTablaAdminPrestamoComponent implements OnInit {
 
   PrestamosList:any=[];
 
+  p: number = 1;
+
   constructor(private service: SharedService) {}
 
   ngOnInit(): void {

@@ -3,81 +3,116 @@ import { FormGroup, FormControl, FormBuilder, Validators } from '@angular/forms'
 import { SharedService } from "src/app/shared.service";
 import { Router } from '@angular/router';
 import { ValidarQueSeanIguales } from '../register/register.validator';
-import swal from'sweetalert2';
+import swal from 'sweetalert2';
 
 @Component({
   selector: "app-register",
   templateUrl: "./register.component.html",
 })
-export class RegisterComponent  implements OnInit {
-  loginForm: FormGroup;
+export class RegisterComponent implements OnInit {
 
-  constructor(private service:SharedService, private router:Router, private formBuilder: FormBuilder) 
-  {}
+  form = this.fb.group({
+    Nombres: ['', Validators.required],
+    Apellidos: ['', Validators.required],
+    User: ['', [Validators.required, Validators.minLength(4)]],
+    Contrasenia: ['', [Validators.required, Validators.minLength(6)]],
+    ConfirmarContrasenia: ['', [Validators.required, , Validators.minLength(6)]]
+  }, {
+    validators: ValidarQueSeanIguales
+  });
+
+  constructor(private service: SharedService, private router: Router, private fb: FormBuilder) { }
 
   @Input() cat: any;
-  User:string;
-  Contrasenia:string;
-  Nombres:string;
-  Apellidos:string;
-  Rol:number = 2;
+  User: string;
+  Contrasenia: string;
+  Nombres: string;
+  Apellidos: string;
+  Rol: number = 2;
+  DataList: any = [];
 
-  ngOnInit(): void {
-    this.initForm();
-  }
-  
-  
 
-  //Validación si los campos son iguales
-  initForm() {
-    this.loginForm = this.formBuilder.group({
-      'Contrasenia':  ['', Validators.required],
-      'ConfirmarContrasenia': ['', Validators.required]
-    }, {
-      validators: ValidarQueSeanIguales
-    });
+  ngOnInit(): void { }
+  /*Métodos para la validación de campos vacíos*/
+  getErrorMessage(field: string):string{
+    let message;
+    if(this.form.get(field).errors.required){
+      message = 'No se permite campos vacios';
+    }
+    
+    return message;
   }
 
+  //Método para validar el mínimo de la contraseña
+  getErrorMessagePwd(field: string): string {
+    let message;
+    if (this.form.get(field).errors.required) {
+      message = 'No se permite campos vacios';
+    } else if (this.form.get(field).hasError('minlength')) {
+      message = 'La contraseña debe tener como mínimo 6 caracteres';
+    }
+    return message;
+  }
+
+  //Método para validar el mínimo del usuario
+  getErrorMessageUser(field: string): string {
+    let message;
+    if (this.form.get(field).errors.required) {
+      message = 'No se permite campos vacios';
+    } else if (this.form.get(field).hasError('minlength')) {
+      message = 'El usuario debe tener como mínimo 4 caracteres';
+    }
+    return message;
+  }
+
+  isValidField(field: string): boolean {
+    return ((this.form.get(field).touched || this.form.get(field).dirty) && !this.form.get(field).valid);
+  }
+
+  //Método para validar si las contraseñas son iguales
   checarSiSonIguales(): boolean {
-    return this.loginForm.hasError('noSonIguales') &&
-      this.loginForm.get('Contrasenia').dirty &&
-      this.loginForm.get('ConfirmarContrasenia').dirty;
+    return this.form.hasError('noSonIguales') &&
+      this.form.get('Contrasenia').dirty &&
+      this.form.get('ConfirmarContrasenia').dirty;
   }
-  //Fin de validación campos iguales
-
 
   //Método para guardar el usuario
-  addUsuario(){
+  addUsuario() {
     var val = {
-      User:this.User,
-      Contrasenia:this.Contrasenia,
-      Nombres:this.Nombres,
-      Apellidos:this.Apellidos,
-      Rol:this.Rol
+      User: this.User,
+      Contrasenia: this.Contrasenia,
+      Nombres: this.Nombres,
+      Apellidos: this.Apellidos,
+      Rol: this.Rol
     };
 
-    this.service.addUsuario(val).subscribe(res=>{
-     
-      /*Mensaje de éxito al guardar*/
-      const Toast = swal.mixin({
-        toast: true,
-        position: 'top-end',
-        showConfirmButton: false,
-        timer: 2000,
-        timerProgressBar: true,
-        didOpen: (toast) => {
-          toast.addEventListener('mouseenter', swal.stopTimer)
-          toast.addEventListener('mouseleave', swal.resumeTimer)
-        }
-      })
-      
-      Toast.fire({
-        icon: 'success',
-        title: 'Registro guardado con éxito'
-      })
-      /*Fin Mensaje de éxito al guardar*/
+    this.service.ExisteUsuario(val).subscribe(res => {
+      this.DataList = res;
 
-      this.router.navigate(['/']);
-    }); 
+      this.service.addUsuario(val).subscribe(res => {
+
+        /*Mensaje de éxito al guardar*/
+        const Toast = swal.mixin({
+          toast: true,
+          position: 'top-end',
+          showConfirmButton: false,
+          timer: 2000,
+          timerProgressBar: true,
+          didOpen: (toast) => {
+            toast.addEventListener('mouseenter', swal.stopTimer)
+            toast.addEventListener('mouseleave', swal.resumeTimer)
+          }
+        })
+
+        Toast.fire({
+          icon: 'success',
+          title: 'Registro guardado con éxito'
+        })
+        /*Fin Mensaje de éxito al guardar*/
+
+        this.router.navigate(['/']);
+      });
+    });
+
   }
 }
