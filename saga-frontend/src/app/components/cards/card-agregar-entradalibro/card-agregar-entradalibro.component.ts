@@ -1,8 +1,8 @@
 import { Component, OnInit, Input } from "@angular/core";
 import { SharedService } from "src/app/shared.service";
-import { ActivatedRoute } from '@angular/router';
-import { Router } from '@angular/router';
-import swal from'sweetalert2';
+import { ActivatedRoute, Router } from '@angular/router';
+import { FormBuilder, Validators } from '@angular/forms';
+import swal from 'sweetalert2';
 
 @Component({
   selector: "app-card-agregar-entradalibro",
@@ -10,37 +10,54 @@ import swal from'sweetalert2';
 })
 export class CardAgregarEntradaLibroComponent implements OnInit {
 
-  IdFiltrado:number;
-  Stock:number;
-  EjemplarList:any=[];
+  form = this.fb.group({Entrada: ['', Validators.required],}, {});
+
+  IdFiltrado: number;
+  Stock: number;
+  EjemplarList: any = [];
 
   @Input() ent: any;
-  Entrada:string;
+  Entrada: string;
 
-  constructor(private service:SharedService, private route: ActivatedRoute, private router: Router) {
-    this.IdFiltrado = parseInt(this.route.snapshot.paramMap.get('idLibro'),10);
+  constructor(private service: SharedService, private route: ActivatedRoute, private router: Router, private fb: FormBuilder) {
+    this.IdFiltrado = parseInt(this.route.snapshot.paramMap.get('idLibro'), 10);
   }
+
+  /*Validación de campos vacíos*/
+  getErrorMessage(field: string):string{
+    let message;
+    if(this.form.get(field).errors.required){
+      message = 'No se permite campos vacios';
+    }
+    
+    return message;
+  }
+
+  isValidField(field:string):boolean{
+    return((this.form.get(field).touched || this.form.get(field).dirty) && !this.form.get(field).valid);
+  }
+
 
   ngOnInit(): void {
     this.refreshStockList();
   }
 
-  refreshStockList(){
-    this.service.getStock(this.IdFiltrado).subscribe(data=>{
-      this.EjemplarList=data;
-      this.Stock=this.EjemplarList.stock;
+  refreshStockList() {
+    this.service.getStock(this.IdFiltrado).subscribe(data => {
+      this.EjemplarList = data;
+      this.Stock = this.EjemplarList.stock;
     });
   }
 
-  addEntradaEjemplar(){
-    var val = {      
-      IdLibro:this.IdFiltrado,
-      Stock:this.Stock + this.Entrada,
-      Entrada:this.Entrada,
+  addEntradaEjemplar() {
+    var val = {
+      IdLibro: this.IdFiltrado,
+      Stock: this.Stock + this.Entrada,
+      Entrada: this.Entrada,
       Salida: 0
     };
     
-    this.service.addEntradaEjemplar(val).subscribe(res=>{
+    this.service.addEntradaEjemplar(val).subscribe(res => {
       /*Mensaje de éxito al guardar*/
       const Toast = swal.mixin({
         toast: true,
@@ -53,14 +70,14 @@ export class CardAgregarEntradaLibroComponent implements OnInit {
           toast.addEventListener('mouseleave', swal.resumeTimer)
         }
       })
-      
+
       Toast.fire({
         icon: 'success',
         title: 'Registro guardado con éxito'
       })
       /*Fin Mensaje de éxito al guardar*/
 
-      this.router.navigate(['/admin/inventario-detalle',this.IdFiltrado]);
+      this.router.navigate(['/admin/inventario-detalle', this.IdFiltrado]);
     });
   }
 }

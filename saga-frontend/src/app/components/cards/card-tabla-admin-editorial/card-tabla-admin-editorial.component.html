@@ -44,7 +44,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let dataItem of EditorialList">
+        <tr *ngFor="let dataItem of EditorialList | paginate: {itemsPerPage: 7, currentPage: p}">
           <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
             id="idEdit">
             {{dataItem.idEditorial}}
@@ -63,5 +63,6 @@
         </tr>      
       </tbody>
     </table>
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
   </div>
 </div>

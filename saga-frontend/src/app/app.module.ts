@@ -1,7 +1,9 @@
 import { BrowserModule } from "@angular/platform-browser";
-import { NgModule } from "@angular/core";
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from "@angular/core";
 import { MatDialogModule } from '@angular/material/dialog';
-//import { MaterialModule } from "./material/material.module";
+import { MatPaginatorModule } from '@angular/material/paginator';
+import {NgxPaginationModule} from 'ngx-pagination';
+import {MatIconModule} from '@angular/material/icon';
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
@@ -47,6 +49,7 @@ import { LibrosComponent } from "./views/cliente/libros/libros.component";
 import { PrestamosComponent } from "./views/cliente/prestamos/prestamos.component";
 import { DetallePrestamosComponent } from "./views/cliente/detalle-prestamos/detalle-prestamos.component";
 import {PopupCliente} from "./views/cliente/pupupcliente/popupcliente.component";
+import { PopupCliente } from "./views/cliente/pupupcliente/popupcliente.component";
 
 //errores views
 import { Error404Component } from "./views/error404/error404.component";
@@ -120,7 +123,8 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { UsuarioComponent } from './views/admin/usuario/usuario.component';
 import { AgregarEntradaUsuarioComponent } from './views/admin/agregar-entradausuario/agregar-entradausuario.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {HttpErrorInterceptor} from './http-error.interceptor';
+import { HttpErrorInterceptor } from './http-error.interceptor';
+import { MustMatch } from '../app/_helpers/must-match.validator';
 
 @NgModule({
   declarations: [
@@ -217,18 +221,21 @@ import {HttpErrorInterceptor} from './http-error.interceptor';
     CardDetallePrestamosClienteComponent
   ],
   imports: [
-    BrowserModule, 
+    MatPaginatorModule,
+    BrowserModule,
     MatDialogModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
+    NgxPaginationModule,
     BrowserAnimationsModule],
   providers: [
     SharedService,
     { provide: HTTP_INTERCEPTORS, useClass: HttpErrorInterceptor, multi: true }
   ],
   bootstrap: [AppComponent],
-  entryComponents: [CardTablaLibroClienteComponent]
+  entryComponents: [CardTablaLibroClienteComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
-export class AppModule {}
+export class AppModule { }

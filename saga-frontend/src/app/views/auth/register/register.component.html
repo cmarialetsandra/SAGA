@@ -1,110 +1,103 @@
 <div class="container mx-auto px-4 h-full">
   <div class="flex content-center items-center justify-center h-full">
     <div class="w-full lg:w-6/12 px-4">
-      <div
-        class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300 border-0">
+      <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300 border-0">
         <div class="rounded-t mb-0 px-6 py-6">
-          <h4 class="text-3xl font-normal leading-normal mt-0 mb-2 text-gray-800" style="text-align: center; font-size: 30px;"> 
-             Crea tu cuenta
+          <h4 class="text-3xl font-normal leading-normal mt-0 mb-2 text-gray-800"
+            style="text-align: center; font-size: 30px;">
+            Crea tu cuenta
           </h4>
           <hr class="mt-6 border-b-1 border-gray-400" />
         </div>
         <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
-          <form  [formGroup]="loginForm">
+          <form [formGroup]="form">
             <div class="relative w-full mb-3">
-              <label
-                class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                htmlFor="grid-password"
-              >
+              <label class="block uppercase text-gray-700 text-xs font-bold mb-2" htmlFor="grid-password">
                 Nombres
               </label>
-              <input
-              [(ngModel)]="Nombres"
-              [ngModelOptions]="{standalone: true}"
-              name="Nombres"
+              <input formControlName="Nombres" [(ngModel)]="Nombres" [ngModelOptions]="{standalone: true}"
+                name="Nombres" type="text"
                 class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-                placeholder="Ingrese sus nombres"
-              />
+                placeholder="Ingrese los nombres del usuario" required />
+              <mat-error *ngIf="isValidField('Nombres')">
+                {{getErrorMessage('Nombres')}}
+              </mat-error>
             </div>
-            
 
             <div class="relative w-full mb-3">
-              <label formControlName="lname" 
-                class="block uppercase text-gray-700 text-xs font-bold mb-2"
-              >
+              <label class="block uppercase text-gray-700 text-xs font-bold mb-2">
                 Apellidos
               </label>
-              <input
-                [(ngModel)]="Apellidos"
-                [ngModelOptions]="{standalone: true}"
-                name="Apellidos"
-                type="text"
+              <input formControlName="Apellidos" [(ngModel)]="Apellidos" [ngModelOptions]="{standalone: true}"
+                name="Apellidos" type="text"
                 class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-                placeholder="Ingrese sus apellidos"
-              />
+                placeholder="Ingrese los apellidos del usuario" required />
+              <mat-error *ngIf="isValidField('Apellidos')">
+                {{getErrorMessage('Apellidos')}}
+              </mat-error>
             </div>
 
             <div class="relative w-full mb-3">
-              <label
-                class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                htmlFor="grid-password"
-              >
+              <label class="block uppercase text-gray-700 text-xs font-bold mb-2" htmlFor="grid-password">
                 Nombre de Usuario
               </label>
-              <input
-              [(ngModel)]="User"
-              [ngModelOptions]="{standalone: true}"
-              name="User"
-              type="text"
+              <input [(ngModel)]="User" [ngModelOptions]="{standalone: true}" name="User" type="text"
+                formControlName="User"
                 class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-                placeholder="Ingrese su nombre de usuario"
-              />
+                placeholder="Ingrese su nombre de usuario"/>
+              <mat-error *ngIf="isValidField('User')">
+                {{getErrorMessageUser('User')}}
+              </mat-error>
             </div>
 
             <div class="relative w-full mb-3">
-              <label
-                class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                htmlFor="grid-password" 
-              >
+
+              <label class="block uppercase text-gray-700 text-xs font-bold mb-2" htmlFor="grid-password">
                 Contraseña
               </label>
-              <input
-              [(ngModel)]="Contrasenia"
-              [ngModelOptions]="{standalone: true}"
-              name="Contrasenia"
-              type="password"
-              formControlName="Contrasenia"
-              class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-              placeholder="Ingrese la contraseña" required
-              />
-            </div>
-            
-            <div class="relative w-full mb-3">
-              <label
-                class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                htmlFor="grid-password" 
-              >
-                Confirme su Contraseña
-              </label>
-              <input
-                type="password" formControlName="ConfirmarContrasenia" id="ConfirmarContrasenia" name="ConfirmarContrasenia"
-                class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-                placeholder="Confirme su contraseña" 
-                
-              />
-              <span *ngIf="checarSiSonIguales()" class = "text-center" >Las contraseñas no coinciden</span>
+              <mat-form-field>
+                <input matInput [type]="hide ? 'text' : 'password'" [(ngModel)]="Contrasenia" name="Contrasenia"
+                  type="password" formControlName="Contrasenia"
+                  class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150 "
+                  placeholder="Ingresa tu contraseña" required>
+                <button class="fas fa-eye text-blue mr-4" mat-icon-button matSuffix (click)="hide = !hide"
+                  [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide"
+                  style=" position: absolute;left:-5%; position: absolute;bottom:10%; margin-left: 95%; margin-top: 0px;  margin-bottom: 8px;">
+                </button>
+              </mat-form-field>
+              <mat-error *ngIf="isValidField('Contrasenia')">
+                {{getErrorMessageContrasenia('Contrasenia')}}
+              </mat-error>
             </div>
 
-            <div class="text-center mt-6" >
-              <button
-              (click)="addUsuario()"
-                class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
-                [disabled]="!loginForm.valid" 
-              >
-               Crear cuenta
+            <div class="relative w-full mb-3">
+
+              <label class="block uppercase text-gray-700 text-xs font-bold mb-2" htmlFor="grid-password">
+                Confirmar Contraseña
+              </label>
+              <mat-form-field>
+                <input matInput [type]="hide2 ? 'text' : 'password'" [(ngModel)]="ConfirmarContrasenia"
+                  name="ConfirmarContrasenia" type="password" formControlName="ConfirmarContrasenia"
+                  class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150 "
+                  placeholder="Ingresa tu contraseña" required>
+                <button class="fas fa-eye text-blue mr-4" mat-icon-button matSuffix (click)="hide2 = !hide2"
+                  [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide2"
+                  style=" position: absolute;left:-5%; position: absolute;bottom:10%; margin-left: 95%; margin-top: 0px;  margin-bottom: 8px;">
+                </button>
+              </mat-form-field>
+            </div>
+            <mat-error *ngIf="isValidField('ConfirmarContrasenia')">
+              {{getErrorMessageContrasenia('ConfirmarContrasenia')}}
+            </mat-error>
+            <span *ngIf="checarSiSonIguales()">Las contraseñas no coinciden</span>
+
+            <div class="text-center mt-6">
+              <button (click)="addUsuario()"
+                class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150">
+                Crear cuenta
               </button>
             </div>
-            <div class="text-center mt-2">    
+            <div class="text-center mt-2">
               <button
                 class="bg-white text-gray-800 active:bg-gray-100 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
                 type="button" [routerLink]="['/auth/login']">

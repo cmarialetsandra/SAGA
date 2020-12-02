@@ -1,9 +1,7 @@
 ﻿using Aplicacion.ManejadorError;
 using MediatR;
-using Microsoft.EntityFrameworkCore;
 using Persistencia;
 using System;
-using System.Collections.Generic;
 using System.Net;
 using System.Text;
 using System.Threading;
@@ -19,7 +17,6 @@ namespace Aplicacion.Autores
             public string Nombres { get; set; }
             public string Apellidos { get; set; }
         }
-
 
         public class Manejador : IRequestHandler<Ejecuta>
         {
@@ -52,6 +49,5 @@ namespace Aplicacion.Autores
                 throw new Exception("No se actualizaron los cambios en la tabla Autor");
             }
         }
-
     }
 }

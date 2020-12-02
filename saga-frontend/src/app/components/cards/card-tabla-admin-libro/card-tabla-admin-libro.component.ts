@@ -20,7 +20,8 @@ export class CardTablaLibroComponent implements OnInit {
   constructor(private service: SharedService) {}
 
   LibroList:any=[];
-  
+  p: number = 1;
+
     ngOnInit(): void {
       this.refreshLibroList();
     }
