@@ -44,7 +44,7 @@ export class RegisterComponent implements OnInit {
   }
 
   //Método para validar el mínimo de la contraseña
-  getErrorMessageDesc(field: string): string {
+  getErrorMessagePwd(field: string): string {
     let message;
     if (this.form.get(field).errors.required) {
       message = 'No se permite campos vacios';
