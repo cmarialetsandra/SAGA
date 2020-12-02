@@ -31,7 +31,7 @@ namespace Aplicacion.Prestamos
                 if (prestamo == null)
                 {
                     //throw new Exception("No se pudo eliminar curso");
-                    throw new ManejadorException(HttpStatusCode.NotFound, new { detalle = "No se encontró el préstamo" });
+                    throw new ManejadorException(HttpStatusCode.NotFound, new { prestamo = "No se encontró el préstamo" });
                 }
 
                 _context.Remove(prestamo);

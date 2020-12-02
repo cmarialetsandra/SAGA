@@ -28,5 +28,11 @@ namespace saga_backend.Controllers
         {
             return await _mediator.Send(new ConsultaVistaTotalLibros.ListaVistaLibros());
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<VwLibro>> FiltradoId(int id)
+        {
+            return await _mediator.Send(new ConsultaVistaIdLibro.LibroUnico { IdLibro = id });
+        }
     }
 }

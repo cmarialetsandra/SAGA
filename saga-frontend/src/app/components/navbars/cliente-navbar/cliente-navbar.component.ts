@@ -10,10 +10,12 @@ export class ClienteNavbarComponent implements OnInit {
 
   tokenUser:string;
   tokenRol:number;
+  tokenNombreCompleto:string;
 
   constructor(private router:Router) {
     this.tokenUser = localStorage.getItem('tokenUser');
     this.tokenRol = parseInt(localStorage.getItem('tokenRol'), 10);
+    this.tokenNombreCompleto = localStorage.getItem('tokenNombreCompleto');
   }
 
   ngOnInit(): void {}
@@ -25,6 +27,7 @@ export class ClienteNavbarComponent implements OnInit {
   onLogout(){
     localStorage.removeItem('tokenUser');
     localStorage.removeItem('tokenRol');
+    localStorage.removeItem('tokenId');
     localStorage.clear();
     this.router.navigate(['/']);
   }

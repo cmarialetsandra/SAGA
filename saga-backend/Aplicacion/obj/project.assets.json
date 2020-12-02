@@ -5829,19 +5829,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PERSONAL\\.nuget\\packages\\": {}
+    "C:\\Users\\cmari\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj",
+      "projectUniqueName": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj",
       "projectName": "Aplicacion",
-      "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj",
-      "packagesPath": "C:\\Users\\PERSONAL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Aplicacion\\obj\\",
+      "projectPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj",
+      "packagesPath": "C:\\Users\\cmari\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Aplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PERSONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cmari\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5854,11 +5854,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj"
+            "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj"
             },
-            "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj"
+            "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj"
             }
           }
         }

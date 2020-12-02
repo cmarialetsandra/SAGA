@@ -20,27 +20,50 @@ export class HttpErrorInterceptor implements HttpInterceptor {
 
             this.credencialesIncorrectas();
             return throwError(errorMessage);
+        }else if(error instanceof HttpErrorResponse && error.status == 500){
+          errorMessage = `Server-side error: ${error.message}`;
+
+          this.errorActualizacion();
         }
       })
     );
   }
 
   credencialesIncorrectas(){
-	const Toast = swal.mixin({
-	  toast: true,
-	  position: 'top-end',
-	  showConfirmButton: false,
-	  timer: 5000,
-	  timerProgressBar: true,
-	  didOpen: (toast) => {
-		toast.addEventListener('mouseenter', swal.stopTimer)
-		toast.addEventListener('mouseleave', swal.resumeTimer)
-	  }
-	})
+    const Toast = swal.mixin({
+      toast: true,
+      position: 'top-end',
+      showConfirmButton: false,
+      timer: 5000,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+      toast.addEventListener('mouseenter', swal.stopTimer)
+      toast.addEventListener('mouseleave', swal.resumeTimer)
+      }
+    })
 
-	Toast.fire({
-	  icon: 'error',
-	  title: 'Credenciales incorrectas'
-	})
-}
+    Toast.fire({
+      icon: 'error',
+      title: 'Credenciales incorrectas'
+    })
+  }
+
+  errorActualizacion(){
+    const Toast = swal.mixin({
+      toast: true,
+      position: 'top-end',
+      showConfirmButton: false,
+      timer: 5000,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+      toast.addEventListener('mouseenter', swal.stopTimer)
+      toast.addEventListener('mouseleave', swal.resumeTimer)
+      }
+    })
+  
+    Toast.fire({
+      icon: 'error',
+      title: 'No está realizando ninguna actualización'
+    })
+  }
 }
