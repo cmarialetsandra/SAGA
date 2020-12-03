@@ -38,18 +38,7 @@ namespace Aplicacion.Prestamos
                     throw new ManejadorException(HttpStatusCode.NotFound, new { prestamo = "No se encontró el préstamo" });
                 }
 
-                //prestamo.FechaDevolucion = request.FechaDevolucion == null ? null : prestamo.FechaDevolucion;
-
                 prestamo.FechaDevolucion = request.FechaDevolucion;
-
-                /*if (request.FechaDevolucion == null)
-                {
-                    prestamo.FechaDevolucion = null;
-                }
-                else
-                {
-                    prestamo.FechaDevolucion = request.FechaDevolucion;
-                }*/
 
                 prestamo.Estado = request.Estado != 0 ? request.Estado : prestamo.Estado;
 

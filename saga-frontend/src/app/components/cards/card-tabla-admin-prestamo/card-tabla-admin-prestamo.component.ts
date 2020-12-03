@@ -16,7 +16,7 @@ export class CardTablaAdminPrestamoComponent implements OnInit {
   private _color = "light";
 
   PrestamosList:any=[];
-  constructor() {}
+
   p: number = 1;
 
   constructor(private service: SharedService) {}

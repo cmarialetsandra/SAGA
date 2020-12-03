@@ -64,58 +64,84 @@ export class CarritoComponent implements OnInit {
   }
 
   prestamorealizado(){
+    if(localStorage.getItem('carrito')==null){
+      this.carritoVacio();
+    }else{
+      swal.fire({
+        title: '¿Estás seguro de tu préstamo?',
+        text: "Aún puedes agregar más libros a tu lista",
+        icon: 'question',
+        showCancelButton: true,
+        confirmButtonColor: '#E53E3E',
+        cancelButtonColor: '#1A202C',
+        cancelButtonText: 'Cancelar',
+        confirmButtonText: 'Finalizar Préstamo',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          this.guardarPrestamo();
+  
+          swal.fire(
+            '¡Tu préstamo se ha realizado con éxito!',
+            'SAGA',
+            'success'
+          )
+        }
+      })
+    }
+  }
 
-    swal.fire({
-      title: '¿Estás seguro de tu préstamo?',
-      text: "Aún puedes agregar más libros a tu lista",
-      icon: 'question',
-      showCancelButton: true,
-      confirmButtonColor: '#E53E3E',
-      cancelButtonColor: '#1A202C',
-      cancelButtonText: 'Cancelar',
-      confirmButtonText: 'Finalizar Préstamo',
-    }).then((result) => {
-      if (result.isConfirmed) {
-        var valP = {
-          IdUsuario : this.tokenId,
-          FechaEmision : this.fechaHoy,
-          FechaVencimiento : this.fechaVencimiento,
-          Estado : 1
-        };
-    
-        this.service.addPrestamo(valP).subscribe(res=>{
-          this.Prestamolist = res;
-          for(let i of this.DetalleList){
-            var valDP = {
-              Cantidad : i.cantidad,
-              IdPrestamo : this.Prestamolist.idPrestamo,
-              IdLibro : i.idLibro
-            }  
-            this.service.getStock(i.idLibro).subscribe(res=>{
-              this.StockList = res;
-              var nuevoStock = this.StockList.stock - i.cantidad;
-              var valE = {
-                IdLibro : i.idLibro,
-                Entrada : 0,
-                Salida : i.cantidad,
-                Stock : nuevoStock
-              }
-              console.log("valE",valE);
-              this.service.addEntradaEjemplar(valE).subscribe(res=>{});
-            });  
-            this.service.addDetallePrestamo(valDP).subscribe(res=>{
-              this.DetalleList.splice(i,1);
-            });        
+  guardarPrestamo(){
+    var valP = {
+      IdUsuario : this.tokenId,
+      FechaEmision : this.fechaHoy,
+      FechaVencimiento : this.fechaVencimiento,
+      Estado : 1
+    };
+
+    this.service.addPrestamo(valP).subscribe(res=>{
+      this.Prestamolist = res;
+      for(let i of this.DetalleList){
+        var valDP = {
+          Cantidad : i.cantidad,
+          IdPrestamo : this.Prestamolist.idPrestamo,
+          IdLibro : i.idLibro
+        }  
+        this.service.getStock(i.idLibro).subscribe(res=>{
+          this.StockList = res;
+          var nuevoStock = this.StockList.stock - i.cantidad;
+          var valE = {
+            IdLibro : i.idLibro,
+            Entrada : 0,
+            Salida : i.cantidad,
+            Stock : nuevoStock
           }
-          localStorage.removeItem('carrito');
-        });
-
-        swal.fire(
-          '¡Tu préstamo se ha realizado con éxito!',
-          'SAGA',
-          'success'
-        )
+          console.log("valE",valE);
+          this.service.addEntradaEjemplar(valE).subscribe(res=>{});
+        });  
+        this.service.addDetallePrestamo(valDP).subscribe(res=>{
+          this.DetalleList.splice(i,1);
+        });        
       }
+      localStorage.removeItem('carrito');
+    });
+  }
+
+  carritoVacio(){
+    const Toast = swal.mixin({
+      toast: true,
+      position: 'top-end',
+      showConfirmButton: false,
+      timer: 7000,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+      toast.addEventListener('mouseenter', swal.stopTimer)
+      toast.addEventListener('mouseleave', swal.resumeTimer)
+      }
+    })
+  
+    Toast.fire({
+      icon: 'error',
+      title: 'El carrito se encuentra vacío'
     })
   }
 

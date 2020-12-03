@@ -42,6 +42,7 @@ import { CarritoComponent } from "./views/cliente/carrito/carrito.component";
 import { LibrosComponent } from "./views/cliente/libros/libros.component";
 import { PrestamosComponent } from "./views/cliente/prestamos/prestamos.component";
 import { DetallePrestamosComponent } from './views/cliente/detalle-prestamos/detalle-prestamos.component';
+import { ClienteIndexComponent } from "./views/cliente/cliente-index/cliente-index.component";
 
 //errores views
 import { Error404Component } from "./views/error404/error404.component";
@@ -102,6 +103,7 @@ const routes: Routes = [
     path: "cliente",
     component: ClienteComponent,
     children: [
+      { path: "cliente-index", component: ClienteIndexComponent },
       { path: "libros", component: LibrosComponent },
       { path: "carrito", component: CarritoComponent },
       { path: "prestamos", component: PrestamosComponent },    

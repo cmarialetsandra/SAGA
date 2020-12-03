@@ -145,10 +145,10 @@ export class SharedService {
     return this.http.get<any>(this.APIUrl + "/Libros/"+val);
   }
 
-<<<<<<< HEAD
   getLibroIndividual(val:number):Observable<any[]>{
     return this.http.get<any>(this.APIUrl + "/VistaLibros/"+val);
-=======
+  }
+  
   ExisteLibro(val: any):Observable<any[]>{
     return this.http.post<any>(this.APIUrl+"/Libros/validarLibro",val);
   }
@@ -159,7 +159,6 @@ export class SharedService {
 
   ExisteLibroEditar(val: any):Observable<any[]>{
     return this.http.post<any>(this.APIUrl+"/Libros/validarLibroEditar",val);
->>>>>>> 2da27fed074335d24d19733150f386a42bf3cf35
   }
   //Fin métodos LIBRO
 

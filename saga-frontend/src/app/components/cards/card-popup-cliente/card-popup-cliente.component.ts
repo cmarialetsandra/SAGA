@@ -24,9 +24,10 @@ export class CardPopupCliente implements OnInit {
   EjemplarList:any=[];
   Stock:number;
   Cantidad:number;
+  CarritoList:any=[];
 
   constructor(private service: SharedService, public dialogRef: MatDialogRef<PopupCliente>,  @Inject(MAT_DIALOG_DATA) data) {
-    this.idLibro = data.IdLibro
+    this.idLibro = data.IdLibro;
   }
 
   @Input() libro:any = {};
@@ -68,6 +69,30 @@ export class CardPopupCliente implements OnInit {
   }
 
   agregarCarrito(){
+    var encontrado;
+
+    if(localStorage.getItem('carrito')==null){
+      this.cargarCarrito();
+    }else{
+      if(localStorage.getItem('carrito')){
+        this.CarritoList = JSON.parse(localStorage.getItem('carrito'));
+      }
+
+      for(let i of this.CarritoList){
+        if(i.IdLibro == this.idLibro){
+          encontrado = 1;
+        }
+      }
+
+      if(encontrado == 1){
+        this.cargadoCarrito();
+      }else{
+        this.cargarCarrito();
+      }
+    }
+  }
+
+  cargarCarrito(){
     var existencia = this.Stock-this.Cantidad;
     if(this.Stock <= 4){
       this.sinExistencia();
@@ -112,6 +137,25 @@ export class CardPopupCliente implements OnInit {
     Toast.fire({
       icon: 'error',
       title: 'Disponibilidad insuficiente para préstamo'
+    })
+  }
+
+  cargadoCarrito(){
+    const Toast = swal.mixin({
+      toast: true,
+      position: 'top-end',
+      showConfirmButton: false,
+      timer: 7000,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+      toast.addEventListener('mouseenter', swal.stopTimer)
+      toast.addEventListener('mouseleave', swal.resumeTimer)
+      }
+    })
+  
+    Toast.fire({
+      icon: 'error',
+      title: 'El libro ya está cargado en el carrito'
     })
   }
 

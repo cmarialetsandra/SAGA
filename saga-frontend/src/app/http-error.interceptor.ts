@@ -28,24 +28,31 @@ export class HttpErrorInterceptor implements HttpInterceptor {
           this.encontrado();
           return throwError(errorMessage);
         }
+		
         if (error instanceof HttpErrorResponse && error.status == 406 ) {
           errorMessage = `Client-side error: ${error.message}`;
 
           this.usuario();
           return throwError(errorMessage);
         }
+		
         if (error instanceof HttpErrorResponse && error.status == 405 ) {
           errorMessage = `Client-side error: ${error.message}`;
 
           this.libro();
           return throwError(errorMessage);
         }
+		
+		if(error instanceof HttpErrorResponse && error.status == 500){
+          errorMessage = `Server-side error: ${error.message}`;
+
+          this.errorActualizacion();
+		  return throwError(errorMessage);
+        }
         
       })
     );
   }
-
-
 
   credencialesIncorrectas() {
     const Toast = swal.mixin({
@@ -122,4 +129,24 @@ export class HttpErrorInterceptor implements HttpInterceptor {
       title: 'Hay registros duplicados, intente con otros datos.'
     })
   }
+  
+  errorActualizacion(){
+    const Toast = swal.mixin({
+      toast: true,
+      position: 'top-end',
+      showConfirmButton: false,
+      timer: 5000,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+      toast.addEventListener('mouseenter', swal.stopTimer)
+      toast.addEventListener('mouseleave', swal.resumeTimer)
+      }
+    })
+  
+    Toast.fire({
+      icon: 'error',
+      title: 'No está realizando ninguna actualización'
+    })
+  }
+  
 }
