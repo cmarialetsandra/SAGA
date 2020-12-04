@@ -1,17 +1,54 @@
-<section class="pb-48 bg-white" >
- <div class="lg:pt-12 pt-6 w-full flex flex-wrap px-4 text-center" style="padding:5px;">
-    <div class="w-full flex flex-col min-w-0 break-words bg-gray-900 w-full mb-8 shadow-lg rounded-lg lg:w-3/12" *ngFor="let dataItem of LibroList" style="width:416px; height:200px; margin:5px;">
-        <div class="px-4 py-5 flex-auto">
-          <app-card-popup-cliente  [libro]="libro" *ngIf="MostrarComponente"></app-card-popup-cliente>
-            <h1 class="text-white text-xl font-bold"> {{dataItem.titulo}} </h1>
-            <br>
-            <p class="text-white">{{dataItem.descripcion}}</p>
-            <br>
-            <button (click)="Crear(dataItem)" class="bg-red-600 active:bg-red-700 uppercase text-white font-semibold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150" type="button" >
-                <i class="fas fa-plus"></i>
-            </button>
-        </div> 
-    </div>
- </div>
-</section>
+<div>
+    <input [(ngModel)]="textoBusqueda" name="textoBusqueda" style="margin-left:10px; margin-right:0px; margin-bottom:10px; width:1145px;" type="text" placeholder="Buscar libro (Título, Categoría, Autor, Descripción, Editorial, Año de Publicación, Cantidad de Páginas, ISBN...)" class="px-3 py-3 placeholder-gray-400 text-gray-700 relative bg-white bg-white rounded text-sm border border-gray-400 outline-none focus:outline-none focus:shadow-outline"/>
+    <button (click)="buscar()" style="margin-bottom:10px;" class="bg-red-600 text-white active:bg-red-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
+        <i style="margin-right:5px;" class="fas fa-search"></i>Buscar
+    </button>
+</div>
+<div *ngIf="busqueda==1 && vacio==1">
+    <section class="pb-48 bg-white" >
+        <div class="lg:pt-12 pt-6 w-full flex flex-wrap px-4 text-center" style="padding:5px;">
+        <div class="w-full flex flex-col min-w-0 break-words bg-gray-900 w-full mb-8 shadow-lg rounded-lg lg:w-3/12" *ngFor="let dataItem of BusquedaLibroList" style="width:416px; height:200px; margin:5px;">
+            <div class="px-4 py-5 flex-auto">
+              <app-card-popup-cliente  [libro]="libro" *ngIf="MostrarComponente"></app-card-popup-cliente>
+                <h1 class="text-white text-xl font-bold"> {{dataItem.titulo}} </h1>
+                <br>
+                <p class="text-white">{{dataItem.descripcion}}</p>
+                <br>
+                <button (click)="Crear(dataItem)" class="bg-red-600 active:bg-red-700 uppercase text-white font-semibold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150" type="button" >
+                    <i class="fas fa-plus"></i>
+                </button>
+            </div> 
+        </div>
+     </div>
+    </section>
+</div>
+<div *ngIf="busqueda==0 && vacio==1">
+    <section class="pb-48 bg-white" >
+        <div class="lg:pt-12 pt-6 w-full flex flex-wrap px-4 text-center" style="padding:5px;">
+        <div class="w-full flex flex-col min-w-0 break-words bg-gray-900 w-full mb-8 shadow-lg rounded-lg lg:w-3/12" *ngFor="let dataItem of LibroList" style="width:416px; height:200px; margin:5px;">
+            <div class="px-4 py-5 flex-auto">
+              <app-card-popup-cliente  [libro]="libro" *ngIf="MostrarComponente"></app-card-popup-cliente>
+                <h1 class="text-white text-xl font-bold"> {{dataItem.titulo}} </h1>
+                <br>
+                <p class="text-white">{{dataItem.descripcion}}</p>
+                <br>
+                <button (click)="Crear(dataItem)" class="bg-red-600 active:bg-red-700 uppercase text-white font-semibold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150" type="button" >
+                    <i class="fas fa-plus"></i>
+                </button>
+            </div> 
+        </div>
+     </div>
+    </section>
+</div>
+<div *ngIf="vacio==0" style="display: flex; justify-content: center;">
+    <section class="pb-48 bg-white" >
+        <h1 class="text-gray-500" style="margin:50px;">
+            El libro que está buscando no está disponible en SAGA
+        </h1>
+        <div style="display: flex; justify-content: center;">
+            <img style="width: 128px; height: 128px;" src="../../../assets/img/libroNoEncontrado.png" alt="..."/>
+        </div>
+         </section>
+</div>
+
 

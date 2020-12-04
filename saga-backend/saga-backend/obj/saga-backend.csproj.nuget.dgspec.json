@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\saga-backend\\saga-backend.csproj": {}
+    "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\saga-backend\\saga-backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj": {
+    "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj",
-        "packagesPath": "C:\\Users\\cmari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Aplicacion\\obj\\",
+        "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\PERSONAL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cmari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PERSONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj"
+              "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj"
               },
-              "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj"
+              "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -79,20 +76,17 @@
         }
       }
     },
-    "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\cmari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Dominio\\obj\\",
+        "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\PERSONAL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cmari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PERSONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -134,20 +128,17 @@
         }
       }
     },
-    "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\cmari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\PERSONAL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cmari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PERSONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -160,8 +151,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj"
+              "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -209,20 +200,17 @@
         }
       }
     },
-    "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\saga-backend\\saga-backend.csproj": {
+    "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\saga-backend\\saga-backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\saga-backend\\saga-backend.csproj",
+        "projectUniqueName": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\saga-backend\\saga-backend.csproj",
         "projectName": "saga-backend",
-        "projectPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\saga-backend\\saga-backend.csproj",
-        "packagesPath": "C:\\Users\\cmari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\saga-backend\\obj\\",
+        "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\saga-backend\\saga-backend.csproj",
+        "packagesPath": "C:\\Users\\PERSONAL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\saga-backend\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cmari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PERSONAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -235,8 +223,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj"
+              "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "C:\\Users\\PERSONAL\\Downloads\\SAGA\\saga-backend\\Aplicacion\\Aplicacion.csproj"
               }
             }
           }

@@ -15,6 +15,7 @@ export class CardTablaLibroClienteComponent implements OnInit {
   constructor(private service: SharedService, private dialog: MatDialog ) {}
 
     LibroList:any=[];
+    BusquedaLibroList:any=[];
     MostrarComponente:boolean=false;
     libro:any;
     idLibro:number;
@@ -27,6 +28,9 @@ export class CardTablaLibroClienteComponent implements OnInit {
     isbn:string;
     anioPublicacion:Date;
     nombre:string;
+    busqueda:number=0;
+    textoBusqueda:string;
+    vacio:number=1;
 
     ngOnInit(): void {
       this.refreshLibroList();
@@ -35,6 +39,7 @@ export class CardTablaLibroClienteComponent implements OnInit {
     refreshLibroList(){
       this.service.getLibroList().subscribe(data=>{
         this.LibroList=data;
+        console.log("Lista libros",this.LibroList);
       });
     }
 
@@ -52,6 +57,53 @@ export class CardTablaLibroClienteComponent implements OnInit {
         IdLibro: dataItem.idLibro  
     };
       this.dialog.open(CardPopupCliente, dialogConfig);
+    }
+
+    buscar(){
+      var encontrado = 0;
+      var llena = 0;
+
+      var str = "    ";
+      if (!this.textoBusqueda.replace(/\s/g, '').length) {
+        this.busqueda = 0;
+        this.vacio = 1;
+      }else{
+        if(this.BusquedaLibroList.length == 0){
+          llena = 0;
+        }else{
+          llena = 1;
+          this.BusquedaLibroList.length = 0;
+          this.BusquedaLibroList.splice(0, this.BusquedaLibroList.length);
+        }   
+  
+        for(let libro of this.LibroList){
+          if( (libro.anioPublicacion).toString().includes(this.textoBusqueda) ||
+          libro.nombres.toUpperCase().includes(this.textoBusqueda.toUpperCase()) ||
+          libro.apellidos.toUpperCase().includes(this.textoBusqueda.toUpperCase()) ||
+          (libro.nombres + " " + libro.apellidos).toUpperCase().includes(this.textoBusqueda.toUpperCase()) ||
+          (libro.cantidadPaginas).toString().includes(this.textoBusqueda) ||
+          libro.descripcion.toUpperCase().includes(this.textoBusqueda.toUpperCase()) ||
+          libro.isbn.toUpperCase().includes(this.textoBusqueda.toUpperCase()) ||
+          libro.nombre.toUpperCase().includes(this.textoBusqueda.toUpperCase()) ||
+          libro.nombreCategoria.toUpperCase().includes(this.textoBusqueda.toUpperCase()) ||
+          libro.titulo.toUpperCase().includes(this.textoBusqueda.toUpperCase())){
+            encontrado = 1;
+            this.BusquedaLibroList.push(libro);
+          }else{
+            encontrado = 0;
+          }
+        }
+
+        if(this.textoBusqueda.length != 0 && this.BusquedaLibroList.length == 0){
+          this.vacio = 0;
+        }else if(this.BusquedaLibroList.length == 0){
+          this.busqueda = 0;
+          this.vacio = 1;
+        }else{
+          this.busqueda = 1;
+          this.vacio = 1;
+        }
+      }
     }
     
 }
