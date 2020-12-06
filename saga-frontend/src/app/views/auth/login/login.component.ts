@@ -30,7 +30,7 @@ export class LoginComponent implements OnInit {
       if(this.Rol==1){
         localStorage.setItem('tokenUser',this.DataList.user);
         localStorage.setItem('tokenRol',this.DataList.rol);
-        this.router.navigate(['/admin/usuario']);
+        this.router.navigate(['/admin/home']);
       }
       else if(this.Rol==2){
         localStorage.setItem('tokenUser',this.DataList.user);
