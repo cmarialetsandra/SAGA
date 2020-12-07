@@ -74,261 +74,163 @@
       <!-- Divider -->
       <hr class="my-4 md:min-w-full" />
       <!-- Heading -->
-      <h6
+      <h5
         class="md:min-w-full text-gray-600 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
       >
-        Admin Layout Pages
-      </h6>
+        Navegación
+      </h5>
       <!-- Navigation -->
 
-      <ul class="md:flex-col md:min-w-full flex flex-col list-none">
+      <ul class="md:flex-col md:min-w-full flex flex-col list-none">    
         <li class="items-center">
           <a
-            [routerLink]="['/admin/dashboard']"
+            [routerLink]="['/admin/home']"
             class="text-xs uppercase py-3 font-bold block"
             routerLinkActive
-            #adminDashboard="routerLinkActive"
+            #adminhome="routerLinkActive"
             [ngClass]="
-              adminDashboard.isActive
+                adminhome.isActive
+                ? 'text-red-600 hover:text-red-700'
+                : 'text-gray-800 hover:text-gray-600'">
+            <i
+              class="fas fa-home mr-2 text-sm"
+              [ngClass]="adminhome.isActive ? 'opacity-75' : 'text-gray-400'"></i>
+            Inicio
+          </a>  
+        <li class="items-center">
+          <a
+            [routerLink]="['/admin/usuario']"
+            class="text-xs uppercase py-3 font-bold block"
+            routerLinkActive
+            #adminusuario="routerLinkActive"
+            [ngClass]="
+              adminusuario.isActive
                 ? 'text-red-600 hover:text-red-700'
                 : 'text-gray-800 hover:text-gray-600'
             "
           >
             <i
-              class="fas fa-tv mr-2 text-sm"
-              [ngClass]="
-                adminDashboard.isActive ? 'opacity-75' : 'text-gray-400'
-              "
+              class="fas fa-user mr-2 text-sm"
+              [ngClass]="adminusuario.isActive ? 'opacity-75' : 'text-gray-400'"
             ></i>
-            Dashboard
+            Usuario
           </a>
         </li>
-
         <li class="items-center">
           <a
-            [routerLink]="['/admin/settings']"
+            [routerLink]="['/admin/autor']"
             class="text-xs uppercase py-3 font-bold block"
             routerLinkActive
-            #adminSettings="routerLinkActive"
+            #adminautor="routerLinkActive"
             [ngClass]="
-              adminSettings.isActive
+              adminautor.isActive
                 ? 'text-red-600 hover:text-red-700'
                 : 'text-gray-800 hover:text-gray-600'
             "
           >
             <i
-              class="fas fa-tools mr-2 text-sm"
-              [ngClass]="
-                adminSettings.isActive ? 'opacity-75' : 'text-gray-400'
-              "
+              class="fas fa-feather-alt mr-2 text-sm"
+              [ngClass]="adminautor.isActive ? 'opacity-75' : 'text-gray-400'"
             ></i>
-            Settings
+            Autor
           </a>
         </li>
-
         <li class="items-center">
           <a
-            [routerLink]="['/admin/tables']"
+            [routerLink]="['/admin/editorial']"
             class="text-xs uppercase py-3 font-bold block"
             routerLinkActive
-            #adminTables="routerLinkActive"
+            #admineditorial="routerLinkActive"
             [ngClass]="
-              adminTables.isActive
+              admineditorial.isActive
                 ? 'text-red-600 hover:text-red-700'
                 : 'text-gray-800 hover:text-gray-600'
             "
           >
             <i
-              class="fas fa-table mr-2 text-sm"
-              [ngClass]="adminTables.isActive ? 'opacity-75' : 'text-gray-400'"
+              class="fas fa-newspaper mr-2 text-sm"
+              [ngClass]="admineditorial.isActive ? 'opacity-75' : 'text-gray-400'"
             ></i>
-            Tables
+            Editorial
           </a>
         </li>
-
         <li class="items-center">
           <a
-            [routerLink]="['/admin/maps']"
+            [routerLink]="['/admin/categoria']"
             class="text-xs uppercase py-3 font-bold block"
             routerLinkActive
-            #adminMaps="routerLinkActive"
+            #admincategoria="routerLinkActive"
             [ngClass]="
-              adminMaps.isActive
+              admincategoria.isActive
                 ? 'text-red-600 hover:text-red-700'
                 : 'text-gray-800 hover:text-gray-600'
             "
           >
             <i
-              class="fas fa-map-marked mr-2 text-sm"
-              [ngClass]="adminMaps.isActive ? 'opacity-75' : 'text-gray-400'"
+              class="fas fa-boxes mr-2 text-sm"
+              [ngClass]="admincategoria.isActive ? 'opacity-75' : 'text-gray-400'"
             ></i>
-            Maps
+            Categoría
           </a>
         </li>
-      </ul>
-
-      <!-- Divider -->
-      <hr class="my-4 md:min-w-full" />
-      <!-- Heading -->
-      <h6
-        class="md:min-w-full text-gray-600 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
-      >
-        Auth Layout Pages
-      </h6>
-      <!-- Navigation -->
-
-      <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
         <li class="items-center">
           <a
-            [routerLink]="['/auth/login']"
-            class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
+            [routerLink]="['/admin/libro']"
+            class="text-xs uppercase py-3 font-bold block"
+            routerLinkActive
+            #adminlibro="routerLinkActive"
+            [ngClass]="
+              adminlibro.isActive
+                ? 'text-red-600 hover:text-red-700'
+                : 'text-gray-800 hover:text-gray-600'
+            "
           >
-            <i class="fas fa-fingerprint text-gray-400 mr-2 text-sm"></i>
-            Login
+            <i
+              class="fas fa-book mr-2 text-sm"
+              [ngClass]="adminlibro.isActive ? 'opacity-75' : 'text-gray-400'"
+            ></i>
+            Libro
           </a>
         </li>
-
         <li class="items-center">
           <a
-            [routerLink]="['/auth/register']"
-            class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
+            [routerLink]="['/admin/inventario']"
+            class="text-xs uppercase py-3 font-bold block"
+            routerLinkActive
+            #adminInventario="routerLinkActive"
+            [ngClass]="
+              adminInventario.isActive
+                ? 'text-red-600 hover:text-red-700'
+                : 'text-gray-800 hover:text-gray-600'
+            "
           >
-            <i class="fas fa-clipboard-list text-gray-400 mr-2 text-sm"></i>
-            Register
+            <i
+              class="fas fa-dolly-flatbed mr-2 text-sm"
+              [ngClass]="adminInventario.isActive ? 'opacity-75' : 'text-gray-400'"
+            ></i>
+            Inventario
           </a>
-        </li>
-      </ul>
-
-      <!-- Divider -->
-      <hr class="my-4 md:min-w-full" />
-      <!-- Heading -->
-      <h6
-        class="md:min-w-full text-gray-600 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
-      >
-        No Layout Pages
-      </h6>
-      <!-- Navigation -->
-
-      <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
+        </li>        
         <li class="items-center">
           <a
-            [routerLink]="['/landing']"
-            class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
+            [routerLink]="['/admin/admin-prestamo']"
+            class="text-xs uppercase py-3 font-bold block"
+            routerLinkActive
+            #adminAdminPrestamo="routerLinkActive"
+            [ngClass]="
+              adminAdminPrestamo.isActive
+                ? 'text-red-600 hover:text-red-700'
+                : 'text-gray-800 hover:text-gray-600'
+            "
           >
-            <i class="fas fa-newspaper text-gray-400 mr-2 text-sm"></i>
-            Landing Page
+            <i
+              class="fas fa-bookmark mr-2 text-sm"
+              [ngClass]="adminAdminPrestamo.isActive ? 'opacity-75' : 'text-gray-400'"
+            ></i>
+            Préstamo
           </a>
         </li>
-
-        <li class="items-center">
-          <a
-            [routerLink]="['/profile']"
-            class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
-          >
-            <i class="fas fa-user-circle text-gray-400 mr-2 text-sm"></i>
-            Profile Page
-          </a>
-        </li>
-      </ul>
-
-      <!-- Divider -->
-      <hr class="my-4 md:min-w-full" />
-      <!-- Heading -->
-      <h6
-        class="md:min-w-full text-gray-600 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
-      >
-        Documentation
-      </h6>
-      <!-- Navigation -->
-      <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
-        <li class="inline-flex">
-          <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/angular/colors/notus"
-            target="_blank"
-            class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-          >
-            <i class="fas fa-paint-brush mr-2 text-gray-400 text-base"></i>
-            Styles
-          </a>
-        </li>
-
-        <li class="inline-flex">
-          <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus"
-            target="_blank"
-            class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-          >
-            <i class="fab fa-css3-alt mr-2 text-gray-400 text-base"></i>
-            CSS Components
-          </a>
-        </li>
-
-        <li class="inline-flex">
-          <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/angular/overview/notus"
-            target="_blank"
-            class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-          >
-            <i class="fab fa-angular mr-2 text-gray-400 text-base"></i>
-            Angular
-          </a>
-        </li>
-
-        <li class="inline-flex">
-          <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/js/overview/notus"
-            target="_blank"
-            class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-          >
-            <i class="fab fa-js-square mr-2 text-gray-400 text-base"></i>
-            Javascript
-          </a>
-        </li>
-
-        <li class="inline-flex">
-          <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus"
-            target="_blank"
-            class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-          >
-            <i class="fab fa-react mr-2 text-gray-400 text-base"></i>
-            NextJS
-          </a>
-        </li>
-
-        <li class="inline-flex">
-          <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus"
-            target="_blank"
-            class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-          >
-            <i class="fab fa-react mr-2 text-gray-400 text-base"></i>
-            React
-          </a>
-        </li>
-
-        <li class="inline-flex">
-          <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/notus"
-            target="_blank"
-            class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-          >
-            <i class="fas fa-link mr-2 text-gray-400 text-base"></i>
-            Svelte
-          </a>
-        </li>
-
-        <li class="inline-flex">
-          <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/vue/overview/notus"
-            target="_blank"
-            class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-          >
-            <i class="fab fa-vuejs mr-2 text-gray-400 text-base"></i>
-            VueJS
-          </a>
-        </li>
-      </ul>
+      </ul>      
     </div>
   </div>
 </nav>

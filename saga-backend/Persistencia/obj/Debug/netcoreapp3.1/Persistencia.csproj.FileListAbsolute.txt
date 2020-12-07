@@ -1,0 +1,138 @@
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csprojAssemblyReference.cache
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfoInputs.cache
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfo.cs
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.deps.json
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.json
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.dev.json
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CopyComplete
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.genruntimeconfig.cache
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.deps.json
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.json
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.dev.json
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csprojAssemblyReference.cache
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfoInputs.cache
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfo.cs
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CopyComplete
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.genruntimeconfig.cache
+C:\SAGA\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.deps.json
+C:\SAGA\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.json
+C:\SAGA\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.dev.json
+C:\SAGA\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\SAGA\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\SAGA\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\SAGA\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\SAGA\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csprojAssemblyReference.cache
+C:\SAGA\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfoInputs.cache
+C:\SAGA\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfo.cs
+C:\SAGA\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CoreCompileInputs.cache
+C:\SAGA\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CopyComplete
+C:\SAGA\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.dll
+C:\SAGA\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.pdb
+C:\SAGA\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.genruntimeconfig.cache
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.deps.json
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.json
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.dev.json
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csprojAssemblyReference.cache
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfoInputs.cache
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfo.cs
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CopyComplete
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.genruntimeconfig.cache
+C:\Users\cmari\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.deps.json
+C:\Users\cmari\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.json
+C:\Users\cmari\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.dev.json
+C:\Users\cmari\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\cmari\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\cmari\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csprojAssemblyReference.cache
+C:\Users\cmari\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfoInputs.cache
+C:\Users\cmari\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfo.cs
+C:\Users\cmari\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\cmari\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CopyComplete
+C:\Users\cmari\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\cmari\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.genruntimeconfig.cache
+<<<<<<< HEAD
+C:\Users\Ulises\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.deps.json
+C:\Users\Ulises\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.json
+C:\Users\Ulises\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.dev.json
+C:\Users\Ulises\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\Ulises\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Ulises\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csprojAssemblyReference.cache
+C:\Users\Ulises\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfoInputs.cache
+C:\Users\Ulises\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfo.cs
+C:\Users\Ulises\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Ulises\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CopyComplete
+C:\Users\Ulises\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\Ulises\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.genruntimeconfig.cache
+=======
+C:\Users\JORDY\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.deps.json
+C:\Users\JORDY\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.json
+C:\Users\JORDY\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.dev.json
+C:\Users\JORDY\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\JORDY\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\JORDY\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csprojAssemblyReference.cache
+C:\Users\JORDY\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfoInputs.cache
+C:\Users\JORDY\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfo.cs
+C:\Users\JORDY\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\JORDY\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CopyComplete
+C:\Users\JORDY\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\JORDY\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.genruntimeconfig.cache
+>>>>>>> 8f9c5eb20e082b25dafad1699c1fe0778051f226
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.deps.json
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.json
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.dev.json
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csprojAssemblyReference.cache
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfoInputs.cache
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfo.cs
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CopyComplete
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.genruntimeconfig.cache
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.deps.json
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.json
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.dev.json
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Persistencia\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csprojAssemblyReference.cache
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfoInputs.cache
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfo.cs
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CopyComplete
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.genruntimeconfig.cache

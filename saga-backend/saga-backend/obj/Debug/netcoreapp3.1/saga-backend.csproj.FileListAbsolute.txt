@@ -1,0 +1,1007 @@
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.exe
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.deps.json
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.runtimeconfig.json
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.runtimeconfig.dev.json
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.pdb
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Aplicacion.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csprojAssemblyReference.cache
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.AssemblyInfoInputs.cache
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.AssemblyInfo.cs
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csproj.CoreCompileInputs.cache
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.RazorTargetAssemblyInfo.cache
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csproj.CopyComplete
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\staticwebassets\saga-backend.StaticWebAssets.Manifest.cache
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\staticwebassets\saga-backend.StaticWebAssets.xml
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.pdb
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.genruntimeconfig.cache
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\PERSONAL\Documents\UCA\2020\2S\Sistemas Distribuidos\Proyecto SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.exe
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.deps.json
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.runtimeconfig.json
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.runtimeconfig.dev.json
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.pdb
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Aplicacion.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csprojAssemblyReference.cache
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.AssemblyInfoInputs.cache
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.AssemblyInfo.cs
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csproj.CoreCompileInputs.cache
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.RazorTargetAssemblyInfo.cache
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csproj.CopyComplete
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\staticwebassets\saga-backend.StaticWebAssets.Manifest.cache
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\staticwebassets\saga-backend.StaticWebAssets.xml
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.dll
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.pdb
+C:\Users\cmari\Documents\UCA\2020\II Semestre\Sistemas Distribuidos\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.genruntimeconfig.cache
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\appsettings.json
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.exe
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.deps.json
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.runtimeconfig.json
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.runtimeconfig.dev.json
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.pdb
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Aplicacion.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\SAGA\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csprojAssemblyReference.cache
+C:\SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.AssemblyInfoInputs.cache
+C:\SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.AssemblyInfo.cs
+C:\SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csproj.CoreCompileInputs.cache
+C:\SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.MvcApplicationPartsAssemblyInfo.cache
+C:\SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.RazorTargetAssemblyInfo.cache
+C:\SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csproj.CopyComplete
+C:\SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\staticwebassets\saga-backend.StaticWebAssets.Manifest.cache
+C:\SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\staticwebassets\saga-backend.StaticWebAssets.xml
+C:\SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.dll
+C:\SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.pdb
+C:\SAGA\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.genruntimeconfig.cache
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.exe
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.deps.json
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.runtimeconfig.json
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.runtimeconfig.dev.json
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.pdb
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Aplicacion.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csprojAssemblyReference.cache
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.AssemblyInfoInputs.cache
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.AssemblyInfo.cs
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csproj.CoreCompileInputs.cache
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.RazorTargetAssemblyInfo.cache
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csproj.CopyComplete
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\staticwebassets\saga-backend.StaticWebAssets.Manifest.cache
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\staticwebassets\saga-backend.StaticWebAssets.xml
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.dll
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.pdb
+C:\Users\Ulises\Desktop\Semestre\SD\Proyecto\SAGA-GH\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.genruntimeconfig.cache
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.exe
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.deps.json
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.runtimeconfig.json
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.runtimeconfig.dev.json
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.pdb
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Aplicacion.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csprojAssemblyReference.cache
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.AssemblyInfoInputs.cache
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.AssemblyInfo.cs
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csproj.CoreCompileInputs.cache
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.RazorTargetAssemblyInfo.cache
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csproj.CopyComplete
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\staticwebassets\saga-backend.StaticWebAssets.Manifest.cache
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\staticwebassets\saga-backend.StaticWebAssets.xml
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.pdb
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.genruntimeconfig.cache
+<<<<<<< HEAD
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.exe
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.deps.json
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.runtimeconfig.json
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.runtimeconfig.dev.json
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.pdb
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Aplicacion.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csprojAssemblyReference.cache
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.AssemblyInfoInputs.cache
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.AssemblyInfo.cs
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csproj.CoreCompileInputs.cache
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.RazorTargetAssemblyInfo.cache
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csproj.CopyComplete
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\staticwebassets\saga-backend.StaticWebAssets.Manifest.cache
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\staticwebassets\saga-backend.StaticWebAssets.xml
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.pdb
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.genruntimeconfig.cache
+=======
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.exe
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.deps.json
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.runtimeconfig.json
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.runtimeconfig.dev.json
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.pdb
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Aplicacion.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csprojAssemblyReference.cache
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.AssemblyInfoInputs.cache
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.AssemblyInfo.cs
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csproj.CoreCompileInputs.cache
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.RazorTargetAssemblyInfo.cache
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csproj.CopyComplete
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\staticwebassets\saga-backend.StaticWebAssets.Manifest.cache
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\staticwebassets\saga-backend.StaticWebAssets.xml
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.dll
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.pdb
+C:\Users\JORDY\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.genruntimeconfig.cache
+>>>>>>> 8f9c5eb20e082b25dafad1699c1fe0778051f226
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Aplicacion.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csprojAssemblyReference.cache
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.AssemblyInfoInputs.cache
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.AssemblyInfo.cs
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csproj.CoreCompileInputs.cache
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.RazorTargetAssemblyInfo.cache
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csproj.CopyComplete
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.pdb
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.exe
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.deps.json
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.runtimeconfig.json
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.runtimeconfig.dev.json
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.pdb
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\staticwebassets\saga-backend.StaticWebAssets.Manifest.cache
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\staticwebassets\saga-backend.StaticWebAssets.xml
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.genruntimeconfig.cache
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Ulises\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\cmari\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\PERSONAL\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Aplicacion.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csprojAssemblyReference.cache
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.AssemblyInfoInputs.cache
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.AssemblyInfo.cs
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csproj.CoreCompileInputs.cache
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.RazorTargetAssemblyInfo.cache
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.csproj.CopyComplete
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.pdb
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.exe
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.deps.json
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.runtimeconfig.json
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.runtimeconfig.dev.json
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.dll
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\bin\Debug\netcoreapp3.1\saga-backend.pdb
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\staticwebassets\saga-backend.StaticWebAssets.Manifest.cache
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\staticwebassets\saga-backend.StaticWebAssets.xml
+C:\Users\Juan Teran\Downloads\SAGA\saga-backend\saga-backend\obj\Debug\netcoreapp3.1\saga-backend.genruntimeconfig.cache
