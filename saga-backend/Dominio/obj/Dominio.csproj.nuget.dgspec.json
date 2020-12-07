@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\cmari\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\cmari\\Downloads\\SAGA\\saga-backend\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
           "C:\\Users\\cmari\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

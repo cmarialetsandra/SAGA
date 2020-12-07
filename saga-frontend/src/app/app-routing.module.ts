@@ -31,7 +31,7 @@ import { EditarEditorialComponent } from "./views/admin/editar-editorial/editar-
 import { AgregarLibroComponent } from "./views/admin/agregar-libro/agregar-libro.component";
 import { AgregarEntradaAutorComponent } from './views/admin/agregar-entradaautor/agregar-entradaautor.component';
 import { AgregarEntradaUsuarioComponent } from './views/admin/agregar-entradausuario/agregar-entradausuario.component';
-
+import { HomeComponent } from './views/admin/home/home.component';
 
 // auth views
 import { LoginComponent } from "./views/auth/login/login.component";
@@ -73,6 +73,7 @@ const routes: Routes = [
       { path: "libro", component: LibroComponent },
       { path: "editorial",component:EditorialComponent},
       { path: "autor",component:AutorComponent},
+      { path: "home",component:HomeComponent},
       { path: "usuario",component:UsuarioComponent},
       { path: "entrada-libro", component: AgregarLibroComponent},
       { path: "editar-libro/:idLibro", component: EditarLibroComponent},
